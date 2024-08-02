@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 3"
+title: "PLATO on the shoulders of TESS: analysing mono-transit planet candidates in TESS data as a prior knowledge for PLATO observations"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: ''
+date: 2024-01-19
+venue: 'MNRAS'
+slidesurl: ''
+paperurl: ''
+citation: 'Magliano, C. et al. 2023, &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The Transiting Exoplanet Survey Satellite (TESS) and the upcoming mission PLAnetary Transits and Oscillations of stars (PLATO) represent two space-based missions with complementary objectives in the field of exoplanet science. While TESS aims at detecting and characterizing exoplanets around bright and nearby stars on a relative short-period orbit, PLATO will discover a wide range of exoplanets including rocky planets within the habitable zones of their stars. We analyse mono-transit events in TESS data around stars that will or could be monitored by the PLATO mission, offering a unique opportunity to bridge the knowledge gap between the two missions and gain deeper insights into exoplanet demographics and system architectures. We found 48 TESS mono-transit events around stars contained in the all-sky PLATO Input Catalog; of these, at least four will be imaged on the first long-pointing PLATO field, LOPS2. We uniformly vetted this sample to rule out possible false positive detections thus removing 10 signals from the original sample. We developed an analytic method which allows us to estimate both the orbital period and inclination of a mono-transit planet candidate using only the shape of the transit. We derived the orbital period and inclination estimates for 30 TESS mono-transit planet candidates. Finally, we investigated whether these candidates are amenable targets for a CHaracterising ExOPlanets Satellite observing campaign.
+
+<div class="wordwrap"> If you want to read this work click on the <a href="{{[https://watermark.silverchair.com/stae210.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1QwggNQBgkqhkiG9w0BBwagggNBMIIDPQIBADCCAzYGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM1TyXJihrRLmhfaNaAgEQgIIDB8vx6UDcSLSTiLsMFQPnLTs-0TSFcmP2FRvjJkLtGibzkE9xxqbp7SxtucQgN0eaneGCEpy14ho0DztrmauygRyOmYBotUEqGYYEgBxylIrs_ndRcsxvl8rMop5_OP3YiSJL41mvBo4MYBL8JqS36R8eNxhinGMtXNn8Yl1XphSoftmgIhiR6wGvVVZTWzarnA891RUZ3udI06eGVvBGQpAQwnSk652mUw7YU8_53rAzNRdKgWL8oDZL49P1LsNtbxQZXJBDM_uHwoC8ufXMB-a6awUvcF7qyfpCTd4lUqxfjjkR361qZNbSI9HSD4LSzJHCcCbTUzl7h75Kg2nVg17XjrG6JEqUStcZdIjVgFP-3fCnT1vXLV4H_ZXFKRPiYNfDszqax12iHEZout4W7JVqqNYIDUVq1xJ48_KOrwJpzf8fnS0q9as2dGmrpSVD7fSE9_6vYDUTyFX4sUg0m7LRTYOSywsV_gfK6t1nd2BUvSi7Dg7KOv2JIvKl8oAIykRuHtARw9rQgWFXdIM-H5EQmDkxBGr_vrJ_2Q1K7OP8qBIirZcDx6jUbaaBq51oGiGsBAhFOwuWPmUwVfIKCvFHRtG4Pxo8UA887SlJKUZtUOxwxq4iUj3rmNt5SM264M_0c4ZxL9DiKTJuZ5_V5H3aE6aT1gw95x_HB6q-AhSuiCsEHKkek_qDnZ46Axdg3engABBtKdPhC6PPhdHlPm7rFHk6V4CU35k8fabpBHgC90XQ0r6gyX33d5YMDhIkJ2hKXRbgH2SjtumIiL9FnGAXt9v2LtbOpYX9knIcZ8BP0OHvU-6MuD4x8oIRlgOjYnH9-5_2w4n8yWVHnm9JpvUPyey_TsbwklWBlg87BP8mkyHKnTs2Ox498VNI4TygwP6__r2LrE-iU6RqR7FOOxv7k9U5ERC-hQaqkt8O59uVg4I-pTse0dZaJbwWDHByQPrkjOnXXbcbs8265D0nVedoAfSBp7q6sCsa8Gx8Rsl8qrh2B6un3CJa5ZTio7Co1gKgh_SWSv8]}}"> link to the paper</a>.</div>
