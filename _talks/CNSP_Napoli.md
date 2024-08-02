@@ -8,4 +8,5 @@ date: 2022-06-22
 location: "Naples, Italy"
 ---
 
-XVII Congresso Nazionale di Scienze Planetarie 20-24 Giugno
+XVII Congresso Nazionale di Scienze Planetarie 20-24 Giugno.
+(/images/sisp_meeting.jpg){:.align-center width="300px"}
