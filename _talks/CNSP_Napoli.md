@@ -9,4 +9,4 @@ location: "Naples, Italy"
 ---
 
 XVII Congresso Nazionale di Scienze Planetarie 20-24 Giugno.
-(/images/sisp_meeting.jpg){:.align-center width="300px"}
+[!Image](/images/sisp_meeting.jpg){:.align-center width="300px"}
