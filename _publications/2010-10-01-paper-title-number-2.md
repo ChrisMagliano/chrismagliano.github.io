@@ -1,7 +1,7 @@
 ---
 title: "The TESS Triple-9 Catalog II: a new set of 999 uniformly vetted exoplanet candidates"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-1
+permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'The Transiting Exoplanet Survey Satellite (TESS) mission is providing the scientific community with millions of light curves of stars spread across the whole sky. Since 2018, the telescope has detected thousands of planet candidates that need to be meticulously scrutinized before being considered amenable targets for follow-up programs. We present the second catalog of the Planet Patrol citizen science project containing 999 uniformly vetted exoplanet candidates within the TESS ExoFOP archive. The catalog was produced by fully exploiting the power of the Citizen Science Planet Patrol project. We vetted TESS Objects of Interest (TOIs) based on the results of Discovery And Vetting of Exoplanets (DAVE) pipeline. We also implemented the automatic disposition generator, a custom procedure aimed at generating the final classification for each TOI that was vetted by at least three vetters. The majority of the candidates in our catalog, 752 TOIs, passed the vetting process and were labelled as planet candidates. We ruled out 142 candidates as false positives and flagged 105 as potential false positives. Our final dispositions and comments for all the planet candidates are provided as a publicly available supplementary table.'
 date: 2023-03-20
 venue: 'MNRAS'
