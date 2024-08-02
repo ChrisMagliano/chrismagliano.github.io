@@ -1,7 +1,7 @@
 ---
 title: "PLATO on the shoulders of TESS: analysing mono-transit planet candidates in TESS data as a prior knowledge for PLATO observations"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'The Transiting Exoplanet Survey Satellite (TESS) and the upcoming mission PLAnetary Transits and Oscillations of stars (PLATO) represent two space-based missions with complementary objectives in the field of exoplanet science. While TESS aims at detecting and characterizing exoplanets around bright and nearby stars on a relative short-period orbit, PLATO will discover a wide range of exoplanets including rocky planets within the habitable zones of their stars. We analyse mono-transit events in TESS data around stars that will or could be monitored by the PLATO mission, offering a unique opportunity to bridge the knowledge gap between the two missions and gain deeper insights into exoplanet demographics and system architectures. We found 48 TESS mono-transit events around stars contained in the all-sky PLATO Input Catalog; of these, at least four will be imaged on the first long-pointing PLATO field, LOPS2. We uniformly vetted this sample to rule out possible false positive detections thus removing 10 signals from the original sample. We developed an analytic method which allows us to estimate both the orbital period and inclination of a mono-transit planet candidate using only the shape of the transit. We derived the orbital period and inclination estimates for 30 TESS mono-transit planet candidates. Finally, we investigated whether these candidates are amenable targets for a CHaracterising ExOPlanets Satellite observing campaign.
 '
 date: 2024-01-19
