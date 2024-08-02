@@ -49,15 +49,15 @@ author:
 
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/ChrisMaglianolol/"
+  facebook         : "ChrisMaglianolol"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "https://www.instagram.com/chrismagliano/"
+  instagram        : "chrismagliano"
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/christian-magliano/"
+  linkedin         : "christian-magliano/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "https://x.com/ChrisMaglianoCM"
+  twitter          : "ChrisMaglianoCM"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
