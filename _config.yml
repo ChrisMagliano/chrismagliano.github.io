@@ -21,7 +21,7 @@ repository               : "ChrisMagliano/chrismagliano.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Christian.jpg"
   name             : "Christian Magliano"
   pronouns         : # example: "He/Him"  
   bio              : "PhD student in Astrophysics at University of Naples, Federico II | Data specialist"
