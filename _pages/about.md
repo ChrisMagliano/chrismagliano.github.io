@@ -27,6 +27,13 @@ In addition to my technical skills, I am passionate about sharing knowledge and 
 
 I love doing any kind of sports, in particuar I am a soccer passionate ⚽ and a gym regular 🏋️‍♂️.   
 
+# Education
+- 2022-now: Ph.D. student in Astrophysics at the University of Naples, Federico II;
+- 2019-2021: MSc in "Physics" (110L/110, special mention), University of Salerno, Italy;
+Thesis: The Inflationary Cosmology;
+Supervisor: Gaetano Lambiase.
+-2019: BSc in "Physics" (110L/110), University of Salerno, Italy.
+
 Feel free to explore my repositories to see some of the projects I've worked on. If you're interested in collaborating or have any questions, don't hesitate to reach out!
 
 Thank you for visiting my portfolio! 🚀✨
