@@ -6,8 +6,9 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-<div class="wordwrap">Below you can access to the articles I have led as first author.</div>
-<div class="wordwrap">You can also find all the works I have contributed to on my [Google Scholar](https://scholar.google.com/citations?user=kLNkJnkAAAAJ&hl=it&oi=ao) profile.</div>
+Below you can access to the articles I have led as first author.
+
+You can also find all the works I have contributed to on my [Google Scholar](https://scholar.google.com/citations?user=kLNkJnkAAAAJ&hl=it&oi=ao) profile.
 {% endif %}
 
 {% include base_path %}
