@@ -34,4 +34,6 @@ I love doing any kind of sports, in particuar I am a soccer passionate ⚽ and a
 
 Feel free to explore my repositories to see some of the projects I've worked on. If you're interested in collaborating or have any questions, don't hesitate to reach out!
 
+📧: chrismagliano.cm@gmail.com|christian.magliano@unina.it
+
 Thank you for visiting my portfolio! 🚀✨
