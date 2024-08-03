@@ -8,13 +8,14 @@ redirect_from:
 ---
 
 Hello and welcome to my GitHub portfolio! 
-
+![Illustration of combining vision and language modalities](/images/scientist_anim.jpg){:.align-right width="300px"}
 My name is Christian Magliano, and I am currently a PhD student in Astrophysics at the University of Naples. My academic journey and research interests revolve around some of the most fascinating aspects of the Universe:
 
 - 🌍 **Exoplanets**: Discovering and studying planets beyond our Solar System, understanding their atmospheres, and assessing their potential habitability.
 - 🌌 **Cosmology**: Exploring the large-scale structure of the Universe, its origins, evolution, and ultimate fate.
 - 👽 **Astrobiology**: Investigating the possibility of life elsewhere in the Universe, combining knowledge from biology, chemistry, and planetary science.
 
+![Illustration of combining vision and language modalities](/images/data_science_logo.jpg){:.align-right width="300px"}
 During my PhD, I have honed a variety of valuable skills, particularly in the realms of data analysis and visualization. Here are some of the key skills I have developed:
 
 - 📊 **Data Analysis**: Proficient in handling and analyzing large datasets, extracting meaningful patterns, and deriving scientific insights.
