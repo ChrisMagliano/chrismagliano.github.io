@@ -1,6 +1,6 @@
 ---
 title: "Exploratory Data Analysis of Most Streamed Spotify songs"
-excerpt: "<img src='/images/spotify_logo.png' width="200" height="200"><br/> In this ... "
+excerpt: "![Image](/images/spotify_logo.png){:.align-center width="200px"} In this ... "
 collection: portfolio
 ---
 Bla bla bla
