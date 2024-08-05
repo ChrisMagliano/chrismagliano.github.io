@@ -13,3 +13,7 @@ In this project I have performed a complete Data Exploration of the most streame
 ![Image](/images/portfolio_spotify/most_streamed_tracks.png){:.align-center width="400px"}
 
 ![Image](/images/portfolio_spotify/most_streamed_artists.png){:.align-center width="400px"}
+
+![Image](/images/portfolio_spotify/df_corr.png){:.align-center width="400px"}
+
+![Image](/images/portfolio_spotify/exp_friends_year.png){:.align-center width="400px"}
