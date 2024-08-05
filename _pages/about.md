@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hello and welcome to my GitHub portfolio! 
-![Illustration of combining vision and language modalities](/images/scientist_anim.jpg){:.align-right width="300px"}
+![Illustration of combining vision and language modalities](/images/astronomy.jpg){:.align-right width="300px"}
 My name is Christian Magliano, and I am currently a PhD student in Astrophysics at the University of Naples. My academic journey and research interests revolve around some of the most fascinating aspects of the Universe:
 
 - 🌍 **Exoplanets**: Discovering and studying planets beyond our Solar System, understanding their atmospheres, and assessing their potential habitability.
