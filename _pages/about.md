@@ -33,6 +33,7 @@ I love doing any kind of sports, in particuar I am a soccer passionate ⚽ and a
 - 2019-2021: MSc in "Physics" (110L/110), University of Salerno, Italy; Thesis: The Inflationary Cosmology; Supervisor: Gaetano Lambiase.
 - 2019: BSc in "Physics" (110L/110), University of Salerno, Italy.
 
+The complete CV is available at the [CV](/cv/) page. 
 Feel free to explore my repositories to see some of the projects I've worked on. If you're interested in collaborating or have any questions, don't hesitate to reach out!
 
 📧: chrismagliano.cm@gmail.com or christian.magliano@unina.it
