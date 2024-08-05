@@ -14,6 +14,7 @@ My name is Christian Magliano, and I am currently a PhD student in Astrophysics 
 - 🌍 **Exoplanets**: Discovering and studying planets beyond our Solar System, understanding their atmospheres, and assessing their potential habitability.
 - 🌌 **Cosmology**: Exploring the large-scale structure of the Universe, its origins, evolution, and ultimate fate.
 - 👽 **Astrobiology**: Investigating the possibility of life elsewhere in the Universe, combining knowledge from biology, chemistry, and planetary science.
+
 To give a look at my academic publications, check out my [Publications](/publications/) page.
 
 ![Illustration of combining vision and language modalities](/images/data_science_logo.jpg){:.align-right width="300px"}
