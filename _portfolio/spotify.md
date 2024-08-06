@@ -15,12 +15,12 @@ Firstly, I investigated how the number of released songs varied with the year ti
 </div>
 Figure 1 shows an exponential growth of the number of songs released from 2015. Moreover, while during 2015-2020 nearly 50 songs per year were released, in the last three years 2021-2023, the release rate nearly reaches 400 songs per year.  
 
-Then, I checked if there was a preferred month when artist decide to release their new albums.
+Then, I checked if there was a preferred month when artists decide to release their new albums.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/months.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 2: Number of released tracks per months till 2023.</em></p>
 </div>
-Figure 2 shows the number of tracks per months till 2023. We did not take into account 2024 since the year is not finished yet, it would have yielded unbalanced results. Figure 2 evidences that January is the preferred release month by the artist with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On contrary April is the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
+Figure 2 shows the number of tracks per months till 2023. We did not take into account 2024 since the year is not finished yet, it would have yielded unbalanced results. Figure 2 evidences that January is the preferred release month by the artists with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On the contrary, April turns out to be the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
 Any possible reasons?
 
 Successively, I examined which are the most streamed songs and artists on the three major platforms (Spotify, YouTube and TikTok) and reported in Figure 3 and 4 respectively.
@@ -31,13 +31,13 @@ Successively, I examined which are the most streamed songs and artists on the th
 </div>
 **Blinding Lights** (_The Weekend_) is the most streamed song on Spotify with more than 8 billions streams, immediately followed by **Shape of You** (_Ed Sheeran_) with little less than 8 billions streams. 
 **Baby Shark**, instead, results to be the most streamed on YouTube with more than 17 billions of views, almost doubling **Despacito** (_Luis Fonsi_) at the second position with nearly 9 billions of views. We also notice that the third position is occupied by Shape of You that reaches almost 8 billions visualizations.
-The most streamed song on TikTok, and the most streamed overall, is **Monkeys Spinning Monkeys** which has achieved more than 250 billions of streams! This result indicates that TikTok is nowadays the most used platform to stream video and songs. It is important to highlight that Monkeys Spinning Monkeys is a soundtrack which fits very well with the most viral videos on TikTok. In fact it has a few millions views on YouTube and nearly 10 millions streams on Spotify. A similar argument could be made for **Love You So** which outperformed TikTok ranks with more than 200 billions of streams but a few ten millions on the other two platforms.
+The most streamed song on TikTok, and the most streamed overall, is **Monkeys Spinning Monkeys** (_Kevin MacLeod_) which has achieved more than 250 billions of streams! This result indicates that TikTok is nowadays the most used platform to stream video and songs. It is important to highlight that Monkeys Spinning Monkeys is a soundtrack which fits very well with the most viral videos on TikTok. In fact it has _only_ a few millions views on YouTube and nearly 10 millions streams on Spotify (ten thousands times less than TikTok streams!). A similar argument could be made for **Love You So** (_The King Khan & BBQ Show_) that outperformed TikTok ranks with more than 200 billions of streams but a few ten millions on the other two platforms.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/most_stramed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
-The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: explicit or friendly. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, I did not find any statistical significant difference between the mean track score of the two classes as depicted in Figure 6.
+The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: _explicit_ or _friendly_. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, no statistical significant difference arose between the mean track score of the two classes as depicted in Figure 6.
 <div style="text-align: center;">
   <div style="display: inline-block; width: 49%; text-align: center;">
       <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
