@@ -7,7 +7,7 @@ collection: portfolio
 Spotify is a popular music streaming service that offers a vast library of songs, podcasts, and other audio content. Launched in 2008, Spotify allows users to listen to millions of tracks from various artists across the globe. Users can create and share playlists, discover new music through personalized recommendations, and access curated playlists for different moods and genres. Spotify offers both free and premium subscription options, with the latter providing benefits such as ad-free listening, offline downloads, and higher sound quality. It is accessible on multiple devices, including smartphones, tablets, and computers, making it a versatile platform for music and audio entertainment.
 
 In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns that provide with important information per each track, e.g. the release date, the artist, the track score, number of streams etc. After cleaning the dataset from duplicated values and useless (for the scope of my project) columns and fill the left NaN values with the median value, I was left with 4598 tracks and 22 columns.
-For any detailes about data pre-processing check the full code at the following link INSERT LINK!
+For any detailes about data pre-processing check the full code on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main)!
 
 Firstly, I investigated how the number of released songs has changed over the years till 2023 since at the moment of analysis 2024 is not finished yet.
 <div style="float: right; width: 800px; text-align: center;">
@@ -79,7 +79,7 @@ These three matrices stress how the algorithm behind the three platforms works: 
 </div>
 Another important result we retrieve from Figure 8 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are also the newest one.
 
-This ends my Exploratory Data Analysis project of Most Streamed Spotify songs. The full Python code is available on my GitHub repository.
+This ends my Exploratory Data Analysis project of Most Streamed Spotify songs. The full Python code is available on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main).
 
 If you have any questions please feel free to reach me out at 📧 chrismagliano.cm@gmail.com or christian.magliano@unina.it
 
