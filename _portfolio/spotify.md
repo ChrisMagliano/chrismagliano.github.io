@@ -66,6 +66,6 @@ These three matrices stress how the algorithm behind the three platforms works: 
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
 </div>
-Another important result we retrieve from Figure 8 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are the newest one.
+Another important result we retrieve from Figure 8 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are also the newest one.
 
 
