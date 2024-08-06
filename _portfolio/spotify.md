@@ -37,11 +37,11 @@ Successively, I examined which are the most streamed songs and artists on the th
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 5:  .</em></p>
+    <p><em>Figure 5:  Pairwise correlation of data's columns.</em></p>
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 6:  .</em></p>
+    <p><em>Figure 6: Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
