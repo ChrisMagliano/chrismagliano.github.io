@@ -23,14 +23,18 @@ Then, I checked if there was a preferred month when artist decide to release the
 Figure 2 shows the number of tracks per months till 2023. We did not take into account 2024 since the year is not finished yet, it would have yielded unbalanced results. Figure 2 evidences that January is the preferred release month by the artist with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On contrary April is the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
 Any possible reasons?
 
+Succesively, I examined which are the most streamed songs and artists on the three major platforms (Spotify, YouTube and TikTok) and reported in Figure 3 and 4 respectively.
 
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/most_streamed_tracks" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 3: Most streamed tracks on Spotify (upper panel), YouTube (middle panel) and TikTok (bottom panel).</em></p>
+</div>
 
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/most_streamed_artists" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 3: Most streamed artist on Spotify , YouTube  and TikTok .</em></p>
+</div>
 
-
-
-![Image](/images/portfolio_spotify/most_streamed_tracks.png){:.align-center width="400px"}
-
-![Image](/images/portfolio_spotify/most_streamed_artists.png){:.align-center width="400px"}
 
 ![Image](/images/portfolio_spotify/df_corr.png){:.align-center width="400px"}
 
