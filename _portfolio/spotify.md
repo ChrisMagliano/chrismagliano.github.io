@@ -37,7 +37,7 @@ The most streamed song on TikTok, and the most streamed overall, is **Monkeys Sp
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
-The dataset also provides information wheteher the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: explicit or friendly. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%).
+The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: explicit or friendly. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, I did not find any statistical significant difference between the mean track score of the two classes as depicted in Figure 6.
 <div style="text-align: center;">
   <div style="display: inline-block; width: 49%; text-align: center;">
       <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
@@ -49,12 +49,14 @@ The dataset also provides information wheteher the track contains or not curse w
   </div>
 </div>
 
+In addition, I also investigated how the number of explicit and friendly songs changed during the years. What we learn from Figure 7 is that, while friendly songs experienced an approximately constant growth from early 2000s, the same does not stand for explicit tracks. In fact, after the initial growth in the early 2000s, from 2002 to 2006 explicit songs underwent a ripid decrease. ADD A POSSIBLE EXPLANATION FOR THIS.
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 7:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
+Eventually, I concluded this project by analyzing possible correlations between the variables available per each track by means of the correlation heatmap shown in Figure 8. Of particular interest is to understand what are the most important (statistically speaking) factors that correlate with the *Track Score*. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
