@@ -31,7 +31,7 @@ Succesively, I examined which are the most streamed songs and artists on the thr
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/most_streamed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_spotify/most_stramed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 4: Most streamed artist on Spotify , YouTube  and TikTok .</em></p>
 </div>
 
@@ -41,7 +41,7 @@ Succesively, I examined which are the most streamed songs and artists on the thr
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/exp_friends_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 6:  .</em></p>
 </div>
 
