@@ -49,7 +49,7 @@ The dataset under exam also provides information whether the track contains or n
   </div>
 </div>
 
-In addition, I also investigated how the number of explicit and friendly songs changed during the years. What we learn from Figure 7 is that, while friendly songs experienced an approximately constant growth from early 2000s, the same does not stand for explicit tracks. In fact, after the initial growth in the early 2000s, from 2002 to 2006 explicit songs underwent a ripid decrease. ADD A POSSIBLE EXPLANATION FOR THIS.
+In addition, I also investigated how the number of explicit and friendly songs changed during the years. What we learn from Figure 7 is that, while friendly songs experienced an approximately constant growth from early 2000s, the same does not stand for explicit tracks. In fact, after the initial growth in the early 2000s, from 2002 to 2006 explicit songs underwent a rapid decrease. ADD A POSSIBLE EXPLANATION FOR THIS.
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
