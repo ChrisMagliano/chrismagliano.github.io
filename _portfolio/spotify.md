@@ -38,19 +38,26 @@ The most streamed song on TikTok, and the most streamed overall, is **Monkeys Sp
 </div>
 
 The dataset also provides information wheteher the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: explicit or friendly. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%).
-<div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 5: Shares of total streams divided by explicit or friendly classification.</em></p>
+<div style="text-align: center;">
+  <div style="display: inline-block; width: 49%; text-align: center;">
+      <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 5: Shares of total streams divided by explicit or friendly classification.</em></p>
+  </div>
+  <div style="display: inline-block; width: 49%; text-align: center;">
+      <img src="/images/portfolio_spotify/track_score_class.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 6: Track score for explicit and friendly class.</em></p>
+  </div>
 </div>
 
+
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 6: Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
+    <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 7:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 6:  Pairwise correlation of data's columns.</em></p>
+    <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
 </div>
 
 
