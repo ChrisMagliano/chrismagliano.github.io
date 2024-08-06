@@ -56,7 +56,7 @@ In addition, I also investigated how the number of explicit and friendly songs c
     <p><em>Figure 7:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
-Eventually, I concluded this project by analyzing possible correlations between the variables available per each track by means of the correlation heatmap shown in Figure 8. Of particular interest is to understand what are the most important (statistically speaking) factors that correlate with the *Track Score*. 
+Eventually, I concluded this project by analyzing possible correlations between the variables available per each track by means of the correlation heatmap shown in Figure 8. This plot shows the Spearman rank between two features per each track. I chose the Spearman coefficient rather than the Pearson's one because not all the variables were normally distributed. The Spearman coefficient is a float number comprised between -1 and +1 and express the monotonic relationship between the two variables (negative if -1, positive if +1 and null if  0). Of particular interest is to understand what are the most important (statistically speaking) factors that correlate with the *Track Score*. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
