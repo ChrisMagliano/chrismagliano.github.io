@@ -29,7 +29,9 @@ Successively, I examined which are the most streamed songs and artists on the th
     <img src="/images/portfolio_spotify/most_streamed_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 3: Most streamed tracks on Spotify (upper panel), YouTube (middle panel) and TikTok (bottom panel).</em></p>
 </div>
-
+Blinding Lights (_The Weekend_) is the most streamed song on Spotify with more than 8 billions streams, immediately followed by Shape of You (_Ed Sheeran_) with little less than 8 billions streams. 
+Baby Shark, instead, results to be the most streamed on YouTube with more than 17 billions of views, almost doubling Despacito (_Luis Fonsi_) at the second position with nearly 9 billions of views. We also notice that the third position is occupied by Shape of You that reaches almost 8 billions visualizations.
+The most streamed song on TikTok, and the most streamed overall, is Monkeys Spinning Monkeys which has achieved more than 250 billions of streams! This result indicates that TikTok is nowadays the most used platform to stream video and songs. It is important to highlight that Monkeys Spinning Monkeys is a soundtrack which fits very well with the most viral videos on TikTok. In fact it has a few millions views on YouTube and nearly 10 millions streams on Spotify. A similar argument could be made for Love You So which outperformed TikTok ranks with more than 200 billions of streams but a few ten million on the other two platforms.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/most_stramed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
