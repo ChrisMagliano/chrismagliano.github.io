@@ -6,11 +6,15 @@ collection: portfolio
 ![Illustration of combining vision and language modalities](/images/spotify_logo.png){:.align-right width="200px"}
 Spotify is a popular music streaming service that offers a vast library of songs, podcasts, and other audio content. Launched in 2008, Spotify allows users to listen to millions of tracks from various artists across the globe. Users can create and share playlists, discover new music through personalized recommendations, and access curated playlists for different moods and genres. Spotify offers both free and premium subscription options, with the latter providing benefits such as ad-free listening, offline downloads, and higher sound quality. It is accessible on multiple devices, including smartphones, tablets, and computers, making it a versatile platform for music and audio entertainment.
 
-In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns which give important info per each track, e.g. the release date, the artist, the track score, number of streams etc. 
+In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns that provide with important information per each track, e.g. the release date, the artist, the track score, number of streams etc. After cleaning the dataset from duplicated values and useless (for the scope of my project) columns and fill the left NaN values with the median, I was left with 4598 tracks and 22 columns.
+
+Firstly, I investigated how the number of released songs varied with the time
+
+![Image](/images/portfolio_spotify/num_tracks_year.png){:.align-center width="800px"}
 
 ![Image](/images/portfolio_spotify/months.png){:.align-center width="400px"}
 
-![Image](/images/portfolio_spotify/num_tracks_year.png){:.align-center width="400px"}
+
 
 ![Image](/images/portfolio_spotify/most_streamed_tracks.png){:.align-center width="400px"}
 
