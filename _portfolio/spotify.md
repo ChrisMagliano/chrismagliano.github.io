@@ -60,11 +60,11 @@ Eventually, I concluded this project by analyzing possible correlations between 
 - 4x4 sub-matrix formed by _Spotify Streams, Spotify Playlist Count, Spotify Plalyst Reach_ and _Spotify Popularity_;
 - 2x2 sub-matrix formed by _YouTube Views_ and _YouTube Likes_;
 - 3x3 sub-matrix formed by _TikTok Posts, TikTok Likes_ and _TikTok Views_.
-These three matrices stress how the algorithm behind the three platforms works: likes and views are highly correlated in a vicious cycle where the former's growth leads the latter's increase and viceversa. 
+These three matrices stress how the algorithm behind the three platforms works: likes and views are highly correlated in a vicious cycle where the former's growth leads the latter's increase and viceversa.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
 </div>
-
+Another important result we retrieve from Figure 8 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are the newest one.
 
 
