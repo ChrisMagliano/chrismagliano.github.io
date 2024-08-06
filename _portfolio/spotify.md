@@ -60,7 +60,7 @@ Eventually, I concluded this project by analyzing possible correlations between 
 - 4x4 sub-matrix formed by _Spotify Streams, Spotify Playlist Count, Spotify Plalyst Reach_ and _Spotify Popularity_;
 - 2x2 sub-matrix formed by _YouTube Views_ and _YouTube Likes_;
 - 3x3 sub-matrix formed by _TikTok Posts, TikTok Likes_ and _TikTok Views_.
-- 
+
 These three matrices stress how the algorithm behind the three platforms works: likes and views are highly correlated in a vicious cycle where the former's growth leads the latter's increase and viceversa.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
