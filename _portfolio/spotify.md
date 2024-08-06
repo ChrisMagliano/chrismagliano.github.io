@@ -26,16 +26,22 @@ Any possible reasons?
 Succesively, I examined which are the most streamed songs and artists on the three major platforms (Spotify, YouTube and TikTok) and reported in Figure 3 and 4 respectively.
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/most_streamed_tracks" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_spotify/most_streamed_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 3: Most streamed tracks on Spotify (upper panel), YouTube (middle panel) and TikTok (bottom panel).</em></p>
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/most_streamed_artists" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 3: Most streamed artist on Spotify , YouTube  and TikTok .</em></p>
+    <img src="/images/portfolio_spotify/most_streamed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 4: Most streamed artist on Spotify , YouTube  and TikTok .</em></p>
 </div>
 
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 5:  .</em></p>
+</div>
 
-![Image](/images/portfolio_spotify/df_corr.png){:.align-center width="400px"}
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/exp_friends_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 6:  .</em></p>
+</div>
 
-![Image](/images/portfolio_spotify/exp_friends_year.png){:.align-center width="400px"}
