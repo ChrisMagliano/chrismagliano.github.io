@@ -51,7 +51,7 @@ The dataset also provides information wheteher the track contains or not curse w
 
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 7:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
