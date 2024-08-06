@@ -15,7 +15,16 @@ Firstly, I investigated how the number of released songs varied with the year ti
 </div>
 Figure 1 shows an exponential growth of the number of songs released from 2015. Moreover, while during 2015-2020 nearly 50 songs per year were released, in the last three years 2021-2023, the release rate nearly reaches 400 songs per year.  
 
-![Image](/images/portfolio_spotify/months.png){:.align-center width="400px"}
+Then, I checked if there was a preferred month when artist decide to release their new albums.
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/months.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 2: Number of released tracks per months till 2023.</em></p>
+</div>
+Figure 2 shows the number of tracks per months till 2023. We did not take into account 2024 since the year is not finished yet, it would have yielded unbalanced results. Figure 2 evidences that January is the preferred release month by the artist with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On contrary April is the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
+Any possible reasons?
+
+
+
 
 
 
