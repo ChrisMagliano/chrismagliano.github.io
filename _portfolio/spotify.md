@@ -37,9 +37,15 @@ The most streamed song on TikTok, and the most streamed overall, is **Monkeys Sp
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
+
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 5:  .</em></p>
+</div>
+
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em>Figure 6: Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
 <div style="float: right; width: 800px; text-align: center;">
@@ -47,8 +53,5 @@ The most streamed song on TikTok, and the most streamed overall, is **Monkeys Sp
     <p><em>Figure 6:  Pairwise correlation of data's columns.</em></p>
 </div>
 
-<div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 6: Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
-</div>
+
 
