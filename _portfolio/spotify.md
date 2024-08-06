@@ -6,9 +6,9 @@ collection: portfolio
 ![Illustration of combining vision and language modalities](/images/spotify_logo.png){:.align-right width="200px"}
 Spotify is a popular music streaming service that offers a vast library of songs, podcasts, and other audio content. Launched in 2008, Spotify allows users to listen to millions of tracks from various artists across the globe. Users can create and share playlists, discover new music through personalized recommendations, and access curated playlists for different moods and genres. Spotify offers both free and premium subscription options, with the latter providing benefits such as ad-free listening, offline downloads, and higher sound quality. It is accessible on multiple devices, including smartphones, tablets, and computers, making it a versatile platform for music and audio entertainment.
 
-In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns that provide with important information per each track, e.g. the release date, the artist, the track score, number of streams etc. After cleaning the dataset from duplicated values and useless (for the scope of my project) columns and fill the left NaN values with the median, I was left with 4598 tracks and 22 columns.
+In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns that provide with important information per each track, e.g. the release date, the artist, the track score, number of streams etc. After cleaning the dataset from duplicated values and useless (for the scope of my project) columns and fill the left NaN values with the median value, I was left with 4598 tracks and 22 columns.
 
-Firstly, I investigated how the number of released songs varied with the year till 2023.
+Firstly, I investigated how the number of released songs has changed over the years till 2023 since at the moment of analysis 2024 is not finished yet.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/num_tracks_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 1: Number of released tracks as a function of the year till 2023.</em></p>
@@ -20,8 +20,15 @@ Then, I checked if there was a preferred month when artists decide to release th
     <img src="/images/portfolio_spotify/months.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 2: Number of released tracks per months till 2023.</em></p>
 </div>
-Figure 2 shows the number of tracks per months till 2023. We did not take into account 2024 since the year is not finished yet, it would have yielded unbalanced results. Figure 2 evidences that January is the preferred release month by the artists with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On the contrary, April turns out to be the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
-Any possible reasons?
+Figure 2 shows the number of tracks per months till 2023. Figure 2 evidences that January is the preferred release month by the artists with 431 songs (9.3% from total), followed by October with 384 songs (8.3% from total). On the contrary, April turns out to be the least preferred with 257 tracks (5.5% from total) alongside with February with 267 tracks (5.8%). 
+
+*January* follows the holiday season, a period when fewer new releases are scheduled due to the focus on holiday music and end-of-year festivities. Being the first month of the year, people and media are looking for innovation. Thus, January becomes a strategic time to release new material when competition is lower, and audiences are looking for new content.
+*October* is strategically important for releasing new music ahead of the holiday season. This timing allows albums and singles to gain traction and popularity in time for holiday gift-giving.
+After the flurry of releases in November and December, followed by the New Year releases in January, *February* can experience a lull as the industry catches its breath. Moreover, with fewer days in February, there might be a slight impact on the number of releases simply due to the shorter timeframe.
+*April* might be seen as a transitional period, with some artists and labels holding off releases until late spring or early summer when people are preparing for summer activities and vacations.
+
+I here stress that these are possible explanations of the found results, however the music industry often follows specific marketing cycles, and these cycles can influence the timing of releases. In some markets, the eligibility periods for music awards can influence release dates. Artists might align their release schedules with touring and festival seasons. Certain months are influenced by cultural events and holidays, which can either encourage or discourage new releases. All these factors contribute to prevent the consolidation of a dominant release month over the others. In fact, despite January being the top month for song releases, its percentage difference with respect to April (the worst month) corresponds to 3.8%.
+
 
 Successively, I examined which are the most streamed songs and artists on the three major platforms (Spotify, YouTube and TikTok) and reported in Figure 3 and 4 respectively.
 
