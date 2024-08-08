@@ -47,15 +47,15 @@ The most streamed artist on Spotify is **Bad Bunny** together with **The Weekend
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
-Figure 5 shows the top five artists for the number of released songs while Figure 6 represent their average track score.
+Figure 5 shows the top five artists for the number of released songs while Figure 6 represents their corresponding average track score. We notice that while Taylor Swift and Drake are the most prolific artists (63 songs both) their overall track scores are the lowest. This is mainly a consequence of averaging on a larger dataset (number of tracks). I have verified that using the median in place of the mean does not change the results.  
 <div style="text-align: center;">
   <div style="display: inline-block; width: 49%; text-align: center;">
       <img src="/images/portfolio_spotify/artists_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-      <p><em>Figure 5: </em></p>
+      <p><em>Figure 5: Top 5 artists per released songs</em></p>
   </div>
   <div style="display: inline-block; width: 49%; text-align: center;">
       <img src="/images/portfolio_spotify/artists_score_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-      <p><em>Figure 6: </em></p>
+      <p><em>Figure 6: Mean track score corresponding to the artists in Fig. 5.</em></p>
   </div>
 </div>
 
