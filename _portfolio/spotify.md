@@ -14,7 +14,7 @@ Firstly, I investigated how the number of released songs has changed over the ye
     <img src="/images/portfolio_spotify/num_tracks_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 1: Number of released tracks as a function of the year till 2023.</em></p>
 </div>
-Figure 1 shows an exponential growth of the number of songs released from 2015. Moreover, while during 2015-2020 nearly 50 songs per year were released, in the last three years 2021-2023, the release rate nearly reaches 400 songs per year.  
+Figure 1 shows an exponential growth of the number of songs released from 2015. Moreover, while during 2015-2020 nearly 50 songs per year were released, in the last three years 2021-2023, the release rate nearly reaches 400 songs per year. The growing number of released songs each year can be attributed to several factors. The rise of digital platforms and streaming services has made it easier for artists to distribute their music globally without the need for traditional record labels. Advances in technology have lowered the cost and complexity of music production, allowing more independent artists to create and release their work. Additionally, the increasing demand for diverse and niche music genres has encouraged more frequent releases to satisfy varied audience preferences.  
 
 Then, I checked if there was a preferred month when artists decide to release their new albums.
 <div style="float: right; width: 800px; text-align: center;">
