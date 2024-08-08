@@ -41,25 +41,37 @@ Successively, I examined which are the most streamed songs and artists on the th
 The most streamed song on TikTok, and the most streamed overall, is **Monkeys Spinning Monkeys** (_Kevin MacLeod_) which has achieved more than 250 billions of streams! This result indicates that TikTok is nowadays the most used platform to stream video and songs. It is important to highlight that Monkeys Spinning Monkeys is a soundtrack which fits very well with the most viral videos on TikTok. In fact it has _only_ a few millions views on YouTube and nearly 10 millions streams on Spotify (ten thousands times less than TikTok streams!). A similar argument could be made for **Love You So** (_The King Khan & BBQ Show_) that outperformed TikTok ranks with more than 200 billions of streams but a few ten millions on the other two platforms.
 
 The most streamed artist on Spotify is **Bad Bunny** together with **The Weekend** with more than 35 billions ratings. Immediately after there is Drake with more than 30 billions streams. Regarding YouTube, the most rated artist is **Ed Sheeran** with more than 25 billions of listenings, followed by **Bad Bunny**. **Taylor Swift**, instead, is the third most streamed artits on YouTube reaching 20 billions plays. As already discussed for the track, also the most streamed artists on TikTok are not the most popular on the other two platforms. In fact, **Kevin MacLeod** and **The King Khan & BBQ Show** occupy the first and the second rank in this ranking thanks to their extremely viral soundtracks.
-About the track score, the artist that reached the highes mean value of track score is **Tommy Richman**.
+
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/most_streamed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
-The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: _explicit_ or _friendly_. As shown in Figure 5, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, no statistical significant difference arose between the mean track score of the two classes as depicted in Figure 6.
+Figure 5 shows the top five artists for the number of released songs while Figure 6 represent their average track score.
 <div style="text-align: center;">
   <div style="display: inline-block; width: 49%; text-align: center;">
-      <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-      <p><em>Figure 5: Shares of total streams divided by explicit or friendly classification.</em></p>
+      <img src="/images/portfolio_spotify/artists_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 5: </em></p>
   </div>
   <div style="display: inline-block; width: 49%; text-align: center;">
-      <img src="/images/portfolio_spotify/track_score_class.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-      <p><em>Figure 6: Track score for explicit and friendly class.</em></p>
+      <img src="/images/portfolio_spotify/artists_score_tracks.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 6: </em></p>
   </div>
 </div>
 
-In addition, I also investigated how the number of explicit and friendly songs changed during the years. What we learn from Figure 7 is that, while friendly songs experienced an approximately constant growth from early 2000s, the same does not stand for explicit tracks. In fact, after the initial growth in the early 2000s, from 2002 to 2006 explicit songs underwent a rapid decrease. 
+The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: _explicit_ or _friendly_. As shown in Figure 7, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, no statistical significant difference arose between the mean track score of the two classes as depicted in Figure 8.
+<div style="text-align: center;">
+  <div style="display: inline-block; width: 49%; text-align: center;">
+      <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 7: Shares of total streams divided by explicit or friendly classification.</em></p>
+  </div>
+  <div style="display: inline-block; width: 49%; text-align: center;">
+      <img src="/images/portfolio_spotify/track_score_class.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+      <p><em>Figure 8: Track score for explicit and friendly class.</em></p>
+  </div>
+</div>
+
+In addition, I also investigated how the number of explicit and friendly songs changed during the years. What we learn from Figure 9 is that, while friendly songs experienced an approximately constant growth from early 2000s, the same does not stand for explicit tracks. In fact, after the initial growth in the early 2000s, from 2002 to 2006 explicit songs underwent a rapid decrease. 
 Possible factors might be attributed to the sudden decrease in explicit tracks from 2002 to 2006. For example, in the early 2000s, particularly after the 2004 [Super Bowl halftime show controversy](https://en.wikipedia.org/wiki/Super_Bowl_XXXVIII_halftime_show_controversy#:~:text=The%20Super%20Bowl%20XXXVIII%20halftime,Timberlake%20to%20the%20viewing%20public.), the Federal Communications Commission in the United States increased its scrutiny and fines for indecent content on public airwaves. This led to a more cautious approach by record labels and artists regarding explicit content to avoid potential fines and censorship. Moreover, these years saw a surge in pop music's popularity, which generally leans towards more radio-friendly and less explicit content. Artists like Britney Spears, NSYNC, and Christina Aguilera dominated the charts with music that was more commercially viable and less explicit.  Eventually, after the 2001 recession and the impacts of events like 9/11, there might have been a shift towards more conservative content as the nation focused on healing and unity, influencing the type of music that was produced and promoted.
 From the mid-2000s onwards, hip-hop and rap genres, which often contain more explicit content, became increasingly mainstream. Artists like Kanye West, Jay-Z, and later on, artists like Drake and Kendrick Lamar, gained massive popularity, bringing explicit content back into the forefront of popular music. As societal norms evolved, there was a greater acceptance and normalization of explicit content in media, including music. This shift allowed artists more freedom to express themselves without facing the same level of backlash as in the early 2000s. The rise of digital music platforms provided artists with new distribution channels that were less regulated compared to traditional radio and TV. These platforms allowed for greater artistic freedom, including the release of explicit content without fear of censorship. Streaming services use algorithms to recommend music to users based on their listening habits, which can sometimes favor more provocative or explicit content that generates engagement and streams.
 
@@ -67,10 +79,10 @@ From the mid-2000s onwards, hip-hop and rap genres, which often contain more exp
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/expl_friend_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 7:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
+    <p><em>Figure 9:  Number of explicit (blue) and friendly (red) tracks as a function of the year till 2023.</em></p>
 </div>
 
-Eventually, I concluded this project by analyzing possible correlations between the variables available per each track by means of the correlation heatmap shown in Figure 8. This plot shows the Spearman rank between two features per each track. I chose the Spearman coefficient rather than the Pearson's one because not all the variables were normally distributed. The Spearman coefficient is a float number comprised between -1 and +1 and expresses the monotonic relationship between the two variables (negative if -1, positive if +1 and null if  0). Of particular interest is to understand what are the most important (statistically speaking) factors that correlate with the *Track Score*. Looking at the first row of the correlation matrix we see that there is not a dominant feature monotonically correlated with the track score, but a weak dependence on _Spotify Playlist Reach_ and _Spotify Popularity_. This is in line with what expected since the most liked songs are also those more popular. It is interesting to note the high values of the Spearman coefficient for the three sub-matrices:
+Eventually, I concluded this project by analyzing possible correlations between the variables available per each track by means of the correlation heatmap shown in Figure 10. This plot shows the Spearman rank between two features per each track. I chose the Spearman coefficient rather than the Pearson's one because not all the variables were normally distributed. The Spearman coefficient is a float number comprised between -1 and +1 and expresses the monotonic relationship between the two variables (negative if -1, positive if +1 and null if  0). Of particular interest is to understand what are the most important (statistically speaking) factors that correlate with the *Track Score*. Looking at the first row of the correlation matrix we see that there is not a dominant feature monotonically correlated with the track score, but a weak dependence on _Spotify Playlist Reach_ and _Spotify Popularity_. This is in line with what expected since the most liked songs are also those more popular. It is interesting to note the high values of the Spearman coefficient for the three sub-matrices:
 - 4x4 sub-matrix formed by _Spotify Streams, Spotify Playlist Count, Spotify Plalyst Reach_ and _Spotify Popularity_;
 - 2x2 sub-matrix formed by _YouTube Views_ and _YouTube Likes_;
 - 3x3 sub-matrix formed by _TikTok Posts, TikTok Likes_ and _TikTok Views_.
@@ -78,9 +90,9 @@ Eventually, I concluded this project by analyzing possible correlations between 
 These three matrices stress how the algorithm behind the three platforms works: likes and views are highly correlated in a vicious cycle where the former's growth leads the latter's increase and viceversa.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/df_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 8:  Pairwise correlation of data's columns.</em></p>
+    <p><em>Figure 10:  Pairwise correlation of data's columns.</em></p>
 </div>
-Another important result we retrieve from Figure 8 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are also the newest one.
+Another important result we retrieve from Figure 10 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are also the newest one.
 
 This ends my Exploratory Data Analysis project of Most Streamed Spotify songs. The full Python code is available on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main).
 
