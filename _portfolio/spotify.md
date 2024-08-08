@@ -40,7 +40,7 @@ Successively, I examined which are the most streamed songs and artists on the th
 **Baby Shark**, instead, results to be the most streamed on YouTube with more than 17 billions of views, almost doubling **Despacito** (_Luis Fonsi_) at the second position with nearly 9 billions of views. We also notice that the third position is occupied by Shape of You that reaches almost 8 billions visualizations.
 The most streamed song on TikTok, and the most streamed overall, is **Monkeys Spinning Monkeys** (_Kevin MacLeod_) which has achieved more than 250 billions of streams! This result indicates that TikTok is nowadays the most used platform to stream video and songs. It is important to highlight that Monkeys Spinning Monkeys is a soundtrack which fits very well with the most viral videos on TikTok. In fact it has _only_ a few millions views on YouTube and nearly 10 millions streams on Spotify (ten thousands times less than TikTok streams!). A similar argument could be made for **Love You So** (_The King Khan & BBQ Show_) that outperformed TikTok ranks with more than 200 billions of streams but a few ten millions on the other two platforms.
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_spotify/most_stramed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_spotify/most_streamed_artists.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 4: Most streamed artists on Spotify (upper left), YouTube (upper right), TikTok (lower left) and the artist with the best track score (lower right).</em></p>
 </div>
 
