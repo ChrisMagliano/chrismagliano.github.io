@@ -10,6 +10,14 @@ In this project I have performed a complete Data Exploration of the most streame
 After cleaning the dataset from duplicated values, useless columns (for the scope of my project) and fill the left `NaN` values with the median value, I was left with 4598 tracks and 22 columns.  We opted to use the median because it is more robust against the outliers. However, this always constitutes an approximation of the genuine dataset.
 For any detailes about data pre-processing check the full code on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main)!
 
+Exploratory Data Analysis (EDA) process consists of exploring the dataset to answer key questions, such as:
+
+- How has the number of released tracks changed over the years?
+- Does a preferred release month exist?
+- What are the most streamed songs and artists on Spotify? What about YouTube and TikTok?
+- Do explicit songs have higher "track score" with respect to friendly ones?
+- What are the main factors that affect the track score ?
+
 Firstly, I investigated how the number of released songs has changed over the years till 2023 since at the moment of analysis 2024 is not finished yet.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/num_tracks_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
