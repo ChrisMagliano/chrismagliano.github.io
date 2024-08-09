@@ -4,20 +4,36 @@ excerpt: "Data Analysis of the most streamed Spotify songs up to 2024."
 collection: portfolio
 ---
 ![Illustration of combining vision and language modalities](/images/spotify_logo.png){:.align-right width="200px"}
+# Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources & tools](#data-sources-and-tools)
+- [Data Cleaning & Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results and findings](#results-and-findings)
+- [Recommendations and Insights](#recommendations-and-insights)
+- [Limitations](#limitations)
+- [References](#references)
+  
+## Project Overview
 [Spotify](https://www.spotify.com/) is a popular music streaming service that offers a vast library of songs, podcasts, and other audio content. Launched in 2008, Spotify allows users to listen to millions of tracks from various artists across the globe. Users can create and share playlists, discover new music through personalized recommendations, and access curated playlists for different moods and genres. Spotify offers both free and premium subscription options, with the latter providing benefits such as ad-free listening, offline downloads, and higher sound quality. It is accessible on multiple devices, including smartphones, tablets, and computers, making it a versatile platform for music and audio entertainment.
 
+## Data Sources and tools
 In this project I have performed a complete Data Exploration of the most streamed Spotify songs up to 2024.  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/pragyantiwari/spotify-refined-explicity-classified-1). It contains 4600 different tracks and a total of 30 columns that provide with important information per each track, e.g. the release date, the artist, the track score, number of streams etc. Thus, the sample does not contain all the tracks on Spotify but just the most streamed ones. This means that there is a threshold value for the Spotify Streams, that turned out to be 1071. Thus we are considering all Spotify track with more than 1071 streams.
+
+## Data Cleaning and Preparation
 After cleaning the dataset from duplicated values, useless columns (for the scope of my project) and fill the left `NaN` values with the median value, I was left with 4598 tracks and 22 columns.  We opted to use the median because it is more robust against the outliers. However, this always constitutes an approximation of the genuine dataset.
 For any detailes about data pre-processing check the full code on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main)!
 
+## Exploratory Data Analysis
 Exploratory Data Analysis (EDA) process consists of exploring the dataset to answer key questions, such as:
 
 - How has the number of released tracks changed over the years?
 - Does a preferred release month exist?
 - What are the most streamed songs and artists on Spotify? What about YouTube and TikTok?
-- Do explicit songs have higher "track score" with respect to friendly ones?
+- Do explicit songs have higher *track score* with respect to friendly ones?
 - What are the main factors that affect the track score ?
 
+## Results and findings
 Firstly, I investigated how the number of released songs has changed over the years till 2023 since at the moment of analysis 2024 is not finished yet.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/num_tracks_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
@@ -102,6 +118,20 @@ These three matrices stress how the algorithm behind the three platforms works: 
     <p><em>Figure 10:  Pairwise correlation of data's columns.</em></p>
 </div>
 Another important result we retrieve from Figure 10 is that the number of Spotify streams is quite strongly positive correlated with the number of Shazam counts. Thus, if people use Shazam to find the name of an unknown song then it is probably they will listen it again on Spotify. Moreover Spotify streams are negatively correlated with the release year thus suggesting the most streamed songs are also the newest one.
+
+## Recommendations and Insights
+- Nowadays the music market is more accessible due to the existence of many technologies and platforms that allow users to communicate with public. This leads to an exponential growth of the number of tracks released every year;
+- There is not a clear and inequivocable ideal month to release a new track. However months like January and October seem to be slightly preferred;
+- The top 3 streamed songs on Spotify are: Blinding Lights, Shape of You and As It Was. The top 3 viewed songs on YouTube are: Baby Shark, Despacito and Shape of You. Thus, Shape of You is the only song that is contained in both top 3 ranks. TikTok most reproduced songs are typically soundtracks that well fit with viral videos. The top 3 listened artists on Spotify are: Bad Bunny, The Weekend and Drake. The top 3 listened artists on YouTube are: Ed Sheeran, Bad Bunny and Taylor Swift. Finally, the top 3 listened artists on TikTok are Kevin MacLeod, The King Khan & BBQ Show and Kreepa;
+- There is not a statistical significant difference in Track Score between explicit and friendly songs;
+- The Track Score is a complex feature that poorly correlates with all the factors taken into account. However it is slightly positive correlated with the `Spotify Playlist Reach` and the `Spotify Popularity`.
+
+  ## Limitations
+  - The dataset used in this project does not contain all the tracks on Spotify but just the most streamed ones. This means that there is a threshold value for the Spotify Streams. In fact, df['Spotify Streams'].max() is equal to 1071. Thus we are considering all Spotify track with more than 1071 streams.
+  - The datset contains many NaN values, even for columns of interest. We handled these values by replacing them with the median value of each column. We opted to use the median because more robust against the outliers. However, this always constitutes an approximation of the genuine dataset.
+ 
+## References
+None.
 
 This ends my Exploratory Data Analysis project of Most Streamed Spotify songs. The full Python code is available on my [GitHub repository](https://github.com/ChrisMagliano/EDA_spotify_songs/tree/main).
 
