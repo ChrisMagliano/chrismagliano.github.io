@@ -85,7 +85,7 @@ Figure 5 shows the top five artists for the number of released songs while Figur
   </div>
 </div>
 
-The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: _explicit_ or _friendly_. As shown in Figure 7, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, no statistical significant difference arose between the mean track score of the two classes as depicted in Figure 8.
+The dataset under exam also provides information whether the track contains or not curse words or language deemed sexual, violent, or offensive in general. In particular each track has been classified according to a binary classification: _explicit_ or _friendly_. As shown in Figure 7, the sample is highly unbalanced towards friendly tracks (76%) against the explicit content songs (24%). However, no statistical significant difference arose between the mean track score of the two classes as depicted in Figure 8 (41.46 for friendly songs and 42.8 for explicit tracks).
 <div style="text-align: center;">
   <div style="display: inline-block; width: 49%; text-align: center;">
       <img src="/images/portfolio_spotify/class_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
