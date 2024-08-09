@@ -9,7 +9,7 @@ collection: portfolio
 - [Data Sources & tools](#data-sources-and-tools)
 - [Data Cleaning & Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Results and findings](#results-and-findings)
+- [Results and Findings](#results-and-findings)
 - [Recommendations and Insights](#recommendations-and-insights)
 - [Limitations](#limitations)
 - [References](#references)
@@ -33,7 +33,7 @@ Exploratory Data Analysis (EDA) process consists of exploring the dataset to ans
 - Do explicit songs have higher *track score* with respect to friendly ones?
 - What are the main factors that affect the track score ?
 
-## Results and findings
+## Results and Findings
 Firstly, I investigated how the number of released songs has changed over the years till 2023 since at the moment of analysis 2024 is not finished yet.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_spotify/num_tracks_year.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
