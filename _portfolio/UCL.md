@@ -18,7 +18,7 @@ collection: portfolio
 The [UEFA Champions League](https://www.uefa.com/uefachampionsleague/) (UCL) is one of the most prestigious football tournaments in the world, organized annually by the Union of European Football Associations (UEFA). It features the top football clubs from Europe's domestic leagues, competing in a series of knockout rounds culminating in a final to determine the best club team in Europe. Established in 1955 as the European Cup, the competition was rebranded as the Champions League in 1992, expanding its format to include more teams and delivering unforgettable moments of football excellence. The tournament is renowned for its high level of competition, dramatic matches, and iconic victories, making it a pinnacle of club football globally.
 
 ## Data Sources and tools
-In this project I have performed a Data Exploration of the .  The dataset used in this project was retrieved on [Kaggle](https://www.kaggle.com/datasets/fardifaalam170041060/champions-league-dataset-1955-2023). 
+In this project I have performed a Data Exploration of the .  The datasets used in this project were retrieved on [Kaggle](https://www.kaggle.com/datasets/fardifaalam170041060/champions-league-dataset-1955-2023). 
 
 ## Data Cleaning and Preparation
 
