@@ -1,6 +1,6 @@
 ---
-title: "Exploratory Data Analysis of UEFA Champions League 1953-2023"
-excerpt: "Data Analysis of the UEFA Champions League statistics from 1953 to 2023."
+title: "Exploratory Data Analysis of UEFA Champions League 1955-2023"
+excerpt: "Data Analysis of the UEFA Champions League statistics from 1955 to 2023."
 collection: portfolio
 ---
 ![Illustration of combining vision and language modalities](/images/portfolio_ucl/Logo_UEFA_Champions_League.png){:.align-right width="200px"}
