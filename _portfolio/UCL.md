@@ -68,21 +68,21 @@ To make this qualitative analysis statistical robust we performed two different 
 Thus, this analysis would indicate that the process of learning and gaining expertise is not linear but more likely quadratic.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/matches_wins.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 5:.</em></p>
+    <p><em>Figure 4:.</em></p>
 </div>
 This result would make up a zero order step for a Machine Learning predictive algorithm as well as an interesting case of study for behavioral science. 
 
 Successively we analyzed the correlation matrix of some features of our dasets as shown below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/all_time_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 6:.</em></p>
+    <p><em>Figure 5:.</em></p>
 </div>
 As expected the number of matches shows a slight positive correlation with the win ratio, as more wins typically result in more matches played. Similarly, the number of matches is negatively correlated with the loss ratio. Indeed, prior to 1991, the UEFA Champions League featured only a knockout format, so a single loss would eliminate a team from the competition. Since 1991, the competition has been revised to include a group stage, which ensures a minimum number of matches before teams advance to the knockout rounds (see [UEFA Champions League](https://en.wikipedia.org/wiki/UEFA_Champions_League) for reference).
 
 To conclude this subsection, we examined the distribution of UCL titles across Europe and over the years. Our analysis reveals that the distribution of these prestigious trophies is not uniform throughout the continent. Rather, the majority of the titles are concentrated in Western Europe. Specifically, Spain leads with 19 titles, followed by England with 15, and Italy with 12. Germany and the Netherlands also have a notable presence, with 9 and 6 titles, respectively.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/geo_pandas.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 7:.</em></p>
+    <p><em>Figure 6:.</em></p>
 </div>
 In contrast, Eastern Europe’s representation is minimal. The region’s tally is limited to former Yugoslavian countries—now represented as Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, North Macedonia, and Serbia—along with Romania, each securing just one trophy. This disparity highlights a significant imbalance in the distribution of UCL titles, with Northern Europe also showing a noticeable lack of trophies. This analysis underscores the concentration of UCL success in Western European nations and points to a broader geographical disparity in the distribution of these prestigious awards.
 The uneven distribution of UEFA Champions League titles across Europe primarily stems from several key factors:
@@ -96,7 +96,7 @@ In contrast, Eastern and Northern European clubs face economic and infrastructur
 Lastly we also analyzed the distribution of UCL titles per country across the years as shown in the plot below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/attendance_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 8:.</em></p>
+    <p><em>Figure 7:.</em></p>
 </div>
 The competition began with a dominating five-year stretch by Spain, led predominantly by Real Madrid. Their unprecedented winning streak, however, was disrupted in 1960 when Benfica from Portugal emerged victorious, securing the title again the following year and showcasing their prowess on the European stage. Following this period, Italy began to assert itself in European football, with Milan and Inter Milan each claiming the trophy over the next three years, marking a significant shift in power.
 This was followed by a period of fluctuation, with various countries—Spain, Scotland, England, and Italy—each enjoying spells of success. The uncertainty was eventually halted by an extraordinary four-year run from the Netherlands (1969-70, 1971-73), with Feyenoord and Ajax dominating the scene. This Dutch dominance set the stage for a new era, as European football witnessed the rise of English and German teams up until 1983.
@@ -108,7 +108,7 @@ The landscape shifted again in 2014, marking the beginning of a new Spanish era.
 We keep our analysis by examining the available information about the UCL finals from 1955 to 2023. We started by observing that the most common score during a UCL final is **1-0** that occurred 19 times out of 69 finals ($\approx 27$ %). 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top5_scores.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 9:.</em></p>
+    <p><em>Figure 8:.</em></p>
 </div>
 A 1-0 scoreline indicates a tightly contested match, reflecting the high stakes and defensive strategies typical of UCL finals. Teams in these high-pressure games often prioritize solid defense and tactical discipline, leading to fewer goals. This scoreline suggests that the finalists are well-matched, with defenses usually able to contain the attacking play, and a single goal often proving sufficient to secure victory.
 
@@ -117,7 +117,7 @@ This trend may reflect the competitive nature of the tournament, where the diffe
 In this regard, the plot below shows the mean total goals scored during a UCL final per decade. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/goals_per_decade.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 10:.</em></p>
+    <p><em>Figure 9:.</em></p>
 </div>
 
 The 1960s were particularly prolific, highlighted by the thrilling [7-3](https://www.uefa.com/uefachampionsleague/match/61542--real-madrid-vs-eintracht-frankfurt/) showdown between Real Madrid and Eintracht Frankfurt, a standout victory for *Los Blancos*. Over the decades, however, there has been a noticeable fluctuation in goal-scoring, with the 1980s and 2020s emerging as the least prolific periods, averaging just $1.40$ and $1.00$ total goals per match, respectively. We argue that 2020s only consist of three matches (Chelsea FC - Manchester City	1–0, Real Madrid - FC Liverpool 1-0 and Manchester City - Inter Milan 1-0) with respect to the $10$ matches of the 1980s.
@@ -134,19 +134,19 @@ Our analysis also reveals that the majority of matches, 51 out of 69, have been 
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/notes_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 11:.</em></p>
+    <p><em>Figure 10:.</em></p>
 </div>
 Next, we sought to determine whether playing a UEFA Champions League final in one's home country offers any psychological advantage.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/pie_home.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 12:.</em></p>
+    <p><em>Figure 11:.</em></p>
 </div>
 As shown in the pie chart above, teams playing on home soil have won the UCL final 58.3% of the time, compared to a 41.7% loss rate. This was expected since the familiarity with the stadium, local climate, and pitch conditions likely give the home team a physical advantage. Additionally, the psychological boost from having the majority of the crowd's support can enhance player performance and confidence. These elements, combined with reduced travel fatigue, might contribute to the observed increase in success for home-country teams.
 
 The home-field advantage is also evident in the number of goals scored by the home team compared to those by the visiting team. The plot below clearly shows that the distribution of goals for the home team is skewed towards higher values. Indeed, the mean value of total goals scored by the home team is $1.67$ compared to $1$ for visiting club.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/goals_home_visitor.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 13:.</em></p>
+    <p><em>Figure 12:.</em></p>
 </div>
 We wanted to statistically test the difference between the two distributions using the [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). We opted for this non-parametric algorithm because data are not normally distributed ([Shapiro-Wilk](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) test returned $p<0.05$ in both cases) and both sample contain only 12 elements. However, the test yields a $p=0.09$ thus we cannot reject the null hypothesis with 95% confidence level.
 
@@ -154,7 +154,7 @@ We wanted to statistically test the difference between the two distributions usi
 We conclude our analysis by examining the attendance at the UCL final over the years as shown in the plot below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/attendance_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 14:.</em></p>
+    <p><em>Figure 13:.</em></p>
 </div>
 The data reveals variations in attendance across different decades, with the highest recorded attendances being 124,000 in 1957 at the **Santiago Bernabéu Stadium** in Madrid and 127,621 in 1960 at **Hampden Park** in Glasgow. Both matches were victories for Real Madrid. While the substantial turnout in 1957 was expected due to the final being held at the Santiago Bernabéu, the even larger crowd in 1960 in Scotland underscores the extensive fanbase of Real Madrid. 
 We also highlight the significant drop in attendance during the 2020 final, which saw an attendance of zero due to the COVID-19 pandemic. This unprecedented situation led to the postponement and eventual rescheduling of the match, with the final being played in a restricted environment without fans in attendance. The pandemic's impact on global sporting events is starkly reflected in this anomaly, underscoring how external factors can drastically affect match-day experiences and attendance figures. The effects of the pandemic were also evident in attendance in 2021, with only 33% of the do Dragao stadium's capacity open to supporters.
@@ -162,7 +162,7 @@ We also highlight the significant drop in attendance during the 2020 final, whic
 As already mentioned in the case of 1957 final, the attendance fluctuations are mostly determined by the participation of a team playing the final in its own country. The boxplot below shows the attendance if one of the two teams are playing in their home country or not. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/attendance_home.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 15:.</em></p>
+    <p><em>Figure 14:.</em></p>
 </div>
 
 There is a clear difference between the two distributions, with the former (goals scored by team playing in their home country) shifted towards larger values on average with respect to the latter. We statistically confirmed this difference by employing the Mann-Whitney U test that allows us to reject the null hypothesis (i.e. the two samples come from the same distribution) with a $p<0.05$. 
@@ -172,7 +172,7 @@ Scotland follows with just under 80,000 attendees, but this finding is heavily i
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top_venues.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 16:.</em></p>
+    <p><em>Figure 15:.</em></p>
 </div>
 
 Recognizing the limitations of this approach, we also narrowed the analysis to countries that have hosted at least four times (right panel). When the analysis is limited to countries that have hosted at least four times, the results change. Countries like England and Spain, which have hosted multiple finals over the years, show more consistent and high average attendance. This consistency suggests these countries have larger or more frequently used venues, better infrastructure, and possibly a stronger football culture, leading to consistently high turnout. Italy also ranks highly under this refined criterion, indicating a strong and consistent interest in football events.
@@ -180,7 +180,7 @@ Recognizing the limitations of this approach, we also narrowed the analysis to c
 We conclude our analysis by showing the correlation heatmap between the features of the `finals` dataset seeking for correlations.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/finals_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 17:.</em></p>
+    <p><em>Figure 16:.</em></p>
 </div>
 We found no significant relationship, but there is a mildly positive correlation between attendance and instances where one of the finalists is playing in their home country as already discussed before.
 
