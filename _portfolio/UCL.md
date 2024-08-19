@@ -217,7 +217,6 @@ Teams like **Manchester City** and **Paris Saint-Germain**, though not historica
 1. [Manchester City UCL History](https://www.uefa.com/uefachampionsleague/history/clubs/52919--man-city/)
 2. [Paris Saint-Germain UCL History](https://www.uefa.com/uefachampionsleague/history/clubs/52747--paris-sg/)
 3. [UEFA Champions League](https://en.wikipedia.org/wiki/UEFA_Champions_League)
-4. 
 
 This ends my Exploratory Data Analysis project of UEFA Champions League 1953-2023. The full Python code is available on my [GitHub repository](https://github.com/ChrisMagliano/EDA_UEFA_Champions_League).
 
