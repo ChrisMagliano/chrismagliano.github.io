@@ -43,9 +43,9 @@ Firstly we examined which teams dominate the competition based on their appearen
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top10_matches.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 1:.</em></p>
+    <p><em>Figure 1: Distribution of the top 10 teams for number of played matches in UCL.</em></p>
 </div>
-The previous plot clearly shows that **Real Madrid** is the most notable team in UCL competition with almost 500 games and nearly 300 wins.
+Figure 1 clearly shows that **Real Madrid** is the most notable team in UCL competition with almost 500 games and nearly 300 wins.
 The second team per played matches is **Bayern Munich** followed by **FC Barcelona**. Both teams played more than 300 matches in UCL but less than 400. It is impressive to notice that Real Madrid's wins almost corresponds to the total number of matches played by **Juventus** in its history, that is fourth in this classification.
 Despite its clear dominance, this plot also suggests that Real Madrid is not the best team in terms of win/loss ratio (W/L), as shown in the plot below.
 <div style="float: right; width: 800px; text-align: center;">
