@@ -50,7 +50,7 @@ The second team per played matches is **Bayern Munich** followed by **FC Barcelo
 Despite its clear dominance, this plot also suggests that Real Madrid is not the best team in terms of win/loss ratio (W/L), as shown in the plot below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top10_wlratio.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 2:.</em></p>
+    <p><em>Figure 2: Distribution of the top 10 teams for win/loss ratio in UCL.</em></p>
 </div>
 
 Indeed, Bayern Munich and FC Barcelona have slightly higher win/loss ratios compared to Real Madrid. Notably, the plot also highlights the emergence of teams such as **Manchester City** and **Paris Saint-Germain**, which are not among the top 10 teams in terms of UCL appearances. This suggests that while these teams lack a long-standing history in the UCL, they have become increasingly influential in the European football landscape in recent years ([Man City UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52919--man-city/), [PSG UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52747--paris-sg/)). We here stress that this conclusion was not possible based only on our datasets since it lacks information about the appearences of each team per years, but was the result of combination with the UEFA database. Moreover, for this analysis we selected only those teams with at least 50 matches in UCL. Thus, we avoided cases like that of [Zbrojovka Brno](https://www.fczbrno.cz/)	team that played UCL once in early 1960s with 1 win and 4 draws. Since it did not lose any match, it would have an unreliable W/L ratio.
@@ -59,7 +59,7 @@ We then analyzed the top five teams with the most UCL titles, along with the *be
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top_bot_finalist.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 3:.</em></p>
+    <p><em>Figure 3: On left panel, distribution of the top five teams per UCL titles. On right panel, distribution of the top five teams per number of lost UCL finals.</em></p>
 </div>
 
 We also aimed to explore any potential relationship between the number of matches played and the number of wins. The left panel of the plot below illustrates the dataset with the number of matches as the independent variable and the number of wins as the dependent variable. A clear upward trend is evident, indicating that as the number of games increases, so do the number of wins. However, this trend is not merely a reflection of the [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers), which suggests that the number of wins should approximate the probability of winning times the number of matches. According to this principle, with a win probability of 1/3, one would expect Real Madrid to win approximately 500/3, i.e. 167 games, after 500 matches. In reality, Real Madrid has won 291 out of 486 matches, giving a win rate of about 59 %. This discrepancy indicates that as a team plays more games, it gains valuable experience. The plot shows that up to around 100 games, the number of wins is roughly one-third of the matches played. Beyond this point, it appears that teams have accumulated sufficient experience, leading to a winning probability of approximately 50 % in UCL matches. When reaching the most dominant teams of the UCL competition (i.e. Real Madrid, Bayern Munich and FC Barcelona) the winning probability nearly corresponds to 60 %.
@@ -68,14 +68,14 @@ To make this qualitative analysis statistical robust we performed two different 
 Thus, this analysis would indicate that the process of learning and gaining expertise is not linear but more likely quadratic.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/matches_wins.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 4:.</em></p>
+    <p><em>Figure 4: Left panel, distribution of the number of wins against the number of matches alongside linear relationship with coefficient equal to 1/3, 1/2 and 2/3. Right panel, linear and quadratic fit of the data.</em></p>
 </div>
 This result would make up a zero order step for a Machine Learning predictive algorithm as well as an interesting case of study for behavioral science. 
 
 Successively we analyzed the correlation matrix of some features of our dasets as shown below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/all_time_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em>Figure 5:.</em></p>
+    <p><em>Figure 5: Correlation matrix of the `all_time` dataset.</em></p>
 </div>
 As expected the number of matches shows a slight positive correlation with the win ratio, as more wins typically result in more matches played. Similarly, the number of matches is negatively correlated with the loss ratio. Indeed, prior to 1991, the UEFA Champions League featured only a knockout format, so a single loss would eliminate a team from the competition. Since 1991, the competition has been revised to include a group stage, which ensures a minimum number of matches before teams advance to the knockout rounds (see [UEFA Champions League](https://en.wikipedia.org/wiki/UEFA_Champions_League) for reference).
 
