@@ -132,12 +132,12 @@ We stress that these are only a few possible factors influencing the total goal 
 
 Our analysis also reveals that the majority of matches, 51 out of 69, have been decided during regular time, showcasing the dominance of teams in securing a result within the standard 90 minutes. However, for more evenly matched finals, the outcome has extended beyond regular time: 11 finals were decided by penalty shoot-outs, 5 in extra time, and 2 required a [replay](https://en.wikipedia.org/wiki/1974_European_Cup_final). These statistics highlight the intense and competitive nature of the tournament, where a significant number of finals required additional time to determine a winner.
 
-<div style="float: right; width: 800px; text-align: center;">
+<div style="float: right; width: 600px; text-align: center;">
     <img src="/images/portfolio_ucl/notes_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 10: UCL Finals by how the matches were decided.</em></p>
 </div>
 Next, we sought to determine whether playing a UEFA Champions League final in one's home country offers any psychological advantage.
-<div style="float: right; width: 800px; text-align: center;">
+<div style="float: right; width: 600px; text-align: center;">
     <img src="/images/portfolio_ucl/pie_home.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 11: Wins and losses of home team during UCL final.</em></p>
 </div>
