@@ -15,14 +15,35 @@ collection: portfolio
 - [References](#references)
   
 ## Project Overview
-The [UEFA Champions League](https://www.uefa.com/uefachampionsleague/) (UCL) is one of the most prestigious football tournaments in the world, organized annually by the Union of European Football Associations (UEFA). It features the top football clubs from Europe's domestic leagues, competing in a series of knockout rounds culminating in a final to determine the best club team in Europe. Established in 1955 as the European Cup, the competition was rebranded as the Champions League in 1992, expanding its format to include more teams and delivering unforgettable moments of football excellence. The tournament is renowned for its high level of competition, dramatic matches, and iconic victories, making it a pinnacle of club football globally.
+The [UEFA Champions League](https://www.uefa.com/uefachampionsleague/) (UCL) is one of the most prestigious football tournaments in the world, organized annually by the Union of European Football Associations (UEFA). It features the top football clubs from Europe's domestic leagues, competing in a series of knockout rounds culminating in a final to determine the best club team in Europe. Established in 1955 as the *European Cup*, the competition was rebranded as the **Champions League** in 1992, expanding its format to include more teams and delivering unforgettable moments of football excellence. The tournament is renowned for its high level of competition, dramatic matches, and iconic victories, making it a pinnacle of club football globally.
 
-In this project I have performed a complete Data Exploration of the UEFA Champions League (UCL) history from the 1955-56 season up to the 2022-23 season. Through the analysis of multiple details on matches and team performances, my goal is to uncover patterns, establish benchmarks, and achieve a more profound understanding of the UCL competition.
+In this project I have performed a complete Data Exploration of the UCL history from the 1955-56 season up to the 2022-23 season. Through the analysis of multiple details on matches and team performances, my goal is to uncover patterns, establish benchmarks, and achieve a more profound understanding of the UCL competition.
 
 
 ## Data Sources and tools
 The datasets used in this project `UCL_AllTime_Performance_Table.csv` and `UCL_Finals_1955-2023.csv` were retrieved on [Kaggle](https://www.kaggle.com/datasets/fardifaalam170041060/champions-league-dataset-1955-2023). Both offer detailed insights into match results and team performances spanning decades of Europe's top club football competition. In particular `UCL_AllTime_Performance_Table.csv` contains information about the UCL teams performances (e.g. number of matches, wins, draws and losses), while `UCL_Finals_1955-2023.csv` includes several metrics about each UCL final as the winners, runners-up, attendance etc.
 We acknwoledge [Fardifa Fathmiul Alam](https://www.kaggle.com/datasets/fardifaalam170041060/champions-league-dataset-1955-2023) for the detailed data files description listed below.
+
+**Finals Details (1955-56 to 2022-23)**
+- `Season`: The football season during which the final was played.
+- `Country`: The home country of the winning team.
+- `Winners`: The name of the winning team.
+- `Score`: The final score at the end of the match.
+- `Runners-up`: The team that finished second.
+- `Country`: The home country of the runners-up.
+- `Venue`: Location of the final match.
+- `Attendance`: Number of spectators present at the venue.
+- `Notes`: Additional information such as whether the match went into extra time or any other notable events.
+
+**Team Performances (Aggregate Data)**
+- `Team`: Name of the team.
+- `M.` (Matches Played): Total number of matches played by the team in the Champions League.
+- `W` (Wins): Total wins.
+- `D` (Draws): Total draws.
+- `L` (Losses): Total losses.
+- `Goals`: Goals scored against goals conceded.
+- `Dif` (Goal Difference): Goal difference.
+- `Pt` (Points): Points accumulated based on match outcomes.
 
 ## Data Cleaning and Preparation
 
@@ -33,7 +54,7 @@ Exploratory Data Analysis (EDA) process consists of exploring the dataset to ans
 - Which teams have been the most successful in terms of wins, finals appearances, and consistent performance?
 - Which countries have produced the most successful teams?
 - How do teams' performances differ when playing at home versus away?
-- What are the trends in match attendance over the years, and how do they vary by country or venue?
+- What are the trends in match attendance over the years, and how do they vary by country?
 
 
 ## Results and Findings
@@ -45,26 +66,25 @@ Firstly we examined which teams dominate the competition based on their appearen
     <img src="/images/portfolio_ucl/top10_matches.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 1: Distribution of the top 10 teams for number of played matches in UCL.</em></p>
 </div>
-Figure 1 clearly shows that **Real Madrid** is the most notable team in UCL competition with almost 500 games and nearly 300 wins.
-The second team per played matches is **Bayern Munich** followed by **FC Barcelona**. Both teams played more than 300 matches in UCL but less than 400. It is impressive to notice that Real Madrid's wins almost corresponds to the total number of matches played by **Juventus** in its history, that is fourth in this classification.
-Despite its clear dominance, this plot also suggests that Real Madrid is not the best team in terms of win/loss ratio (W/L), as shown in the plot below.
+Figure 1 highlights that **Real Madrid** stands out as the most prominent team in UCL history, with nearly 500 games and close to 300 victories. **Bayern Munich** ranks second in terms of matches played, followed by **FC Barcelona**; both have played over 300 but fewer than 400 matches in the UCL. Remarkably, Real Madrid's win count nearly matches the total number of matches **Juventus** has played, placing Juventus fourth in this ranking. Despite Real Madrid's dominance, the data also indicates that it is not the top team in terms of win/loss ratio (W/L), as illustrated in Figure 2.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top10_wlratio.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 2: Distribution of the top 10 teams for win/loss ratio in UCL.</em></p>
 </div>
 
-Indeed, Bayern Munich and FC Barcelona have slightly higher win/loss ratios compared to Real Madrid. Notably, the plot also highlights the emergence of teams such as **Manchester City** and **Paris Saint-Germain**, which are not among the top 10 teams in terms of UCL appearances. This suggests that while these teams lack a long-standing history in the UCL, they have become increasingly influential in the European football landscape in recent years ([Man City UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52919--man-city/), [PSG UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52747--paris-sg/)). We here stress that this conclusion was not possible based only on our datasets since it lacks information about the appearences of each team per years, but was the result of combination with the UEFA database. Moreover, for this analysis we selected only those teams with at least 50 matches in UCL. Thus, we avoided cases like that of [Zbrojovka Brno](https://www.fczbrno.cz/)	team that played UCL once in early 1960s with 1 win and 4 draws. Since it did not lose any match, it would have an unreliable W/L ratio.
+Indeed, Bayern Munich and FC Barcelona have slightly higher win/loss ratios compared to Real Madrid. Notably, the plot also highlights the emergence of teams such as **Manchester City** and **Paris Saint-Germain**, which are not among the top 10 teams in terms of UCL appearances. This suggests that while these teams lack a long-standing history in the UCL, they have become increasingly influential in the European football landscape in recent years ([Man City UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52919--man-city/), [PSG UCL](https://www.uefa.com/uefachampionsleague/history/clubs/52747--paris-sg/)). 
+We emphasize that this conclusion could not be drawn solely from our datasets, as they lack information about the number of appearances of each team per year. Instead, it was derived by combining our data with the UEFA database. Additionally, for this analysis, we included only teams with at least 50 UCL matches, thereby avoiding cases like that of [Zbrojovka Brno](https://www.fczbrno.cz/), a team that played in the UCL only once in the early 1960s, achieving 1 win and 4 draws. Since they did not lose any match, their W/L ratio would be misleading.
 
-We then analyzed the top five teams with the most UCL titles, along with the *best* runners-up in the competition’s history. Real Madrid clearly stands out with 14 titles, double the amount won by AC Milan and Bayern Munich, who are tied for second place. Conversely, Juventus has the highest number of UCL final losses, with 7 defeats, followed by Bayern Munich and SL Benfica, each with 5 losses.
+We then analyzed the top five teams with the most UCL titles, along with the *best* runners-up in the competition’s history as shown in Figure 3. Real Madrid clearly stands out with 14 titles, double the amount won by **AC Milan** and Bayern Munich, who are tied for second place. Conversely, Juventus has the highest number of UCL final losses, with 7 defeats, followed by Bayern Munich and **SL Benfica**, each with 5 losses.
 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top_bot_finalist.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 3: On left panel, distribution of the top five teams per UCL titles. On right panel, distribution of the top five teams per number of lost UCL finals.</em></p>
 </div>
 
-We also aimed to explore any potential relationship between the number of matches played and the number of wins. The left panel of the plot below illustrates the dataset with the number of matches as the independent variable and the number of wins as the dependent variable. A clear upward trend is evident, indicating that as the number of games increases, so do the number of wins. However, this trend is not merely a reflection of the [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers), which suggests that the number of wins should approximate the probability of winning times the number of matches. According to this principle, with a win probability of 1/3, one would expect Real Madrid to win approximately 500/3, i.e. 167 games, after 500 matches. In reality, Real Madrid has won 291 out of 486 matches, giving a win rate of about 59 %. This discrepancy indicates that as a team plays more games, it gains valuable experience. The plot shows that up to around 100 games, the number of wins is roughly one-third of the matches played. Beyond this point, it appears that teams have accumulated sufficient experience, leading to a winning probability of approximately 50 % in UCL matches. When reaching the most dominant teams of the UCL competition (i.e. Real Madrid, Bayern Munich and FC Barcelona) the winning probability nearly corresponds to 60 %.
+We also aimed to explore any potential relationship between the number of matches played and the number of wins. The left panel of Figure 4 illustrates the dataset with the number of matches as the independent variable and the number of wins as the dependent variable. A clear upward trend is evident, indicating that as the number of games increases, so do the number of wins. However, this trend is not merely a reflection of the [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers), which suggests that the number of wins should approximate the probability of winning times the number of matches. According to this principle, with a win probability of 1/3, one would expect Real Madrid to win approximately 500/3, i.e. 167 games, after 500 matches. In reality, Real Madrid has won 291 out of 486 matches, giving a win rate of about 59 %. This discrepancy indicates that as a team plays more games, it gains valuable experience. The plot shows that up to around 100 games, the number of wins is roughly one-third of the matches played. Beyond this point, it appears that teams have accumulated sufficient experience, leading to a winning probability of approximately 50 % in UCL matches. When reaching the most dominant teams of the UCL competition (i.e. Real Madrid, Bayern Munich and FC Barcelona) the winning probability nearly corresponds to 60 %.
 
-To make this qualitative analysis statistical robust we performed two different regression on our dataset: *linear* fit and *quadratic* fit, then evaluate the R^2 [score](https://en.wikipedia.org/wiki/Coefficient_of_determination) score and the [**MSE**](https://en.wikipedia.org/wiki/Mean_squared_error). As evident from the right panel of the figure below, the quadratic fit outperformed the linear with a MSE=19 and R^2=0.98 against a MSE=49 and R^2=0.95 for the linear case.
+To make this qualitative analysis statistical robust we performed two different regression on our dataset: *linear* fit and *quadratic* fit, then evaluate the R2 [score](https://en.wikipedia.org/wiki/Coefficient_of_determination) score and the [**MSE**](https://en.wikipedia.org/wiki/Mean_squared_error). As evident from the right panel of the Figure 4, the quadratic fit outperformed the linear with a MSE=19 and R2=0.98 against a MSE=49 and R2=0.95 for the linear case.
 Thus, this analysis would indicate that the process of learning and gaining expertise is not linear but more likely quadratic.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/matches_wins.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
@@ -72,28 +92,28 @@ Thus, this analysis would indicate that the process of learning and gaining expe
 </div>
 This result would make up a zero order step for a Machine Learning predictive algorithm as well as an interesting case of study for behavioral science. 
 
-Successively we analyzed the correlation matrix of some features of our dasets as shown below.
+Successively we analyzed the correlation matrix of some features of our dasets as shown in Figure 5 below.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/all_time_corr.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 5: Correlation matrix of the `all_time` dataset.</em></p>
 </div>
 As expected the number of matches shows a slight positive correlation with the win ratio, as more wins typically result in more matches played. Similarly, the number of matches is negatively correlated with the loss ratio. Indeed, prior to 1991, the UEFA Champions League featured only a knockout format, so a single loss would eliminate a team from the competition. Since 1991, the competition has been revised to include a group stage, which ensures a minimum number of matches before teams advance to the knockout rounds (see [UEFA Champions League](https://en.wikipedia.org/wiki/UEFA_Champions_League) for reference).
 
-To conclude this subsection, we examined the distribution of UCL titles across Europe and over the years. Our analysis reveals that the distribution of these prestigious trophies is not uniform throughout the continent. Rather, the majority of the titles are concentrated in Western Europe. Specifically, Spain leads with 19 titles, followed by England with 15, and Italy with 12. Germany and the Netherlands also have a notable presence, with 9 and 6 titles, respectively.
+To conclude this subsection, we examined the distribution of UCL titles across Europe and over the years. Our analysis reveals that the distribution of these prestigious trophies is not uniform throughout the continent as highlighted by Figure 6. Rather, the majority of the titles are concentrated in Western Europe. Specifically, Spain leads with 19 titles, followed by England with 15, and Italy with 12. Germany and the Netherlands also have a notable presence, with 9 and 6 titles, respectively.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/geo_pandas.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 6: Geospatial distribution of UCL trophies in Europe. </em></p>
 </div>
 In contrast, Eastern Europe’s representation is minimal. The region’s tally is limited to former Yugoslavian countries—now represented as Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, North Macedonia, and Serbia—along with Romania, each securing just one trophy. This disparity highlights a significant imbalance in the distribution of UCL titles, with Northern Europe also showing a noticeable lack of trophies. This analysis underscores the concentration of UCL success in Western European nations and points to a broader geographical disparity in the distribution of these prestigious awards.
-The uneven distribution of UEFA Champions League titles across Europe primarily stems from several key factors:
-- **Financial Power**: Western European clubs, particularly from Spain, England, and Italy, have historically had more financial resources, allowing them to invest heavily in top players and facilities.
+The uneven distribution of UEFA Champions League titles across Europe primarily stems from several key factors.
+- **Financial Power**: Western European clubs, particularly from Spain, England, and Italy, have historically had more financial resources, allowing them to invest heavily in top players and facilities;
 - **Strong Domestic Leagues**: competitive domestic leagues in these regions help clubs better prepare for European competitions, contributing to their success.
-- **Advanced Infrastructure**: state-of-the-art stadiums and training facilities in Western Europe enhance team performance.
-- **Global Scouting Networks**: Western European clubs benefit from extensive scouting and recruitment networks, attracting top global talent.
-- **Historical Success**: past achievements boost the reputation and appeal of clubs from these regions, creating a self-reinforcing cycle of success.
+- **Advanced Infrastructure**: state-of-the-art stadiums and training facilities in Western Europe enhance team performance;
+- **Global Scouting Networks**: Western European clubs benefit from extensive scouting and recruitment networks, attracting top global talent;
+- **Historical Success**: past achievements boost the reputation and appeal of clubs from these regions, creating a self-reinforcing cycle of success;
 In contrast, Eastern and Northern European clubs face economic and infrastructural challenges that limit their ability to compete at the highest level.
 
-Lastly we also analyzed the distribution of UCL titles per country across the years as shown in the plot below.
+Lastly we also analyzed the distribution of UCL titles per country across the years as depicted in Figure 7.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/win_country_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 7: UCL final attendance over the years.</em></p>
@@ -101,11 +121,11 @@ Lastly we also analyzed the distribution of UCL titles per country across the ye
 The competition began with a dominating five-year stretch by Spain, led predominantly by Real Madrid. Their unprecedented winning streak, however, was disrupted in 1960 when Benfica from Portugal emerged victorious, securing the title again the following year and showcasing their prowess on the European stage. Following this period, Italy began to assert itself in European football, with Milan and Inter Milan each claiming the trophy over the next three years, marking a significant shift in power.
 This was followed by a period of fluctuation, with various countries—Spain, Scotland, England, and Italy—each enjoying spells of success. The uncertainty was eventually halted by an extraordinary four-year run from the Netherlands (1969-70, 1971-73), with Feyenoord and Ajax dominating the scene. This Dutch dominance set the stage for a new era, as European football witnessed the rise of English and German teams up until 1983.
 From 1984 onwards, the competition entered a phase of remarkable unpredictability, characterized by a wide array of winners and no dominant streak lasting more than two decades. This era saw many teams capturing their first UEFA Champions League titles, reflecting a period of intense competition and emerging talent. Despite the volatility, Spanish clubs, particularly Real Madrid and FC Barcelona, along with Italian and English teams, consistently made their mark, maintaining their presence at the top.
-The landscape shifted again in 2014, marking the beginning of a new Spanish era. Real Madrid and FC Barcelona took center stage, with Real Madrid securing the title six times. This period of Spanish dominance was briefly interrupted by English clubs—Liverpool, Chelsea, and Manchester City—as well as by Bayern Munich from Germany. The prominence of these teams underscores a broader trend: today, the most successful and prestigious clubs are found in the Premier League (England) and La Liga (Spain), reflecting their ongoing influence and supremacy in European football.
+The landscape shifted again in 2014, marking the beginning of a new Spanish era. Real Madrid and FC Barcelona took center stage, with Real Madrid securing the title six times. This period of Spanish dominance was occasionally interrupted by English clubs—Liverpool, Chelsea, and Manchester City—as well as by Bayern Munich from Germany. The prominence of these teams underscores a broader trend: today, the most successful and prestigious clubs are found in the Premier League (England) and La Liga (Spain), reflecting their ongoing influence and supremacy in European football.
 
 ### Finals analysis
 #### Scores and goals
-We keep our analysis by examining the available information about the UCL finals from 1955 to 2023. We started by observing that the most common score during a UCL final is **1-0** that occurred 19 times out of 69 finals (\approx 27 %). 
+We keep our analysis by examining the available information about the UCL finals from 1955 to 2023. We started by observing that the most common score during a UCL final is **1-0** that occurred 19 times out of 69 finals (nearly 27 %). 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top5_scores.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8: Top five scores in a UCL final.</em></p>
@@ -121,12 +141,12 @@ In this regard, the plot below shows the mean total goals scored during a UCL fi
 </div>
 
 The 1960s were particularly prolific, highlighted by the thrilling [7-3](https://www.uefa.com/uefachampionsleague/match/61542--real-madrid-vs-eintracht-frankfurt/) showdown between Real Madrid and Eintracht Frankfurt, a standout victory for *Los Blancos*. Over the decades, however, there has been a noticeable fluctuation in goal-scoring, with the 1980s and 2020s emerging as the least prolific periods, averaging just 1.40 and 1.00 total goals per match, respectively. We argue that 2020s only consist of three matches (Chelsea FC - Manchester City	1–0, Real Madrid - FC Liverpool 1-0 and Manchester City - Inter Milan 1-0) with respect to the 10 matches of the 1980s.
-The fluctuations in UCL final's goal-scoring over the years might be attributed to different factors and their complex combination:
+The fluctuations in UCL final's goal-scoring over the years might be attributed to different factors and their complex combination.
 - **Tactical Evolution**: football tactics have evolved significantly over the decades. In earlier years, teams often favored more attacking styles, leading to higher-scoring games. As the game evolved, many teams adopted more defensive, strategic approaches, especially in high-stakes finals, resulting in fewer goals;
-- **Physical and Technical Development**: Over time, players have become more physically fit and technically proficient, allowing teams to execute more complex defensive strategies. The increased fitness levels also mean players can maintain a high level of defensive intensity throughout the match;
-- **Offensive Innovations**: During the 2000s and 2010s, football saw the emergence of more dynamic and versatile attacking strategies. Teams like Barcelona under Pep Guardiola, and later Real Madrid, focused on high-tempo, possession-based, and counter-attacking football, which often led to more open and higher-scoring games;
-- **Star Players and Super Teams**: These decades were characterized by the rise of “super teams” with an abundance of world-class attacking talent. The presence of players like Lionel Messi, Cristiano Ronaldo, and other top forwards meant that finals were often decided by moments of individual brilliance, leading to more goals;
-- **Advances in Sports Science**: Improvements in sports science, fitness, and recovery might have allowed players to maintain higher intensity levels throughout the game, contributing to more dynamic and open matches with greater goal-scoring potential.
+- **Physical and Technical Development**: over time, players have become more physically fit and technically proficient, allowing teams to execute more complex defensive strategies. The increased fitness levels also mean players can maintain a high level of defensive intensity throughout the match;
+- **Offensive Innovations**: during the 2000s and 2010s, football saw the emergence of more dynamic and versatile attacking strategies. Teams like Barcelona under Pep Guardiola, and later Real Madrid, focused on high-tempo, possession-based, and counter-attacking football, which often led to more open and higher-scoring games;
+- **Star Players and Super Teams**: these decades were characterized by the rise of “super teams” with an abundance of world-class attacking talent. The presence of players like Lionel Messi, Cristiano Ronaldo, and other top forwards meant that finals were often decided by moments of individual brilliance, leading to more goals;
+- **Advances in Sports Science**: improvements in sports science, fitness, and recovery might have allowed players to maintain higher intensity levels throughout the game, contributing to more dynamic and open matches with greater goal-scoring potential.
 
 We stress that these are only a few possible factors influencing the total goal scored in a UCL final across the years. However, there exist many other random or psychological factors which highly influence the final result.
 
