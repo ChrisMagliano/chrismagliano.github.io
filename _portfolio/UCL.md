@@ -125,7 +125,7 @@ The landscape shifted again in 2014, marking the beginning of a new Spanish era.
 
 ### Finals analysis
 #### Scores and goals
-We keep our analysis by examining the available information about the UCL finals from 1955 to 2023. We started by observing that the most common score during a UCL final is **1-0** that occurred 19 times out of 69 finals (nearly 27 %). 
+We keep our analysis by examining the available information about the UCL finals from 1955 to 2023. We started by observing that the most common score during a UCL final is **1-0** that occurred 19 times out of 69 finals (nearly 27 %) as shown in Figure 8. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/top5_scores.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 8: Top five scores in a UCL final.</em></p>
@@ -134,13 +134,13 @@ A 1-0 scoreline indicates a tightly contested match, reflecting the high stakes 
 
 Historically, UCL finals have often been decided by narrow margins, in fact **2-1** and **2-0** are respectively the second and third most frequent score (10 and 8 times respectively). 
 This trend may reflect the competitive nature of the tournament, where the difference in quality between teams is minimal, leading to close encounters. However, it's also worth considering that tactics and game strategies evolve, and what has been observed in past finals might change as teams adapt their approaches to match the modern game. 
-In this regard, the plot below shows the mean total goals scored during a UCL final per decade. 
+In this regard, Figure 9 shows the mean total goals scored during a UCL final per decade. 
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/goals_per_decade.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 9: Mean total goals in a UCL final per decade.</em></p>
 </div>
 
-The 1960s were particularly prolific, highlighted by the thrilling [7-3](https://www.uefa.com/uefachampionsleague/match/61542--real-madrid-vs-eintracht-frankfurt/) showdown between Real Madrid and Eintracht Frankfurt, a standout victory for *Los Blancos*. Over the decades, however, there has been a noticeable fluctuation in goal-scoring, with the 1980s and 2020s emerging as the least prolific periods, averaging just 1.40 and 1.00 total goals per match, respectively. We argue that 2020s only consist of three matches (Chelsea FC - Manchester City	1–0, Real Madrid - FC Liverpool 1-0 and Manchester City - Inter Milan 1-0) with respect to the 10 matches of the 1980s.
+The 1960s were particularly prolific, highlighted by the thrilling [7-3](https://www.uefa.com/uefachampionsleague/match/61542--real-madrid-vs-eintracht-frankfurt/) showdown between Real Madrid and Eintracht Frankfurt, a standout victory for *Los Blancos*. Over the decades, however, there has been a noticeable fluctuation in goal-scoring, with the 1980s and 2020s emerging as the least prolific periods, averaging just 1.40 and 1.00 total goals per match, respectively. We argue that 2020s only consist of three matches (Chelsea FC - Manchester City	1–0, Real Madrid - Liverpool FC 1-0 and Manchester City - Inter Milan 1-0) with respect to the 10 matches of the 1980s.
 The fluctuations in UCL final's goal-scoring over the years might be attributed to different factors and their complex combination.
 - **Tactical Evolution**: football tactics have evolved significantly over the decades. In earlier years, teams often favored more attacking styles, leading to higher-scoring games. As the game evolved, many teams adopted more defensive, strategic approaches, especially in high-stakes finals, resulting in fewer goals;
 - **Physical and Technical Development**: over time, players have become more physically fit and technically proficient, allowing teams to execute more complex defensive strategies. The increased fitness levels also mean players can maintain a high level of defensive intensity throughout the match;
@@ -150,7 +150,7 @@ The fluctuations in UCL final's goal-scoring over the years might be attributed 
 
 We stress that these are only a few possible factors influencing the total goal scored in a UCL final across the years. However, there exist many other random or psychological factors which highly influence the final result.
 
-Our analysis also reveals that the majority of matches, 51 out of 69, have been decided during regular time, showcasing the dominance of teams in securing a result within the standard 90 minutes. However, for more evenly matched finals, the outcome has extended beyond regular time: 11 finals were decided by penalty shoot-outs, 5 in extra time, and 2 required a [replay](https://en.wikipedia.org/wiki/1974_European_Cup_final). These statistics highlight the intense and competitive nature of the tournament, where a significant number of finals required additional time to determine a winner.
+Figure 10 reveals that the majority of matches, 51 out of 69, have been decided during regular time, showcasing the dominance of teams in securing a result within the standard 90 minutes. However, for more evenly matched finals, the outcome has extended beyond regular time: 11 finals were decided by penalty shoot-outs, 5 in extra time, and 2 required a [replay](https://en.wikipedia.org/wiki/1974_European_Cup_final). These statistics highlight the intense and competitive nature of the tournament, where a significant number of finals required additional time to determine a winner.
 
 <div style="float: right; width: 600px; text-align: center;">
     <img src="/images/portfolio_ucl/notes_pie.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
@@ -161,9 +161,11 @@ Next, we sought to determine whether playing a UEFA Champions League final in on
     <img src="/images/portfolio_ucl/pie_home.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 11: Wins and losses of home team during UCL final.</em></p>
 </div>
-As shown in the pie chart above, teams playing on home soil have won the UCL final 58.3% of the time, compared to a 41.7% loss rate. This was expected since the familiarity with the stadium, local climate, and pitch conditions likely give the home team a physical advantage. Additionally, the psychological boost from having the majority of the crowd's support can enhance player performance and confidence. These elements, combined with reduced travel fatigue, might contribute to the observed increase in success for home-country teams.
+As shown in Figure 11, teams playing on home soil have won the UCL final 58.3% of the time, compared to a 41.7% loss rate. This was expected since the familiarity with the stadium, local climate, and pitch conditions likely give the home team a physical advantage. Additionally, the psychological boost from having the majority of the crowd's support can enhance player performance and confidence. These elements, combined with reduced travel fatigue, might contribute to the observed increase in success for home-country teams.
 
-The home-field advantage is also evident in the number of goals scored by the home team compared to those by the visiting team. The plot below clearly shows that the distribution of goals for the home team is skewed towards higher values. Indeed, the mean value of total goals scored by the home team is 1.67 compared to 1 for visiting club.
+The home-field advantage is also evident in the number of goals scored by the home team compared to those by the visiting team. 
+
+Figure 12 clearly shows that the distribution of goals for the home team is skewed towards higher values. Indeed, the mean value of total goals scored by the home team is 1.67 compared to 1 for visiting club.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/goals_home_visitor.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 12: Distribution of the goals scored by home and visitor during UCL final alongside their Kernel Density Estimation (KDE).</em></p>
@@ -171,7 +173,7 @@ The home-field advantage is also evident in the number of goals scored by the ho
 We wanted to statistically test the difference between the two distributions using the [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). We opted for this non-parametric algorithm because data are not normally distributed ([Shapiro-Wilk](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) test returned p<0.05 in both cases) and both sample contain only 12 elements. However, the test yields a p=0.09 thus we cannot reject the null hypothesis with 95% confidence level.
 
 #### Attendance
-We conclude our analysis by examining the attendance at the UCL final over the years as shown in the plot below.
+We conclude our analysis by examining the attendance at the UCL final over the years as shown in Figure 13.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/attendance_years.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 13: Attendance during UCL final across the years.</em></p>
@@ -179,7 +181,7 @@ We conclude our analysis by examining the attendance at the UCL final over the y
 The data reveals variations in attendance across different decades, with the highest recorded attendances being 124,000 in 1957 at the **Santiago Bernabéu Stadium** in Madrid and 127,621 in 1960 at **Hampden Park** in Glasgow. Both matches were victories for Real Madrid. While the substantial turnout in 1957 was expected due to the final being held at the Santiago Bernabéu, the even larger crowd in 1960 in Scotland underscores the extensive fanbase of Real Madrid. 
 We also highlight the significant drop in attendance during the 2020 final, which saw an attendance of zero due to the COVID-19 pandemic. This unprecedented situation led to the postponement and eventual rescheduling of the match, with the final being played in a restricted environment without fans in attendance. The pandemic's impact on global sporting events is starkly reflected in this anomaly, underscoring how external factors can drastically affect match-day experiences and attendance figures. The effects of the pandemic were also evident in attendance in 2021, with only 33% of the do Dragao stadium's capacity open to supporters.
 
-As already mentioned in the case of 1957 final, the attendance fluctuations are mostly determined by the participation of a team playing the final in its own country. The boxplot below shows the attendance if one of the two teams are playing in their home country or not. 
+As previously noted in the discussion of the 1957 final, attendance fluctuations are largely influenced by whether one of the teams is playing the final in its home country. The boxplot in Figure 14 illustrates the difference in attendance when one of the two teams has home-country advantage compared to when neither team is playing in their own country.
 <div style="float: right; width: 800px; text-align: center;">
     <img src="/images/portfolio_ucl/attendance_home.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em>Figure 14: Distribution of attendance during UCL finals if one of the country played in home country (green) or not (red).</em></p>
@@ -187,7 +189,7 @@ As already mentioned in the case of 1957 final, the attendance fluctuations are 
 
 There is a clear difference between the two distributions, with the former (goals scored by team playing in their home country) shifted towards larger values on average with respect to the latter. We statistically confirmed this difference by employing the Mann-Whitney U test that allows us to reject the null hypothesis (i.e. the two samples come from the same distribution) with a p<0.05. 
 
-Lastly, we examined which country has the highest average attendance. The left panel of the plot below highlights the top five countries by average attendance, regardless of how often they have hosted events. Interestingly, Yugoslavia leads the rankings, with an average of nearly 90,000 attendees, primarily due to the 1972-73 season when AFC Ajax defeated Juventus 1-0 in Belgrade. Because Yugoslavia did not host many finals, this one high-attendance event significantly boosts the country's average.
+Lastly, we examined which country has the highest average attendance. The left panel of Figure 15 highlights the top five countries by average attendance, regardless of how often they have hosted events. Interestingly, Yugoslavia leads the rankings, with an average of nearly 90,000 attendees, primarily due to the 1972-73 season when AFC Ajax defeated Juventus 1-0 in Belgrade. Because Yugoslavia did not host many finals, this one high-attendance event significantly boosts the country's average.
 Scotland follows with just under 80,000 attendees, but this finding is heavily influenced by the 1960 final (Real Madrid vs. Eintracht Frankfurt, 7-3), while the other two events barely reached 50,000 attendees.
 
 <div style="float: right; width: 800px; text-align: center;">
@@ -206,14 +208,14 @@ We found no significant relationship, but there is a mildly positive correlation
 
 ## Recommendations and Insights
 ### Insights
-- **Dominance and Evolution of European Football**: **Real Madrid** has clearly dominated the UEFA Champions League with the highest number of appearances and victories. However, when considering win/loss ratios, **Bayern Munich** and **FC Barcelona** show slightly better efficiency, highlighting that dominance is not solely about the number of wins but also about consistency.
+- **Dominance and Evolution of European Football**: **Real Madrid** has clearly dominated the UEFA Champions League with the highest number of appearances and victories. However, when considering win/loss ratios, **Bayern Munich** and **FC Barcelona** show slightly better efficiency, highlighting that dominance is not solely about the number of wins but also about consistency. We also mention **AC Milan**, **Liverpool FC** and **FC Barcelona** that won 7, 6 and 5 UCL trophies respectively.
 Teams like **Manchester City** and **Paris Saint-Germain**, though not historically prominent in the UCL, have emerged as significant contenders. This indicates a shift in European football dynamics, where financial investment and strategic management are reshaping traditional power structures.
 
-- **Geographical Disparity in Success**: The majority of UCL titles are concentrated in Western Europe, particularly in Spain, England, and Italy, due to factors like financial power, advanced infrastructure, and strong domestic leagues. Eastern and Northern Europe, by contrast, have a minimal presence, reflecting economic and infrastructural challenges.
+- **Geographical Disparity in Success**: The majority of UCL titles are concentrated in **Western Europe**, particularly in Spain, England, and Italy, due to factors like financial power, advanced infrastructure, and strong domestic leagues. **Eastern** and **Northern Europe**, by contrast, have a minimal presence, reflecting economic and infrastructural challenges.
 
-- **Importance of Experience**: The analysis suggests that experience plays a critical role in UCL success. As teams accumulate more matches, their win probability improves, reflecting the non-linear, likely quadratic, nature of learning and expertise in high-stakes competitions.
+- **Importance of Experience**: The analysis suggests that **experience** plays a critical role in UCL success. As teams accumulate more matches, their win probability improves, reflecting the non-linear, likely **quadratic**, nature of learning and expertise in high-stakes competitions.
 
-- **Tactical and Goal-Scoring Trends**: The analysis of UCL finals indicates a trend towards tightly contested matches, with 1-0 being the most common scoreline. This highlights the high stakes and defensive strategies often employed in these finals. However, goal-scoring trends have fluctuated over the decades, influenced by tactical evolution, physical and technical developments, and the emergence of "super teams."
+- **Tactical and Goal-Scoring Trends**: The analysis of UCL finals indicates a trend towards tightly contested matches, with **1-0** being the most common scoreline. This highlights the high stakes and defensive strategies often employed in these finals. However, goal-scoring trends have fluctuated over the decades, influenced by tactical evolution, physical and technical developments, and the emergence of "super teams."
 
 - **Home Advantage in Finals**: Teams playing the final in their home country have a noticeable advantage, winning 58.3% of the time. The familiarity with the venue and the psychological boost from home support likely contribute to this trend, as reflected in both win rates and goal distributions.
 
@@ -231,6 +233,7 @@ Teams like **Manchester City** and **Paris Saint-Germain**, though not historica
 - **Addressing Geographical Disparities**: UEFA and national football associations could consider initiatives to bridge the gap between Western and Eastern/Northern Europe in terms of football development. This could include financial support, infrastructure development, and exchange programs to elevate the competitive standard across the continent.
 
 ## Limitations
+- `finals.csv` dataset does not take into account further information about the final match (e.g. weather conditions, red/yellow cards, possession stats) that might have played a role in the final outcome;
 
  
 ## References
