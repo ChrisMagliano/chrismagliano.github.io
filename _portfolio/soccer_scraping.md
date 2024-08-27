@@ -84,3 +84,7 @@ The scraper is equipped with several error-handling features to ensure smooth op
 - **Add More Leagues**: Extend the tool to scrape additional leagues or sports available on diretta.it.
 - **Advanced Data Analysis**: Integrate additional Python libraries (e.g., Matplotlib, Seaborn) to provide visual data analysis directly in the GUI.
 - **User Authentication**: Add features to handle user logins and save personalized settings.
+
+This ends my Soccer Tournament Scraper project. The full documentation is available on my [GitHub repository](https://github.com/ChrisMagliano/soccer_tournament_scraper/tree/main).
+
+If you have any questions please feel free to reach me out at 📧 chrismagliano.cm@gmail.com or christian.magliano@unina.it
