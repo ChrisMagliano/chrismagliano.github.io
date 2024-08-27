@@ -1,3 +1,9 @@
+---
+title: "Soccer Tournament Scraper: Web Scraping Project for diretta.it"
+excerpt: "A web scraping tool to extract soccer tournament standings from diretta.it."
+collection: portfolio
+---
+
 # 🏆 Soccer Tournament Scraper: Web Scraping Project for diretta.it
 
 ## Table of Contents
