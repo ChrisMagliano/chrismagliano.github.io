@@ -59,8 +59,11 @@ soccer_tournament_scraper/
 **WARNING:** the chromedriver.exe is compatible with 128.0.6613.85 (64 bit) Chrome version. To properly run the script on your machine please assure this chromedriver.exe is compatible with your Chrome version. If not give a look at the following [webpage](https://getwebdriver.com/).
 
 ## 📋How It Works
-1. **Initialize WebDriver**: The project uses Selenium with ChromeDriver to open a Chrome browser session and navigate to the selected tournament page on livescore.com;
-2. **Navigate to Tournament Page**: Once the tournament is selected via the GUI, Selenium directs the browser to the appropriate URL;
+1. **Initialize WebDriver**: The project uses Selenium with ChromeDriver to open a Chrome browser session and navigate to the selected tournament page on livescore.com; ![image](https://github.com/user-attachments/assets/83f0a023-6309-447b-a023-7d624aa77615)
+
+2. **Navigate to Tournament Page**: Once the tournament is selected via the GUI, Selenium directs the browser to the appropriate URL; ![image](https://github.com/user-attachments/assets/24b37e27-7472-43e2-8dc9-b6e75858edd2)
+![image](https://github.com/user-attachments/assets/5c926747-17b9-4bc2-8b6a-96e9d2edd6ab)
+
 3. **Scrape Standings Data**: Selenium locates the standings table on the webpage and extracts relevant information, such as team positions, points, wins, losses, draws, goals scored and conceded, and recent match results;
 4. **Display Data in GUI**: The scraped data is displayed in a table format within the Tkinter GUI, allowing users to view the data directly in the application;
 5. **Export Data to CSV**: Users can export the scraped data to a .csv file for further use. This functionality is particularly useful for analysts and enthusiasts who want to work with the data offline or integrate it into other tools.
