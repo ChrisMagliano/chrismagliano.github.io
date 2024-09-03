@@ -1,6 +1,5 @@
 ---
 title: "Word Search Seasons for Kids Ages 8-10"
-layout: single
 excerpt: "Explore the Four Seasons with 400+ Words to Discover"
 collection: kdpcreations
 permalink: /kdpcreations/word_search_season/
