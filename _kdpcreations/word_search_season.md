@@ -2,7 +2,6 @@
 title: "Word Search Seasons for Kids Ages 8-10"
 excerpt: "Explore the Four Seasons with 400+ Words to Discover"
 collection: kdpcreations
-permalink: /kdpcreations/word_search_season/
 ---
 Designed specifically for kids aged 8-10, this captivating activity book combines fun-filled challenges with educational benefits, making it a perfect addition to your child's learning library. Each illustrated puzzle is thoughtfully crafted to capture the essence of Winter, Spring, Summer and Autumn.
 
