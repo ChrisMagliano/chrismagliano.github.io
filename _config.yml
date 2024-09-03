@@ -212,6 +212,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  kdpcreations:
+    output: true
+    permalink: /kdpcreations/:path/
 
 
 # Defaults
