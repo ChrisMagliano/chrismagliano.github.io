@@ -4,7 +4,10 @@ excerpt: "Explore the Four Seasons with 400+ Words to Discover"
 collection: kdpcreations
 ---
 Designed specifically for kids aged 8-10, this captivating activity book combines fun-filled challenges with educational benefits, making it a perfect addition to your child's learning library. Each illustrated puzzle is thoughtfully crafted to capture the essence of Winter, Spring, Summer and Autumn.
-<img src="https://github.com/user-attachments/assets/bee26711-7dd2-445b-bafe-1c5f9b406407" alt="71KZmIFZeOL _SL1294_" style="width:500px;">
+
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/bee26711-7dd2-445b-bafe-1c5f9b406407" alt="71KZmIFZeOL _SL1294_" style="width:500px;">
+</div>
 
 
 **Book features**:
