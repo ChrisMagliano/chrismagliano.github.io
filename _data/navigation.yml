@@ -18,5 +18,5 @@ main:
   - title: "CV"
     url: /files/CV_Christian_Magliano_english.pdf
     
-  #- title: "Guide"
-  #  url: /markdown/
+  - title: "KDP CreationsGuide"
+    url: /kdp_creations/
