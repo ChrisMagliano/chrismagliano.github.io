@@ -33,7 +33,7 @@ In addition to my technical skills, I am passionate about sharing knowledge and 
 I love doing any kind of sports, in particuar I am a soccer passionate ⚽ and a gym regular 🏋️‍♂️.   
 
 # 📘Education
-- 2022-now: Ph.D. student in Astrophysics at the University of Naples, Federico II; Thesis: *Preparing for the scientific exploitation of the PLATO mission*; Supervisor: *Giovanni Covone*.
+- 2022-2024: Ph.D. in Astrophysics at the University of Naples, Federico II; Thesis: *Preparing for the scientific exploitation of the PLATO mission*; Supervisor: prof. *Giovanni Covone*, dr. *Isabella Pagano*.
 - 2019-2021: MSc in "Physics" (110L/110), University of Salerno, Italy; Thesis: *The Inflationary Cosmology*; Supervisor: *Gaetano Lambiase*.
 - 2019: BSc in "Physics" (110L/110), University of Salerno, Italy.
 
