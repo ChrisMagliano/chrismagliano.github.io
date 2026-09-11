@@ -4,7 +4,7 @@ excerpt: "How inflation compounds over time and silently erodes the real value o
 collection: portfolio
 category: "Finance"
 header:
-teaser:"/images/portfolio_compound_interest/compound_interest.jpg"
+      teaser:"/images/portfolio_compound_interest/compound_interest.jpg"
 ---
 
 # 🎭 Compound Interest and Its Evil Twin
