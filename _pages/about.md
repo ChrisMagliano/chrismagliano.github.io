@@ -7,39 +7,67 @@ redirect_from:
   - /about.html
 ---
 
-Hello and welcome to my GitHub portfolio! 
-![Illustration of combining vision and language modalities](/images/astronomy.jpg){:.align-right width="300px"}
-My name is Christian Magliano, and I am currently working as a Product Analyst in the Italian real estate marketing sector.
+Hello and welcome to my portfolio!
 
-I have got a PhD in Astrophysics at the University of Naples. I am a member of the [ExoplaNAts](https://sites.google.com/view/exoplanats/home?authuser=0) project. My academic journey and research interests revolve around some of the most fascinating aspects of the Universe:
+![Product Analytics](/images/data_science_logo.jpg){:.align-right width="300px"}
 
-- 🌍 **Exoplanets**: Discovering and studying planets beyond our Solar System, understanding their atmospheres, and assessing their potential habitability.
-- 🌌 **Cosmology**: Exploring the large-scale structure of the Universe, its origins, evolution, and ultimate fate.
-- 👽 **Astrobiology**: Investigating the possibility of life elsewhere in the Universe, combining knowledge from biology, chemistry, and planetary science.
+I'm **Christian Magliano**, a **Product Analyst** with a PhD in Astrophysics and a strong quantitative background.
 
-To give a look at my academic publications, check out my [Publications](/publications/) page.
+I currently work at the intersection of **Product, Data and Marketing**, using data to understand how users interact with digital products, identify opportunities for improvement and support product and business decisions.
 
-![Illustration of combining vision and language modalities](/images/data_science_logo.jpg){:.align-right width="300px"}
-During my PhD, I have honed a variety of valuable skills, particularly in the realms of data analysis and visualization. Here are some of the key skills I have developed:
+My work covers the entire analytics lifecycle: from **tracking and data collection** to analysis, experimentation, visualization and communication of insights to stakeholders.
 
-- 📊 **Data Analysis**: Proficient in handling and analyzing large datasets, extracting meaningful patterns, and deriving scientific insights.
-- 📉 **Data Visualization**: Skilled in creating clear and informative visual representations of complex data, helping to communicate findings effectively.
-- 🧪 **Scientific Research**: Conducting rigorous and methodical research, formulating hypotheses, and testing them through experiments and observations.
-- 💻 **Programming**: I learned programming with Python, developing various scripts and tools to aid in my research. I am experienced with libraries such as NumPy, pandas, Matplotlib, and SciPy.
+Some of the areas I work on include:
 
-I am generally interested in Science and I love working with big data and working sheets. In particular, I have a basic knowledge of Machine Learning, Data Engineering and Statistics which allows me to conduct a Data Analysis project within any field (science, finance, marketing, sport). To see some of the projects I have worked on, check out my [Portfolio](/portfolio/) page.
-In addition to my technical skills, I am passionate about sharing knowledge and collaborating with fellow researchers. I believe that the mysteries of the Universe are best unraveled through teamwork and open communication.
+- 📊 **Product Analytics** — analyzing user behaviour, funnels, retention, conversion and feature adoption to understand how people interact with digital products.
+- 🧪 **Experimentation** — designing and analyzing A/B tests and product experiments to measure the impact of new features and UX changes.
+- 📈 **Acquisition & Attribution** — analyzing acquisition channels, marketing performance and user journeys across web and mobile.
+- 🎯 **Funnel & Conversion Analysis** — identifying friction points and opportunities across complex multi-step customer journeys.
+- 📉 **Business Intelligence** — building dashboards and reporting systems to make product and marketing performance accessible to stakeholders.
+- ⚙️ **Automation & Data** — writing Python and SQL scripts, working with REST APIs and building automated workflows and data pipelines.
+- 🔎 **Tracking & Measurement** — defining events, properties and measurement frameworks across web and mobile products.
 
-I love doing any kind of sports, in particuar I am a soccer passionate ⚽ and a gym regular 🏋️‍♂️.   
+My daily toolkit includes **Python, SQL, Mixpanel, Power BI, GA4, Firebase, Google Tag Manager, Adjust, Meta Ads and Google Ads**, alongside other analytics and data tools.
 
-# 📘Education
-- 2022-2024: Ph.D. in Astrophysics at the University of Naples, Federico II; Thesis: *Preparing for the scientific exploitation of the PLATO mission*; Supervisor: prof. *Giovanni Covone*, dr. *Isabella Pagano*.
-- 2019-2021: MSc in "Physics" (110L/110), University of Salerno, Italy; Thesis: *The Inflationary Cosmology*; Supervisor: *Gaetano Lambiase*.
-- 2019: BSc in "Physics" (110L/110), University of Salerno, Italy.
+What I enjoy most is going beyond *what happened* to understand **why it happened, what we can learn from it, and what we should do next**.
 
-The complete CV is available at the [CV](/files/CV_Christian_Magliano_english.pdf) page. 
-Feel free to explore my repositories to see some of the projects I've worked on. If you're interested in collaborating or have any questions, don't hesitate to reach out!
+## 🔭 From Astrophysics to Product Analytics
 
-📧: chrismagliano.cm@gmail.com or christian.magliano@unina.it
+Before moving into Product Analytics, I completed a **PhD in Astrophysics at the University of Naples Federico II**, where my research focused primarily on **exoplanets and the scientific exploitation of the PLATO space mission**.
 
-Thank you for visiting my portfolio! 🚀✨
+![Astrophysics](/images/astronomy.jpg){:.align-right width="300px"}
+
+Research taught me how to approach ambiguous problems, work with complex datasets, formulate and test hypotheses, and communicate results clearly.
+
+These skills turned out to be surprisingly transferable to Product Analytics: the subject changed from **planets and stars to users and digital products**, but the underlying process remains very similar — observe, formulate hypotheses, analyze data, test and learn.
+
+You can find my academic work on the [Publications](/publications/) page.
+
+## 🛠️ Technical Stack
+
+**Product Analytics:** Mixpanel, Google Analytics 4, Firebase  
+**Business Intelligence:** Power BI, Metabase, Zoho Analytics  
+**Tracking:** Google Tag Manager  
+**Marketing & Attribution:** Adjust, Google Ads, Meta Ads  
+**Data & Programming:** Python, SQL (PostgreSQL), R, Jupyter Notebook  
+**Automation:** REST APIs, API integrations, automated data pipelines and workflow automation  
+
+I'm particularly interested in **Product Analytics, experimentation, behavioral data and data-driven product development**, as well as the intersection between **product analytics and acquisition**.
+
+Some of my personal and technical projects are available in my [Portfolio](/portfolio/) and GitHub repositories.
+
+# 📘 Education
+
+- **2022–2024:** PhD in Astrophysics, University of Naples Federico II  
+  Thesis: *Preparing for the scientific exploitation of the PLATO mission*
+- **2019–2021:** MSc in Physics (110L/110), University of Salerno  
+  Thesis: *The Inflationary Cosmology*
+- **2019:** BSc in Physics (110L/110), University of Salerno
+
+Outside of data and science, I'm a sports enthusiast, especially football ⚽, and a gym regular 🏋️‍♂️.
+
+The complete CV is available on the [CV](/files/CV_Christian_Magliano_english.pdf) page.
+
+Feel free to explore my projects or get in touch if you'd like to connect!
+
+📧 chrismagliano.cm@gmail.com
