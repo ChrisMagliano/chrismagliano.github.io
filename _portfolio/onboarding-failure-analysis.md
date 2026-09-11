@@ -4,7 +4,7 @@ excerpt: "A Product Analytics case study on identifying, grouping and interpreti
 collection: portfolio
 category: "Product Analytics"
 header:
-  teaser: 
+  teaser: "images/product_analytics_portfolio.png"
 ---
 
 # 🔎 Why are users failing the onboarding?
