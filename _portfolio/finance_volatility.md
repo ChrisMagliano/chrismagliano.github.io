@@ -53,7 +53,7 @@ But the median tells a different story.
 
 > The typical investor in the volatile scenario grows at approximately **5% instead of 7%**.
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/portfolio_finance_volatility/finance_volatility" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/portfolio_finance_volatility/finance_volatility.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em> Distribution of final wealth after 10 years with 7% expected annual return.</em></p>
 </div>
 
