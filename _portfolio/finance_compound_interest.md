@@ -134,7 +134,7 @@ just to maintain the same purchasing power.
 
 ---
 <div style="width: 100%; max-width: 800px; margin: 30px auto; text-align: center;">
-    <img src="/images/portfolio_compound_interest/compound_interes.jpg"
+    <img src="/images/portfolio_compound_interest/compound_interest.jpg"
          alt="Distribution of final wealth"
          style="width: 100%;">
     <p><em></em></p>
