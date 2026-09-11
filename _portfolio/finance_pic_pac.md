@@ -4,7 +4,7 @@ excerpt: "A Monte Carlo experiment comparing lump-sum investing with a gradual i
 collection: portfolio
 category: "Finance"
 header:
-  teaser: "/images/portfolio_finance_pac_pic/finance_pac_pic1.jpg"
+  teaser: "/images/portfolio_pic_pac/finance_pac_pic1.jpg"
 ---
 
 # 💰 Lump Sum vs Dollar-Cost Averaging
