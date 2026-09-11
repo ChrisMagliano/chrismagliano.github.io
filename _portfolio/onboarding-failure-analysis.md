@@ -2,6 +2,9 @@
 title: "Why are users failing the onboarding?"
 excerpt: "A Product Analytics case study on identifying, grouping and interpreting the reasons behind onboarding failures."
 collection: portfolio
+category: "Product Analytics"
+header:
+  teaser: 
 ---
 
 # 🔎 Why are users failing the onboarding?
