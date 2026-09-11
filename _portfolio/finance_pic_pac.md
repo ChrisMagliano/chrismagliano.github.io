@@ -100,6 +100,18 @@ In my simulations, some of the worst DCA outcomes followed an interesting patter
 By the time the downturn arrives, much more capital has been accumulated and is exposed to the decline.
 
 ---
+<div style="width: 100%; max-width: 800px; margin: 30px auto; text-align: center;">
+    <img src="/images/portfolio_pic_pac/pic_pac1.jpg"
+         alt="Distribution of final wealth"
+         style="width: 100%;">
+    <p><em>Description.</em></p>
+</div>
+<div style="width: 100%; max-width: 800px; margin: 30px auto; text-align: center;">
+    <img src="/images/portfolio_pic_pac/pic_pac2.jpg"
+         alt="Distribution of final wealth"
+         style="width: 100%;">
+    <p><em>Description..</em></p>
+</div>
 
 ## 🎯 Key Takeaways
 
