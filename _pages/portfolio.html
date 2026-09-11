@@ -7,54 +7,113 @@ author_profile: true
 
 {% include base_path %}
 
-*Projects & Case Studies 🚀*
+<h2>🚀 Projects & Case Studies</h2>
 
-I use **data to understand problems, test hypotheses and support better decisions**.
+<p>
+I use <strong>data to understand problems, test hypotheses and support better decisions</strong>.
+This portfolio collects case studies across <strong>Product Analytics, Data Science and Finance</strong>,
+combining analytical thinking with synthetic or public data.
+</p>
 
-This portfolio is a collection of case studies across **Product Analytics, Data Science and Finance**, combining real-world analytical approaches with synthetic or public data.
+<p>
+My goal is not just to show the result, but the reasoning behind it:
+<strong>Question → Data → Analysis → Insight → Action</strong>.
+</p>
 
-My goal is not just to show the final result, but the reasoning behind it:
+<div style="
+    margin: 30px 0 40px 0;
+    padding: 20px 25px;
+    background: #f7f7f7;
+    border-radius: 12px;
+">
 
-**Question → Data → Analysis → Insight → Action**
+    <p>🔎 <strong>Product Analytics</strong> — Funnels, experimentation, user behavior and segmentation</p>
+    <p>📊 <strong>Data Science</strong> — Statistical analysis, modeling and simulations</p>
+    <p style="margin-bottom:0;">💰 <strong>Finance</strong> — Quantitative experiments and financial concepts explained through data</p>
 
-<div style="margin: 30px 0; padding: 20px 25px; background: #f7f7f7; border-radius: 10px;">
-<strong>🔎 Product Analytics</strong> — Funnels, experimentation, user behavior and segmentation<br><br>
-<strong>📊 Data Science</strong> — Statistical analysis, modeling and simulations<br><br>
-<strong>💰 Finance</strong> — Quantitative experiments and financial concepts explained through data
 </div>
 
-<div class="portfolio-grid">
+
+<div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+">
 
 {% for post in site.portfolio %}
 
-  <a href="{{ post.url | relative_url }}" class="portfolio-card">
+<a href="{{ post.url | relative_url }}"
+   style="
+       display: block;
+       border: 1px solid #e5e5e5;
+       border-radius: 12px;
+       overflow: hidden;
+       background: white;
+       text-decoration: none;
+       color: inherit;
+       box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+   ">
 
     {% if post.header.teaser %}
     <img
-      src="{{ post.header.teaser | relative_url }}"
-      class="portfolio-card-image"
-      alt="{{ post.title }}">
+        src="{{ post.header.teaser | relative_url }}"
+        alt="{{ post.title }}"
+        style="
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        ">
     {% endif %}
 
-    <div class="portfolio-card-content">
+    <div style="padding: 20px;">
 
-      {% if post.category %}
-      <span class="portfolio-category">
-        {{ post.category }}
-      </span>
-      {% endif %}
+        {% if post.category %}
+        <div style="
+            font-size: 0.75em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #777;
+            margin-bottom: 8px;
+        ">
+            {% if post.category == "Finance" %}
+                💰
+            {% elsif post.category == "Product Analytics" %}
+                🔎
+            {% elsif post.category == "Data Science" %}
+                📊
+            {% endif %}
 
-      <h2>{{ post.title }}</h2>
+            {{ post.category }}
+        </div>
+        {% endif %}
 
-      <p>{{ post.excerpt | strip_html }}</p>
+        <h2 style="
+            margin: 0 0 12px 0;
+            font-size: 1.2em;
+            line-height: 1.3;
+        ">
+            {{ post.title }}
+        </h2>
 
-      <span class="portfolio-read">
-        Read case study →
-      </span>
+        <p style="
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
+        ">
+            {{ post.excerpt | strip_html }}
+        </p>
+
+        <div style="
+            margin-top: 15px;
+            font-weight: 600;
+        ">
+            Read case study →
+        </div>
 
     </div>
 
-  </a>
+</a>
 
 {% endfor %}
 
