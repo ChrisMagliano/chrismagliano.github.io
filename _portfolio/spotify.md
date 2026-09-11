@@ -4,7 +4,7 @@ excerpt: "Data Analysis of the most streamed Spotify songs up to 2024."
 collection: portfolio
 category: "Data Science"
 header:
-  teaser: "/images/spotify_logo.jpg"
+  teaser: "/images/spotify_logo.png"
 ---
 ![Illustration of combining vision and language modalities](/images/spotify_logo.png){:.align-right width="200px"}
 # Table of Contents
