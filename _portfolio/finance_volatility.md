@@ -3,6 +3,10 @@ title: "Same Return, Different Wealth: The Hidden Cost of Volatility"
 excerpt: "How two investors can achieve the same 7% average return and end up with very different wealth."
 collection: portfolio
 category: "Finance"
+tags:
+  - Python
+  - Finance
+  - Markov Chain Monte Carlo
 header:
   teaser: "/images/portfolio_finance_volatility/finance_volatility.jpg"
 ---
