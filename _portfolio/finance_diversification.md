@@ -3,6 +3,10 @@ title: "How Diversification Can Increase Compound Growth"
 excerpt: "How correlation between assets can reduce volatility drag and increase long-term compound returns."
 collection: portfolio
 category: "Finance"
+tags:
+  - Python
+  - Finance
+  - Markov Chain Monte Carlo
 header:
   teaser: "/images/diversification.jpg"
 ---
