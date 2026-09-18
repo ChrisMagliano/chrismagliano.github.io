@@ -3,6 +3,10 @@ title: "Compound Interest and Its Evil Twin: Inflation"
 excerpt: "How inflation compounds over time and silently erodes the real value of long-term investments."
 collection: portfolio
 category: "Finance"
+tags:
+  - Python
+  - Finance
+  - Markov Chain Monte Carlo
 header:
   teaser: "/images/portfolio_compound_interest/compound_interest.jpg"
 ---
