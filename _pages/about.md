@@ -66,7 +66,7 @@ Some of my personal and technical projects are available in my [Portfolio](/port
 
 Outside of data and science, I'm a sports enthusiast, especially football ⚽, and a gym regular 🏋️‍♂️.
 
-The complete CV is available on the [CV](/files/CV_Christian_Magliano_english.pdf) page.
+The complete CV is available at the following [page](/files/CV_Christian_Magliano_english.pdf).
 
 Feel free to explore my projects or get in touch if you'd like to connect!
 
