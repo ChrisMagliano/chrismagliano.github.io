@@ -5,7 +5,6 @@ collection: portfolio
 category: "Data Science"
 tags:
   - Python
-  - Pandas
   - EDA
   - Data Visualization
 header:
