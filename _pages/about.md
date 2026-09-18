@@ -1,9 +1,17 @@
+---
+permalink: /
+title: "Hi, I'm Christian 👋"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 <section class="home-hero">
 
 <p class="home-eyebrow">PRODUCT · DATA · EXPERIMENTATION</p>
 
 <h1>
-Hi, I'm Christian 👋<br>
 I turn data into <span class="home-highlight">better decisions.</span>
 </h1>
 
