@@ -56,3 +56,31 @@
     font-weight: 700;
   }
 }
+
+.masthead {
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.greedy-nav {
+  background: #fff;
+
+  a {
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #52adc8;
+  }
+}
+
+.site-title {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+}
