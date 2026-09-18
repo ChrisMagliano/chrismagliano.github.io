@@ -44,6 +44,15 @@
   font-weight: 600;
 }
 
+.portfolio-chip {
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.portfolio-chip:hover {
+  transform: translateY(-2px);
+  background: #e9eef3;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
