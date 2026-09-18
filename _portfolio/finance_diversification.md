@@ -4,7 +4,7 @@ excerpt: "How correlation between assets can reduce volatility drag and increase
 collection: portfolio
 category: "Finance"
 header:
-teaser:
+  teaser: "/images/diversification.jpg"
 ---
 
 # 📊 How Diversification Can Increase Compound Growth
