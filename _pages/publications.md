@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
 <section class="publications-hero">
 
 <p class="publications-eyebrow">RESEARCH & ACADEMIC WORK</p>
