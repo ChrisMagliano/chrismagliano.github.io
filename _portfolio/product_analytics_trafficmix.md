@@ -3,6 +3,8 @@ title: "Your Conversion Rate Can Drop Even When Everything Is Improving"
 excerpt: "How changes in traffic mix can make overall conversion decline while every segment improves."
 collection: portfolio
 category: "Product Analytics"
+header:
+  teaser: "/images/traffic_mix.jpg"
 ---
 
 # 📉 Your Conversion Rate Can Drop Even When Everything Is Improving
