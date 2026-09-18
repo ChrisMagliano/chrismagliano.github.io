@@ -3,6 +3,9 @@ title: "Soccer Tournament Scraper: Web Scraping Project for livescore.com"
 excerpt: "A web scraping tool to extract soccer tournament standings from livescore.com."
 collection: portfolio
 category: "Data Science"
+tags:
+  - Scraping
+  - ETL
 header:
   teaser: "/images/web_scrape_soccer.jpg"
 ---
