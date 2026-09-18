@@ -112,6 +112,15 @@
   font-weight: 600;
 }
 
+.portfolio-card-link span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.portfolio-card:hover .portfolio-card-link span {
+  transform: translateX(5px);
+}
+
 .portfolio-highlight {
   color: #52adc8;
 }
