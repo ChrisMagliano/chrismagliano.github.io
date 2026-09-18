@@ -62,7 +62,7 @@ Some of my personal and technical projects are available in my [Portfolio](/port
   Thesis: *Preparing for the scientific exploitation of the PLATO mission*
 - **2019–2021:** MSc in Physics (110L/110), University of Salerno  
   Thesis: *The Inflationary Cosmology*
-- **2019:** BSc in Physics (110L/110), University of Salerno
+- **2016-2019:** BSc in Physics (110L/110), University of Salerno
 
 Outside of data and science, I'm a sports enthusiast, especially football ⚽, and a gym regular 🏋️‍♂️.
 
