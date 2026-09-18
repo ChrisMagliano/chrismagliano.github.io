@@ -3,6 +3,11 @@ title: "Exploratory Data Analysis of UEFA Champions League 1955-2023"
 excerpt: "Data Analysis of the UEFA Champions League statistics from 1955 to 2023."
 collection: portfolio
 category: "Data Science"
+tags:
+  - Python
+  - Pandas
+  - EDA
+  - Data Visualization
 header:
   teaser: "/images/portfolio_ucl/Logo_UEFA_Champions_League.png"
 ---
