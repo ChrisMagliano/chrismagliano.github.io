@@ -65,6 +65,15 @@ author_profile: true
             {{ post.excerpt | strip_html }}
         </p>
 
+        {% if post.tags %}
+        <div class="portfolio-tags">
+        {% for tag in post.tags %}
+        <span class="portfolio-tag">{{ tag }}</span>
+        {% endfor %}
+        </div>
+        {% endif %}
+      
+
         <div class="portfolio-card-link">
           Read case study <span>→</span>
         </div>
