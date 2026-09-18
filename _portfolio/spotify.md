@@ -3,6 +3,10 @@ title: "Exploratory Data Analysis of Most Streamed Spotify songs"
 excerpt: "Data Analysis of the most streamed Spotify songs up to 2024."
 collection: portfolio
 category: "Data Science"
+tags:
+  - Python
+  - EDA
+  - Data Visualization
 header:
   teaser: "/images/spotify_logo.png"
 ---
