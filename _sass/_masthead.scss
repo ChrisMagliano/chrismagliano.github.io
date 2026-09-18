@@ -84,3 +84,22 @@
   font-weight: 700 !important;
   letter-spacing: -0.02em;
 }
+
+.greedy-nav .visible-links a {
+  position: relative;
+}
+
+.greedy-nav .visible-links a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #52adc8;
+  transition: width 0.2s ease;
+}
+
+.greedy-nav .visible-links a:hover::before {
+  width: 100%;
+}
