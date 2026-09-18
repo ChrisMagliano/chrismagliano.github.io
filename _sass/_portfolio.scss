@@ -81,6 +81,11 @@
   height: 200px;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-card-image {
+  transform: scale(1.03);
 }
 
 .portfolio-card-content {
