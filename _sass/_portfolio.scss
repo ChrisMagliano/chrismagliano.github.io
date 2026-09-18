@@ -135,11 +135,12 @@
 
 .portfolio-tag {
   padding: 0.3rem 0.6rem;
-  background: #f4f6f8;
+  background: rgba(82, 173, 200, 0.10);
+  border: 1px solid rgba(82, 173, 200, 0.20);
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 600;
-  color: #555;
+  color: #397f94;
 }
 
 .portfolio-highlight {
