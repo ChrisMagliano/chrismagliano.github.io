@@ -3,6 +3,10 @@ title: "Lump Sum vs Dollar-Cost Averaging: Does Timing Really Matter?"
 excerpt: "A Monte Carlo experiment comparing lump-sum investing with a gradual investment strategy."
 collection: portfolio
 category: "Finance"
+tags:
+  - Python
+  - Finance
+  - Markov Chain Monte Carlo
 header:
   teaser: "/images/portfolio_pic_pac/pic_pac1.jpg"
 ---
