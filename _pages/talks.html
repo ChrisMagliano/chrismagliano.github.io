@@ -5,23 +5,44 @@ permalink: /talks/
 author_profile: true
 ---
 
-<p>🎤 <strong>Welcome to My Conference Talks Page!</strong></p>
+<section class="talks-hero">
 
-<p>Here, you'll find a comprehensive list of all the conferences where I've had the privilege to present my work. Each talk has been an exciting opportunity to share my research, insights, and innovations with the broader community.</p>
+<p class="talks-eyebrow">CONFERENCES · WORKSHOPS · PRESENTATIONS</p>
 
-<p>From international symposiums to specialized workshops, these presentations cover a diverse range of topics that reflect my interests and expertise. I’m passionate about engaging with the academic and professional communities, and each conference talk represents a milestone in my journey.</p>
+<div class="talks-intro">
 
-<p>🔍 <strong>Explore the list below</strong> to discover the conferences I've contributed to and the ideas I've shared with audiences worldwide.</p>
+<p>
+During my PhD in Astrophysics, I had the opportunity to present my research at
+<strong>international conferences, scientific meetings and specialized workshops</strong>.
+</p>
+
+<p>
+These talks focused mainly on <strong>exoplanets</strong>, stellar characterization
+and the scientific exploitation of the <strong>PLATO space mission</strong>.
+</p>
+
+<p>
+Below you can explore the presentations I delivered throughout my academic journey.
+</p>
+
+</div>
+
+</section>
 
 
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+<p class="talks-map-link">
+<a href="/talkmap.html">Explore the map of my talks →</a>
+</p>
 {% endif %}
+
+
+<section class="talks-list">
+
+<p class="talks-section-label">TALKS & PRESENTATIONS</p>
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
-<p>🌟 Thank you for taking the time to visit this page. I hope you find the topics as intriguing and inspiring as I do. Stay tuned for updates on future presentations and upcoming events!</p>
+</section>
