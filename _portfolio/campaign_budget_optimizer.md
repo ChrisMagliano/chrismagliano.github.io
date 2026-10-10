@@ -65,8 +65,8 @@ Before fitting models, I inspect the daily spend distribution, lead volumes, CPL
        target="_blank"
        rel="noopener noreferrer">
         <img
-            src="/images/campaign_budget_optimizer/cbo_mock.png"
-            alt="Campaign Budget Optimizer — Synthetic Dashboard"
+            src="/images/campaign_budget_optimizer/plots_cbo.png"
+            alt="Campaign Budget Optimizer — principal KPIs"
             style="display: block; width: 100%; height: auto; border-radius: 10px;"
         >
     </a>
