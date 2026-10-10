@@ -159,6 +159,6 @@ Future work could include longer historical windows, seasonality controls, uncer
 
 The public page intentionally omits proprietary source code, production data, fitted business parameters, and internal architecture. A deeper walkthrough of modeling choices, validation, optimization, and interface design may be discussed **upon request**, subject to confidentiality and sharing permissions.
 
-**Contact:** [Request a technical walkthrough](mailto:chrismagliano.cm@gmail.com?subject=Campaign%20Budget%20Optimizer%20%E2%80%93%20Technical%20Case%20Study%20Request)
+**Contact:** [Request a Technical Case Study](https://mail.google.com/mail/?view=cm&fs=1&to=chrismagliano.cm%40gmail.com&su=Campaign%20Budget%20Optimizer%20-%20Technical%20Case%20Study%20Request)
 
 *This page documents the approach using synthetic examples; it does not expose or reproduce an employer's confidential implementation.*
