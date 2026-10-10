@@ -89,7 +89,7 @@ A robust evaluation also checks whether a response curve yields unrealistic nega
 
 ## Budget Optimization
 
-Let $$\(x_i\)$$ be the daily budget allocated to campaign $$\(i\)$$, and $$\(f_i(x_i)\)$$ its predicted daily leads. The allocation problem is:
+Let $$x_i$$ be the daily budget allocated to campaign $$i$$, and $$f_i(x_i)$$ its predicted daily leads. The allocation problem is:
 
 $$
 \max_{x_1,\ldots,x_n}\;\sum_{i=1}^{n} f_i(x_i)
@@ -101,7 +101,7 @@ $$
 \sum_{i=1}^{n}x_i=B,\qquad l_i\leq x_i\leq u_i.
 $$
 
-Here $$\(B\)$$ is the available daily budget, and $$\(l_i,u_i\)$$ are campaign-specific feasible limits. A practical approach derives those limits from historical spend ranges, with a configurable upper buffer. Before optimization, the system checks feasibility: $$\(\sum_i l_i\leq B\leq\sum_i u_i\)$$.
+Here $$B$$ is the available daily budget, and $$l_i,u_i$$ are campaign-specific feasible limits. A practical approach derives those limits from historical spend ranges, with a configurable upper buffer. Before optimization, the system checks feasibility: $$\sum_i l_i\leq B\leq\sum_i u_i$$.
 
 The resulting estimated blended CPL is:
 
