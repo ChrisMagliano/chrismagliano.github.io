@@ -89,7 +89,6 @@ Models are assessed using **R², MAE, and RMSE**, complemented by chronological 
 
 A robust evaluation also checks whether a response curve yields unrealistic negative predictions or implausible increases outside the observed spend range. Where necessary, predictions are bounded or the feasible spend domain is restricted.
 
-**Suggested public figure:** model comparison by campaign, showing in-sample fit alongside out-of-sample error, using synthetic scores.
 
 ## Budget Optimization
 
@@ -119,9 +118,7 @@ For nonlinear and potentially non-concave response functions, solver output shou
 
 The project is designed around an interactive **Streamlit** interface for scenario planning. A user can select a total budget, inspect campaign-level allocations, and manually adjust campaign spend through sliders.
 
-The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation. The public portfolio should show **mock screenshots generated with synthetic data**, never operational dashboards or credentials.
-
-**Suggested public figures:** a mock budget-allocation panel and a before/after scenario comparison.
+The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation. 
 
 ## Results and Business Insights
 
