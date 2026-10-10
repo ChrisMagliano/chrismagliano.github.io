@@ -115,11 +115,14 @@ For nonlinear and potentially non-concave response functions, solver output shou
 
 The project is designed around an interactive **Streamlit** interface for scenario planning. A user can select a total budget, inspect campaign-level allocations, and manually adjust campaign spend through sliders.
 
-The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation. 
+The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation.
 
-<div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/campaign_budget_optimizer/cbo_mock.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em></em></p>
+<div style="width: 100%; margin: 24px 0;">
+  <img
+    src="{{ '/images/campaign_budget_optimizer/cbo_mock.png' | relative_url }}"
+    alt="Campaign Budget Optimizer — Synthetic Dashboard"
+    style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 10px;"
+  >
 </div>
 
 ## Results and Business Insights
