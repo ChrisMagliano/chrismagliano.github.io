@@ -71,14 +71,14 @@ Several functional forms are compared rather than assuming one universal respons
 
 | Model | Illustrative form | Interpretation |
 |---|---|---|
-| Linear | f(x)=a+bx | Constant marginal response |
-| Logarithmic | f(x)=a+b\log(1+x) | Gradual diminishing returns |
-| Quadratic | f(x)=a+bx+cx^2 | Flexible curvature within observed range |
-| Saturation | f(x)=Lx/(K+x) | Response approaches a ceiling |
-| Hill | f(x)=Lx^h/(K^h+x^h) | Flexible S-shaped or saturating response |
+| Linear | $$f(x)=a+bx$$ | Constant marginal response |
+| Logarithmic | $$f(x)=a+b\log(1+x)$$ | Gradual diminishing returns |
+| Quadratic | $$f(x)=a+bx+cx^2$$ | Flexible curvature within observed range |
+| Saturation | $$f(x)=Lx/(K+x)$$ | Response approaches a ceiling |
+| Hill | $$f(x)=Lx^h/(K^h+x^h)$$ | Flexible S-shaped or saturating response |
 | Spend-trend baseline | Trend-based benchmark | Comparison against simpler forecasting behavior |
 
-Here, \(x\) denotes daily spend and f(x) the predicted daily leads. Model forms are illustrative; exact fitting choices and constraints are implementation-dependent.
+Here, $$x$$ denotes daily spend and $$f(x)$$ the predicted daily leads. Model forms are illustrative; exact fitting choices and constraints are implementation-dependent.
 
 ### Validation
 
