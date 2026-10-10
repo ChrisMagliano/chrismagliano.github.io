@@ -61,7 +61,7 @@ The preparation workflow checks missing dates, duplicates, zero-spend observatio
 Before fitting models, I inspect the daily spend distribution, lead volumes, CPL, and the relationship between spend and leads for each campaign. The central question is whether a linear response is adequate or whether diminishing returns are visible.
 
 <div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/campaign_budget_optimizer/cbo_mock.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <img src="/images/campaign_budget_optimizer/plots_cbo" alt="Illustration of combining vision and language modalities" style="width: 100%;">
     <p><em></em></p>
 </div>
 
@@ -116,6 +116,11 @@ For nonlinear and potentially non-concave response functions, solver output shou
 The project is designed around an interactive **Streamlit** interface for scenario planning. A user can select a total budget, inspect campaign-level allocations, and manually adjust campaign spend through sliders.
 
 The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation. 
+
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/campaign_budget_optimizer/cbo_mock.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em></em></p>
+</div>
 
 ## Results and Business Insights
 
