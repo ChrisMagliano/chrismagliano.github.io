@@ -60,13 +60,10 @@ The preparation workflow checks missing dates, duplicates, zero-spend observatio
 
 Before fitting models, I inspect the daily spend distribution, lead volumes, CPL, and the relationship between spend and leads for each campaign. The central question is whether a linear response is adequate or whether diminishing returns are visible.
 
-**Suggested public figures (synthetic only):**
-
-1. Daily spend and leads by campaign.
-2. Spend-versus-leads scatterplots with candidate fitted response curves.
-3. Distribution of observed CPL by campaign.
-
-These figures should be generated from a synthetic dataset rather than screenshots of company dashboards.
+<div style="float: right; width: 800px; text-align: center;">
+    <img src="/images/campaign_budget_optimizer/cbo_mock.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
+    <p><em></em></p>
+</div>
 
 ## Predictive Modeling and Model Selection
 
