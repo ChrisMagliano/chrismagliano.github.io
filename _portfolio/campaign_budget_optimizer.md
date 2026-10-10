@@ -60,9 +60,17 @@ The preparation workflow checks missing dates, duplicates, zero-spend observatio
 
 Before fitting models, I inspect the daily spend distribution, lead volumes, CPL, and the relationship between spend and leads for each campaign. The central question is whether a linear response is adequate or whether diminishing returns are visible.
 
-<div style="float: right; width: 800px; text-align: center;">
-    <img src="/images/campaign_budget_optimizer/plots_cbo.png" alt="Illustration of combining vision and language modalities" style="width: 100%;">
-    <p><em></em></p>
+<div style="width: 100%; max-width: 900px; margin: 25px auto; text-align: center;">
+    <a href="/images/campaign_budget_optimizer/cbo_mock.png"
+       target="_blank"
+       rel="noopener noreferrer">
+        <img
+            src="/images/campaign_budget_optimizer/cbo_mock.png"
+            alt="Campaign Budget Optimizer — Synthetic Dashboard"
+            style="display: block; width: 100%; height: auto; border-radius: 10px;"
+        >
+    </a>
+    <p><em>Campaign Budget Optimizer — Interactive dashboard mockup using synthetic data.</em></p>
 </div>
 
 ## Predictive Modeling and Model Selection
@@ -117,13 +125,15 @@ The project is designed around an interactive **Streamlit** interface for scenar
 
 The application reports predicted leads, estimated blended CPL, and the difference between a user-defined scenario and a model-suggested allocation.
 
-<div style="width: 100%; margin: 24px 0;">
+<a href="{{ '/images/portfolio_budget_optimizer/dashboard.png' | relative_url }}"
+   target="_blank"
+   rel="noopener noreferrer">
   <img
-    src="{{ '/images/campaign_budget_optimizer/cbo_mock.png' | relative_url }}"
+    src="{{ '/images/portfolio_budget_optimizer/dashboard.png' | relative_url }}"
     alt="Campaign Budget Optimizer — Synthetic Dashboard"
     style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 10px;"
   >
-</div>
+</a>
 
 ## Results and Business Insights
 
