@@ -184,7 +184,7 @@ REST APIs · API integrations · Data pipelines · Workflow automation</p>
 <span>2016–2019</span>
 <div>
 <strong>BSc in Physics · 110L/110</strong>
-<p>University of Salerno</p>
+<p>University of Salerno · SUSY in QM: calculating bound states without calculations.</p>
 </div>
 </div>
 
