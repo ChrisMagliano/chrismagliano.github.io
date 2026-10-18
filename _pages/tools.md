@@ -1,9 +1,12 @@
 
 ---
+layout: archive
+title: "Tootls"
 permalink: /tools/
-title: "Analytics Tools"
 author_profile: true
 ---
+
+{% include base_path %}
 
 Welcome to my collection of interactive tools for
 Product Analytics, A/B Testing, and Data Science.
