@@ -1,7 +1,6 @@
-
 ---
 layout: archive
-title: "Tootls"
+title: "Tools"
 permalink: /tools/
 author_profile: true
 ---
