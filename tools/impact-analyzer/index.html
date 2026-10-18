@@ -5,18 +5,63 @@
 <title>Impact Analyzer | Christian Magliano</title>
 <style>
 :root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#17233d;background:#f5f7fb}*{box-sizing:border-box}body{margin:0;padding:38px 18px}.wrap{max-width:980px;margin:auto}h1{font-size:2.25rem;margin:0 0 9px}h2{font-size:1.15rem;margin:0 0 16px}p{line-height:1.65}.muted{color:#64748b}.eyebrow{font-size:.78rem;font-weight:750;letter-spacing:.09em;color:#2563eb;text-transform:uppercase}.intro{max-width:760px}.card{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:24px;margin:18px 0;box-shadow:0 3px 14px #17233d08}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.fields{margin:0}.fields h2{margin-bottom:8px}.field{margin:18px 0}.field label{display:block;font-size:.91rem;font-weight:650;margin-bottom:6px}.hint{font-size:.83rem;color:#64748b;margin:5px 0 0}.field input,.field select{display:block;width:100%;padding:12px;border:1px solid #cbd5e1;border-radius:9px;font-size:1rem;background:white;color:#17233d}.field input:focus,.field select:focus{outline:2px solid #93c5fd;border-color:#2563eb}.info{cursor:help;color:#2563eb;border-bottom:1px dotted #2563eb}button{background:#2563eb;color:white;border:0;border-radius:9px;padding:13px 19px;font-size:1rem;font-weight:650;cursor:pointer}button:hover{background:#1d4ed8}.secondary{background:#eef2ff;color:#1d4ed8}.secondary:hover{background:#dbeafe}.actions{display:flex;flex-wrap:wrap;gap:10px}.error{color:#b91c1c;font-weight:600}.kpi{border:1px solid #e2e8f0;border-radius:12px;padding:17px}.kpi span{font-size:.85rem;color:#64748b}.kpi strong{font-size:1.75rem;display:block;margin-top:6px}.explain{background:#eff6ff;border-left:4px solid #2563eb;padding:15px 18px;border-radius:7px}.success{color:#15803d}.warn{color:#b45309}.negative{color:#b91c1c}details{border-top:1px solid #e2e8f0;padding:14px 0}summary{cursor:pointer;font-weight:650}code{background:#f1f5f9;padding:2px 5px;border-radius:4px}footer{font-size:.83rem;color:#64748b;margin:28px 0}#results[hidden]{display:none}@media(max-width:650px){body{padding:22px 12px}.grid{grid-template-columns:1fr}.card{padding:18px}h1{font-size:1.85rem}}
+
+/* Portfolio visual identity */
+:root{--accent:#2563eb;--ink:#17233d;--line:#e2e8f0}
+body{padding:0;background:#f5f7fb}
+.site-header{background:#fff;border-bottom:1px solid var(--line)}
+.site-header-inner{max-width:1100px;margin:auto;min-height:76px;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.site-brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-size:1rem;font-weight:800;letter-spacing:-.025em}
+.site-brand-mark{width:37px;height:37px;border-radius:11px;background:#eff6ff;color:var(--accent);display:grid;place-items:center;font-size:20px}
+.site-nav{display:flex;align-items:center;gap:24px}
+.site-nav a{font-size:.88rem;text-decoration:none;color:#64748b;font-weight:650}
+.site-nav a:hover,.site-nav a[aria-current=page]{color:var(--accent)}
+.site-nav a[aria-current=page]{background:#eff6ff;border-radius:8px;padding:9px 12px}
+.wrap{max-width:980px;padding:30px 18px 18px}
+.breadcrumb{display:flex;align-items:center;gap:9px;font-size:.85rem;color:#94a3b8;margin:0 0 30px}
+.breadcrumb a{color:#64748b;text-decoration:none}
+.breadcrumb a:hover{color:var(--accent)}
+.tool-hero{background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px 34px;margin-bottom:24px;box-shadow:0 6px 24px #17233d06}
+.tool-hero-top{display:flex;align-items:center;gap:16px;margin-bottom:17px}
+.hero-icon{width:58px;height:58px;display:grid;place-items:center;border-radius:16px;background:#eff6ff;font-size:29px}
+.hero-badge{background:#dcfce7;color:#166534;font-size:.72rem;font-weight:750;padding:7px 11px;border-radius:20px;margin-left:auto}
+.tool-hero h1{font-size:2.35rem;letter-spacing:-.045em}
+.tool-hero .intro{margin:10px 0 0}
+.hero-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.hero-chips span{font-size:.75rem;font-weight:650;color:#475569;background:#f1f5f9;border-radius:7px;padding:7px 10px}
+.card{box-shadow:0 3px 16px #17233d06}
+.card h2{letter-spacing:-.015em}
+.fields h2{color:#1e40af}
+button{transition:background .18s ease,transform .18s ease}
+button:active{transform:translateY(1px)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #93c5fd;outline-offset:3px}
+.site-footer{border-top:1px solid var(--line);background:#fff;margin-top:35px}
+.site-footer-inner{max-width:980px;margin:auto;padding:20px 18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.82rem;color:#64748b}
+.site-footer a{color:#2563eb;text-decoration:none;font-weight:650}
+@media(max-width:650px){.site-header-inner{padding:12px 16px}.site-nav{gap:12px}.site-nav a{font-size:.8rem}.site-brand{font-size:.86rem}.site-brand-mark{width:31px;height:31px}.wrap{padding:18px 12px}.breadcrumb{margin-bottom:18px}.tool-hero{padding:23px 19px}.tool-hero h1{font-size:1.9rem}.hero-icon{width:48px;height:48px}.hero-badge{font-size:.65rem}.site-footer-inner{padding:18px 12px}}
 </style>
 </head>
-<body><main class="wrap">
-<div class="eyebrow">Free interactive analytics tool</div><h1>Impact Analyzer</h1>
-<p class="muted intro">Did your new feature improve conversion? Compare a Control group with a Treatment group, quantify the effect, and learn how to interpret statistical significance. All calculations run locally in your browser.</p>
+<body>
+<header class="site-header"><div class="site-header-inner">
+  <a class="site-brand" href="/" aria-label="Christian Magliano homepage"><span class="site-brand-mark">◈</span><span>Christian Magliano</span></a>
+  <nav class="site-nav" aria-label="Main navigation"><a href="/portfolio/">Portfolio</a><a href="/tools/" aria-current="page">Tools</a></nav>
+</div></header>
+<main class="wrap">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Tools</a><span>›</span><span aria-current="page">Impact Analyzer</span></nav>
+<section class="tool-hero">
+  <div class="tool-hero-top"><div class="hero-icon" aria-hidden="true">🧪</div><span class="hero-badge">● FREE TOOL</span></div>
+  <div class="eyebrow">Interactive Analytics Tools / Experimentation</div>
+  <h1>Impact Analyzer</h1>
+  <p class="muted intro">Did your new feature improve conversion? Compare a Control group with a Treatment group, quantify the effect, and learn how to interpret statistical significance. All calculations run locally in your browser.</p>
+  <div class="hero-chips"><span>A/B Testing</span><span>Statistical Significance</span><span>Product Analytics</span></div>
+</section>
 <section class="card"><h2>1. What are you comparing?</h2><p><b>Control</b> represents the original experience (for example, the existing app version). <b>Treatment</b> represents the changed experience (for example, a new onboarding flow). A <b>conversion</b> is the action you want users to complete.</p><div class="explain"><b>Example:</b> You release a redesigned registration screen. Count how many users saw each version and how many completed registration. Enter unique users, not the number of events they generated.</div></section>
 <section class="card"><h2>2. Enter your experiment data</h2><div class="grid"><div class="fields"><h2>Control · Original version</h2><div class="field"><label for="controlN">Exposed users <span class="info" title="Unique eligible users exposed to the original experience.">ⓘ</span></label><input id="controlN" type="number" min="1" step="1" placeholder="e.g. 10000" inputmode="numeric"><p class="hint">How many unique users experienced the original version?</p></div><div class="field"><label for="controlC">Converted users <span class="info" title="Unique exposed Control users who completed the goal.">ⓘ</span></label><input id="controlC" type="number" min="0" step="1" placeholder="e.g. 1200" inputmode="numeric"><p class="hint">How many of those users completed the goal?</p></div></div><div class="fields"><h2>Treatment · New version</h2><div class="field"><label for="treatmentN">Exposed users <span class="info" title="Unique eligible users exposed to the new experience.">ⓘ</span></label><input id="treatmentN" type="number" min="1" step="1" placeholder="e.g. 10200" inputmode="numeric"><p class="hint">How many unique users experienced the new version?</p></div><div class="field"><label for="treatmentC">Converted users <span class="info" title="Unique exposed Treatment users who completed the goal.">ⓘ</span></label><input id="treatmentC" type="number" min="0" step="1" placeholder="e.g. 1350" inputmode="numeric"><p class="hint">How many of those users completed the goal?</p></div></div></div>
 <div class="field" style="max-width:300px"><label for="alpha">Significance threshold (α) <span class="info" title="The preselected probability of a false positive under the statistical test's assumptions.">ⓘ</span></label><select id="alpha"><option value="0.05">5% (95% confidence level)</option><option value="0.10">10% (90% confidence level)</option><option value="0.01">1% (99% confidence level)</option></select><p class="hint">Ideally choose this before looking at results.</p></div><div class="actions"><button type="button" id="analyze">Analyze experiment</button><button type="button" class="secondary" id="example">Load synthetic example</button><button type="button" class="secondary" id="clear">Clear</button></div><p id="error" class="error" role="alert"></p></section>
 <section id="results" class="card" hidden aria-live="polite"><h2>3. Experiment results</h2><div class="grid"><div class="kpi"><span>Control conversion rate</span><strong id="controlCVR"></strong></div><div class="kpi"><span>Treatment conversion rate</span><strong id="treatmentCVR"></strong></div><div class="kpi"><span>Absolute difference</span><strong id="absolute"></strong><small class="muted">Percentage points (pp)</small></div><div class="kpi"><span>Relative uplift</span><strong id="uplift"></strong><small class="muted">Relative to Control CVR</small></div><div class="kpi"><span>Two-sided Z-test p-value</span><strong id="pvalue"></strong></div><div class="kpi"><span>95% CI for absolute difference</span><strong id="ci" style="font-size:1.35rem"></strong><small class="muted">Unpooled Wald interval (illustrative)</small></div></div><div class="explain" style="margin-top:18px"><b id="headline"></b><p id="interpretation" style="margin-bottom:0"></p></div><p class="muted" id="assumption"></p></section>
 <section class="card"><h2>4. Learn how to interpret the metrics</h2><details><summary>Conversion rate (CVR)</summary><p>CVR = converted users ÷ exposed users. It measures the proportion of exposed users who completed the target action.</p></details><details><summary>Absolute difference vs. relative uplift</summary><p>Absolute difference = Treatment CVR − Control CVR, expressed in <b>percentage points</b>. Relative uplift = (Treatment CVR − Control CVR) ÷ Control CVR. A move from 10% to 12% means <b>+2 percentage points</b> and <b>+20% relative uplift</b>.</p></details><details><summary>What does the p-value mean?</summary><p>The two-sided p-value describes how unusual a difference at least this extreme would be <b>if the two underlying conversion probabilities were equal</b>, under the test's assumptions. It is <b>not</b> the probability that the null hypothesis is true.</p></details><details><summary>What is statistical significance?</summary><p>When p &lt; α, the observed difference is called statistically significant. This does not guarantee that the effect is important in practice or caused by the feature. Random assignment, data quality, appropriate stopping rules, and measurement consistency matter.</p></details><details><summary>What does a confidence interval tell us?</summary><p>A confidence interval provides a range of effect sizes compatible with the data under a statistical procedure. This demo uses a simple Wald interval, which can perform poorly for small samples or rare conversions. Do not use it as a substitute for a robust production analysis.</p></details><details><summary>When should I avoid the Z-test?</summary><p>The normal approximation can be unreliable when expected successes or failures are small. This demo flags groups with fewer than five successes or failures. For sparse data, consider Fisher's exact test or other appropriate methods.</p></details></section>
 <footer>Educational tool · Synthetic examples only · No data is uploaded or stored by this page. For rigorous experiment decisions, verify randomization, independence, exposure definitions, and your analysis plan.</footer>
-</main><script>
+</main><div class="site-footer"><div class="site-footer-inner"><span>© 2026 Christian Magliano · Analytics Playground</span><a href="/tools/">← Back to all tools</a></div></div><script>
 const el=id=>document.getElementById(id);
 function normalCDF(x){const t=1/(1+0.2316419*Math.abs(x));const d=Math.exp(-x*x/2)/Math.sqrt(2*Math.PI);const v=1-d*(.319381530*t-.356563782*t*t+1.781477937*t**3-1.821255978*t**4+1.330274429*t**5);return x>=0?v:1-v}
 function fmtPct(p){return (p*100).toFixed(2)+'%'}
