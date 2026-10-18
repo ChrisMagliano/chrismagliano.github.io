@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sample Size Calculator | Christian Magliano</title>
+<style>
+:root{--blue:#2563eb;--ink:#17233d;--muted:#64748b;--line:#e2e8f0;--bg:#f5f7fb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.55}a{color:var(--blue)}.nav{background:white;border-bottom:1px solid var(--line)}.nav-in{max-width:1120px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:750;text-decoration:none;color:var(--ink)}.nav-links{display:flex;gap:20px;font-size:14px}.wrap{max-width:1120px;margin:auto;padding:30px 22px 70px}.crumb{font-size:13px;color:var(--muted);margin-bottom:18px}.crumb a{text-decoration:none}.hero{margin-bottom:28px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:1.4px;color:var(--blue);text-transform:uppercase}.hero h1{font-size:clamp(30px,4vw,43px);letter-spacing:-1.3px;margin:9px 0}.hero p{max-width:780px;color:var(--muted);margin:0}.pill{display:inline-block;background:#eff6ff;color:#1d4ed8;border-radius:100px;font-size:12px;font-weight:700;padding:5px 11px;margin:18px 6px 0 0}.layout{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 3px 15px rgba(15,23,42,.025)}.card h2{font-size:19px;margin:0 0 6px}.hint{color:var(--muted);font-size:13px;margin:0 0 18px}.field{margin:17px 0}.field label{font-weight:650;font-size:14px;display:block;margin-bottom:5px}.help{font-size:12px;color:var(--muted);margin:5px 0 0}input,select{width:100%;padding:12px 13px;border:1px solid #cbd5e1;border-radius:9px;font:inherit;background:white;color:var(--ink)}input:focus,select:focus{outline:2px solid #bfdbfe;border-color:var(--blue)}.two{display:grid;grid-template-columns:1fr 1fr;gap:13px}.actions{display:flex;gap:10px;margin-top:20px}.btn{border:0;background:var(--blue);color:white;padding:12px 17px;border-radius:9px;cursor:pointer;font:inherit;font-weight:700}.btn:hover{background:#1d4ed8}.btn.secondary{background:#eff6ff;color:#1d4ed8}.btn.secondary:hover{background:#dbeafe}.results{display:none}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.metric{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:17px}.metric .label{font-size:12px;color:var(--muted)}.metric strong{display:block;font-size:clamp(23px,3vw,31px);letter-spacing:-.6px;margin:5px 0}.metric small{font-size:11px;color:var(--muted)}.wide{grid-column:1/-1}.notice{padding:13px 15px;border-radius:10px;background:#eff6ff;color:#1e40af;font-size:13px;margin-top:18px}.warning{background:#fff7ed;color:#9a3412}.error{color:#b91c1c;font-size:13px;min-height:20px;margin-top:10px}.bar{height:12px;background:#e2e8f0;border-radius:20px;overflow:hidden;margin-top:10px}.bar>div{height:100%;background:var(--blue);width:0}.barline{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:6px}.education{margin-top:20px}.education h2{font-size:20px;margin:0 0 12px}details{border-top:1px solid var(--line);padding:15px 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:650}details p{font-size:14px;color:#475569;margin-bottom:4px}.footer{font-size:12px;color:var(--muted);margin-top:30px}.empty{display:flex;min-height:320px;align-items:center;justify-content:center;text-align:center;color:var(--muted);flex-direction:column;gap:10px}.empty .symbol{font-size:36px}.note{font-size:12px;color:var(--muted);margin-top:12px}@media(max-width:800px){.layout{grid-template-columns:1fr}.nav-in{padding:14px 18px}.wrap{padding:24px 16px 55px}}@media(max-width:430px){.two,.metrics{grid-template-columns:1fr}.wide{grid-column:auto}.card{padding:19px}.nav-links{gap:10px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-in"><a class="brand" href="/">Christian Magliano</a><nav class="nav-links"><a href="/portfolio/">Portfolio</a><a href="/tools/">Tools</a></nav></div></header>
+<main class="wrap">
+<div class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / Sample Size Calculator</div>
+<section class="hero"><div class="eyebrow">Experiment design · Statistical power</div><h1>Sample Size Calculator</h1><p>Plan your A/B test before launching it. Estimate how many users you need to detect a meaningful change in conversion rate—and how long collecting them might take.</p><span class="pill">Two-sided Z-test</span><span class="pill">Binary conversion metric</span><span class="pill">Educational tool</span></section>
+<div class="layout">
+<section class="card"><h2>Experiment assumptions</h2><p class="hint">Enter your expected baseline and the smallest improvement worth detecting.</p>
+<div class="field"><label for="baseline">Baseline conversion rate (%)</label><input id="baseline" type="number" min="0.01" max="99.99" step="any" placeholder="e.g. 12"><p class="help">The current conversion rate of your Control group.</p></div>
+<div class="field"><label for="mde">Minimum detectable effect (MDE, % relative)</label><input id="mde" type="number" min="0.01" step="any" placeholder="e.g. 10"><p class="help">Smallest relative change you want the test to detect. Example: 12% baseline + 10% relative = 13.2% Treatment CVR.</p></div>
+<div class="two"><div class="field"><label for="alpha">Significance level (α)</label><select id="alpha"><option value="0.1">10% (90% confidence)</option><option value="0.05" selected>5% (95% confidence)</option><option value="0.01">1% (99% confidence)</option></select><p class="help">Controls the false-positive rate under the null.</p></div><div class="field"><label for="power">Statistical power</label><select id="power"><option value="0.8" selected>80%</option><option value="0.9">90%</option><option value="0.95">95%</option></select><p class="help">Probability of detecting the assumed effect.</p></div></div>
+<div class="two"><div class="field"><label for="traffic">Eligible users per day (optional)</label><input id="traffic" type="number" min="1" step="1" placeholder="e.g. 2000"><p class="help">Total daily users across both groups.</p></div><div class="field"><label for="allocation">Treatment allocation</label><select id="allocation"><option value="0.5" selected>50% Treatment / 50% Control</option><option value="0.4">40% Treatment / 60% Control</option><option value="0.3">30% Treatment / 70% Control</option><option value="0.2">20% Treatment / 80% Control</option></select><p class="help">Share of users assigned to Treatment.</p></div></div>
+<div class="actions"><button class="btn" id="calculate">Calculate sample size</button><button class="btn secondary" id="example">Load example</button><button class="btn secondary" id="clear">Clear</button></div><div class="error" id="error" role="alert"></div>
+</section>
+<section class="card"><h2>Required sample</h2><p class="hint">Estimated for an independent, randomized two-group experiment.</p>
+<div class="empty" id="empty"><div class="symbol">📊</div><strong>Your results will appear here</strong><span>Enter assumptions and select <b>Calculate sample size</b>, or load a synthetic example.</span></div>
+<div class="results" id="results"><div class="metrics"><div class="metric"><span class="label">Control users</span><strong id="ncontrol">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Treatment users</span><strong id="ntreatment">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Total sample size</span><strong id="ntotal">—</strong><small>Across both groups</small></div><div class="metric"><span class="label">Estimated duration</span><strong id="duration">—</strong><small id="durationhelp">Enter daily traffic to estimate</small></div><div class="metric wide"><span class="label">Expected conversion rates</span><strong id="rates">—</strong><div class="bar"><div id="effectbar"></div></div><div class="barline"><span>Control baseline</span><span>Treatment target</span></div></div></div><div class="notice" id="interpretation"></div><p class="note">Planning estimate using a normal approximation with an unpooled variance under the alternative and pooled variance under the null. Actual achieved power can differ due to rounding, traffic patterns, and test design.</p></div>
+</section>
+</div>
+<section class="card education"><h2>Learn the concepts</h2><p class="hint">Understand the assumptions behind the calculator before using the result.</p>
+<details open><summary>What is sample size—and why does it matter?</summary><p>Sample size is the number of eligible, independently observed users needed in each group. Too few users can make a meaningful effect difficult to detect. More users generally improve sensitivity.</p></details>
+<details><summary>What is the Minimum Detectable Effect (MDE)?</summary><p>The MDE is the smallest change you want to have a reasonable chance of detecting. Here it is a <b>relative percentage</b>, not percentage points. Smaller MDEs require much larger samples.</p></details>
+<details><summary>What do significance and power mean?</summary><p>A 5% significance level sets the nominal Type I error probability under the null hypothesis. An 80% power target means that, if the assumed effect is real and model assumptions hold, the planned test has approximately an 80% chance of rejecting the null.</p></details>
+<details><summary>Why does a 50/50 split usually need fewer total users?</summary><p>For two groups with similar variability, equal allocation is generally the most sample-efficient design. An uneven split typically increases the total sample required.</p></details>
+<details><summary>Does the duration estimate guarantee a valid experiment?</summary><p>No. It assumes stable eligible daily traffic and independent assignment. Run through complete business cycles when relevant, avoid repeatedly peeking and stopping based on significance, and account for exclusions, missing events, clustering, multiple comparisons, and guardrail metrics.</p></details>
+<details><summary>Which statistical method is used?</summary><p>This calculator plans a two-sided two-proportion Z-test using a common normal-approximation sample-size formula. For extremely low conversion rates or rare outcomes, use a dedicated exact or simulation-based power analysis.</p></details>
+</section><div class="footer">Built by Christian Magliano · Educational analytics tool · <a href="/tools/">← Back to Tools</a></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const fmt=n=>n.toLocaleString('en-US');
+// Inverse standard normal CDF: Acklam rational approximation.
+function invNorm(p){
+ if(!(p>0&&p<1))throw new Error('Probability must be between zero and one');
+ const a=[-39.69683028665376,220.9460984245205,-275.9285104469687,138.357751867269,-30.66479806614716,2.506628277459239];
+ const b=[-54.47609879822406,161.5858368580409,-155.6989798598866,66.80131188771972,-13.28068155288572];
+ const c=[-0.007784894002430293,-0.3223964580411365,-2.400758277161838,-2.549732539343734,4.374664141464968,2.938163982698783];
+ const d=[0.007784695709041462,0.3224671290700398,2.445134137142996,3.754408661907416];
+ const low=.02425;let q,r;
+ if(p<low){q=Math.sqrt(-2*Math.log(p));return (((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1)}
+ if(p>1-low){q=Math.sqrt(-2*Math.log(1-p));return -(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1)}
+ q=p-.5;r=q*q;return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q/(((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1);
+}
+function calculate(){
+ $('error').textContent='';$('results').style.display='none';$('empty').style.display='flex';
+ const baselineRaw=$('baseline').value.trim(),mdeRaw=$('mde').value.trim(),trafficRaw=$('traffic').value.trim();
+ const baseline=Number(baselineRaw),mde=Number(mdeRaw),traffic=Number(trafficRaw),alpha=Number($('alpha').value),power=Number($('power').value),alloc=Number($('allocation').value);
+ if(!baselineRaw||!mdeRaw||!Number.isFinite(baseline)||!Number.isFinite(mde)||baseline<=0||baseline>=100||mde<=0){$('error').textContent='Enter a baseline between 0% and 100% and a positive relative MDE.';return}
+ const p0=baseline/100,p1=p0*(1+mde/100);
+ if(p1>=1){$('error').textContent='The implied Treatment CVR must be below 100%. Reduce the MDE.';return}
+ if(trafficRaw&&(!Number.isSafeInteger(traffic)||traffic<=0)){$('error').textContent='Daily eligible traffic must be a positive whole number.';return}
+ const r=alloc/(1-alloc); // Treatment-to-Control sample ratio
+ const pooled=(p0+r*p1)/(1+r);
+ const zA=invNorm(1-alpha/2),zB=invNorm(power);
+ const nullTerm=zA*Math.sqrt(pooled*(1-pooled)*(1+1/r));
+ const altTerm=zB*Math.sqrt(p0*(1-p0)+p1*(1-p1)/r);
+ const nControlRaw=((nullTerm+altTerm)/(p1-p0))**2;
+ const nControl=Math.ceil(nControlRaw),nTreatment=Math.ceil(r*nControl);
+ const total=nControl+nTreatment;
+ if(!Number.isSafeInteger(total)||total<=0){$('error').textContent='The required sample is too large to represent safely. Increase the MDE.';return}
+ $('ncontrol').textContent=fmt(nControl);$('ntreatment').textContent=fmt(nTreatment);$('ntotal').textContent=fmt(total);
+ $('duration').textContent=trafficRaw?fmt(Math.ceil(total/traffic))+' days':'—';
+ $('durationhelp').textContent=trafficRaw?'Based on '+fmt(traffic)+' eligible users/day':'Enter daily traffic to estimate';
+ $('rates').textContent=(100*p0).toFixed(2)+'% → '+(100*p1).toFixed(2)+'%';
+ $('effectbar').style.width=Math.min(100,100*p0/p1)+'%';
+ $('interpretation').textContent=`To detect an increase from ${(100*p0).toFixed(2)}% to ${(100*p1).toFixed(2)}% (${mde.toFixed(2)}% relative uplift) with ${(100*power).toFixed(0)}% power and a ${(100*alpha).toFixed(0)}% two-sided significance level, plan for approximately ${fmt(total)} users in total.${trafficRaw?' At the assumed traffic level, that is about '+fmt(Math.ceil(total/traffic))+' days of enrollment.':''}`;
+ if(p0<.01||p1<.01||nControl*p0<10||nTreatment*p1<10){$('interpretation').classList.add('warning');$('interpretation').textContent+=' Caution: rare conversions can make the normal approximation less reliable.'}else $('interpretation').classList.remove('warning');
+ $('empty').style.display='none';$('results').style.display='block';
+}
+$('calculate').addEventListener('click',calculate);
+$('example').addEventListener('click',()=>{$('baseline').value='12';$('mde').value='10';$('alpha').value='0.05';$('power').value='0.8';$('traffic').value='2000';$('allocation').value='0.5';calculate()});
+$('clear').addEventListener('click',()=>{['baseline','mde','traffic'].forEach(id=>$(id).value='');$('alpha').value='0.05';$('power').value='0.8';$('allocation').value='0.5';$('error').textContent='';$('results').style.display='none';$('empty').style.display='flex'});
+</script>
+</body></html>
