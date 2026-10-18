@@ -1,43 +1,27 @@
 
 ---
-layout: archive
-title: "Analytics Tools"
 permalink: /tools/
+title: "Analytics Tools"
 author_profile: true
 ---
 
-Explore interactive tools I've developed to support
-data-driven decision-making, experimentation,
-and marketing analytics.
+Welcome to my collection of interactive tools for
+Product Analytics, A/B Testing, and Data Science.
 
-All tools are free to use and run directly in your browser.
-
----
+These tools are free to use and run directly in your browser.
 
 ## Impact Analyzer
 
-**A/B Testing · Statistical Significance · Product Analytics**
+**A/B Testing | Statistical Significance | Product Analytics**
 
-Evaluate the impact of product changes by comparing
-Control and Treatment conversion rates.
+Compare Control and Treatment groups to evaluate the
+impact of product changes.
 
-The tool provides:
-
-- Conversion Rate (CVR) comparison
+**Key features:**
+- Conversion Rate comparison
 - Absolute and relative uplift
-- Statistical significance (two-sided Z-test)
-- P-value and confidence interval
-- Educational explanations of statistical results
+- Statistical significance testing
+- Confidence intervals
+- Educational explanations
 
-<a href="/tools/impact-analyzer/"
-   class="btn btn--primary">
-   Launch Impact Analyzer →
-</a>
-
----
-
-## More tools coming soon
-
-I'm working on additional interactive tools for
-experimentation, predictive modeling, and
-marketing optimization.
+[Launch Impact Analyzer](/tools/impact-analyzer/){: .btn .btn--primary}
