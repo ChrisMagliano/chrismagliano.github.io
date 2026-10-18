@@ -228,15 +228,13 @@ author_profile: true
       Launch Tool ↗
       </a>
     </article>
-
   </div>
-
-  
-<article class="tool-card">
+ 
+  <article class="tool-card">
   <div class="tool-card-header">
     <div class="tool-icon">📈</div>
     <span class="tool-status">AVAILABLE</span>
-  </div>
+    </div>
 
   <h3>Compound Interest Simulator</h3>
 
@@ -288,6 +286,5 @@ author_profile: true
     Launch Tool ↗
   </a>
 </article>
-
 
 </div>
