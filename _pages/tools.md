@@ -173,7 +173,6 @@ author_profile: true
       A collection of interactive tools designed to make
       experimentation, statistics, and data-driven
       decision-making more accessible.
-      Explore, experiment, and turn data into insights.
     </p>
   </section>
 
