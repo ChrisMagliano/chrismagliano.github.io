@@ -231,4 +231,63 @@ author_profile: true
 
   </div>
 
+  
+<article class="tool-card">
+  <div class="tool-card-header">
+    <div class="tool-icon">📈</div>
+    <span class="tool-status">AVAILABLE</span>
+  </div>
+
+  <h3>Compound Interest Simulator</h3>
+
+  <p class="tool-description">
+    Explore how investments grow over time through
+    compound interest, recurring contributions, and
+    different compounding frequencies. Visualize
+    investment growth and the impact of inflation
+    with interactive charts and educational insights.
+  </p>
+
+  <div class="tool-tags">
+    <span class="tool-tag">Finance</span>
+    <span class="tool-tag">Compound Interest</span>
+    <span class="tool-tag">Financial Modeling</span>
+  </div>
+
+  <a class="tool-button"
+     href="{{ '/tools/compound-interest/' | relative_url }}">
+    Launch Tool ↗
+  </a>
+</article>
+
+
+<article class="tool-card">
+  <div class="tool-card-header">
+    <div class="tool-icon">📉</div>
+    <span class="tool-status">AVAILABLE</span>
+  </div>
+
+  <h3>Regression Lab</h3>
+
+  <p class="tool-description">
+    Explore regression modeling through interactive
+    data visualization. Generate synthetic datasets
+    or upload your own CSV, compare linear and
+    polynomial models, and evaluate predictive
+    performance using R², MAE, RMSE, and residual analysis.
+  </p>
+
+  <div class="tool-tags">
+    <span class="tool-tag">Machine Learning</span>
+    <span class="tool-tag">Regression</span>
+    <span class="tool-tag">Predictive Modeling</span>
+  </div>
+
+  <a class="tool-button"
+     href="{{ '/tools/regression-lab/' | relative_url }}">
+    Launch Tool ↗
+  </a>
+</article>
+
+
 </div>
