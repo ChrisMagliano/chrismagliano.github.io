@@ -230,7 +230,7 @@ author_profile: true
     </article>
   </div>
  
-  <article class="tool-card">
+    <article class="tool-card">
   <div class="tool-card-header">
     <div class="tool-icon">📈</div>
     <span class="tool-status">AVAILABLE</span>
