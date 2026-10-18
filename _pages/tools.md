@@ -207,7 +207,7 @@ author_profile: true
     <article class="tool-card">
       <div class="tool-card-header">
         <div class="tool-icon">📊</div>
-        <span class="tool-status soon">COMING SOON</span>
+        <span class="tool-status">AVAILABLE</span>
       </div>
 
       <h3>Sample Size Calculator</h3>
@@ -223,9 +223,10 @@ author_profile: true
         <span class="tool-tag">Statistical Power</span>
       </div>
 
-      <span class="tool-button disabled">
-        In Development
-      </span>
+      <a class="tool-button"
+       href="{{ '/tools/sample-size-calculator/' | relative_url }}">
+      Launch Tool ↗
+      </a>
     </article>
 
   </div>
