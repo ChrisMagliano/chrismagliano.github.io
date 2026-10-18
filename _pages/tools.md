@@ -294,7 +294,7 @@ author_profile: true
       </div>
 
       <a class="tool-button"
-         href="{{ '/tools/compound-interest/' | relative_url }}">
+         href="{{ '/tools/compound-interest-simulator/' | relative_url }}">
         Launch Tool ↗
       </a>
 
