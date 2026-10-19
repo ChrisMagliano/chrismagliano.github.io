@@ -223,7 +223,7 @@ author_profile: true
       <p class="tool-description">
         Compare Control and Treatment groups, measure
         conversion uplift, and evaluate statistical
-        significance with clear, educational explanations.
+        significance.
       </p>
 
       <div class="tool-tags">
@@ -284,7 +284,7 @@ author_profile: true
         compound interest, recurring contributions, and
         different compounding frequencies. Visualize
         investment growth and the impact of inflation
-        with interactive charts and educational insights.
+        with interactive charts.
       </p>
 
       <div class="tool-tags">
