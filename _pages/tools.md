@@ -332,6 +332,38 @@ author_profile: true
 
     </article>
 
+
+    <!-- 5. MONTECARLO SIMULATOR -->
+
+    <article class="tool-card">
+
+      <div class="tool-card-header">
+        <div class="tool-icon">📉</div>
+        <span class="tool-status">AVAILABLE</span>
+      </div>
+
+      <h3>Monte Carlo Simulator</h3>
+
+      <p class="tool-description">
+        Explore uncertainty through thousands of simulated
+      scenarios. Visualize probability distributions,
+      estimate potential outcomes, and calculate the
+      likelihood of reaching your revenue target.
+      </p>
+
+      <div class="tool-tags">
+        <span class="tool-tag">Monte Carlo Simulation</span>
+        <span class="tool-tag">Probability & Statistics</span>
+        <span class="tool-tag">Risk Analysis</span>
+      </div>
+
+      <a class="tool-button"
+         href="{{ '/tools/montecarlo-simulator/' | relative_url }}">
+        Launch Tool ↗
+      </a>
+
+    </article>
+
   </div>
   <!-- END TOOLS GRID -->
 
