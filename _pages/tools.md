@@ -398,6 +398,37 @@ author_profile: true
     </article>
 
 
+    <!-- 7. TIME SERIES FORECASTING -->
+
+    <article class="tool-card">
+
+      <div class="tool-card-header">
+        <div class="tool-icon">📈</div>
+        <span class="tool-status">AVAILABLE</span>
+      </div>
+
+      <h3>Time-Series Forecasting</h3>
+
+      <p class="tool-description">
+        Forecast future trends using your own data.
+    Compare forecasting models, evaluate accuracy
+    through backtesting, and explore predictions.
+      </p>
+
+      <div class="tool-tags">
+        <span class="tool-tag">Time Series</span>
+        <span class="tool-tag">Forecasting</span>
+        <span class="tool-tag">Predictive Modeling</span>
+      </div>
+
+      <a class="tool-button"
+         href="{{ '/tools/time-series-forecasting/' | relative_url }}">
+        Launch Tool ↗
+      </a>
+
+    </article>
+
+
   </div>
   <!-- END TOOLS GRID -->
 
