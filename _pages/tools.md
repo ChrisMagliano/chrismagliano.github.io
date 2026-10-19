@@ -273,7 +273,7 @@ author_profile: true
     <article class="tool-card">
 
       <div class="tool-card-header">
-        <div class="tool-icon">📈</div>
+        <div class="tool-icon">💰</div>
         <span class="tool-status">AVAILABLE</span>
       </div>
 
@@ -338,7 +338,7 @@ author_profile: true
     <article class="tool-card">
 
       <div class="tool-card-header">
-        <div class="tool-icon">📉</div>
+        <div class="tool-icon">🎲</div>
         <span class="tool-status">AVAILABLE</span>
       </div>
 
