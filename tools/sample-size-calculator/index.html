@@ -4,36 +4,112 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sample Size Calculator | Christian Magliano</title>
 <style>
-:root{--blue:#2563eb;--ink:#17233d;--muted:#64748b;--line:#e2e8f0;--bg:#f5f7fb}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.55}a{color:var(--blue)}.nav{background:white;border-bottom:1px solid var(--line)}.nav-in{max-width:1120px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:750;text-decoration:none;color:var(--ink)}.nav-links{display:flex;gap:20px;font-size:14px}.wrap{max-width:1120px;margin:auto;padding:30px 22px 70px}.crumb{font-size:13px;color:var(--muted);margin-bottom:18px}.crumb a{text-decoration:none}.hero{margin-bottom:28px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:1.4px;color:var(--blue);text-transform:uppercase}.hero h1{font-size:clamp(30px,4vw,43px);letter-spacing:-1.3px;margin:9px 0}.hero p{max-width:780px;color:var(--muted);margin:0}.pill{display:inline-block;background:#eff6ff;color:#1d4ed8;border-radius:100px;font-size:12px;font-weight:700;padding:5px 11px;margin:18px 6px 0 0}.layout{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 3px 15px rgba(15,23,42,.025)}.card h2{font-size:19px;margin:0 0 6px}.hint{color:var(--muted);font-size:13px;margin:0 0 18px}.field{margin:17px 0}.field label{font-weight:650;font-size:14px;display:block;margin-bottom:5px}.help{font-size:12px;color:var(--muted);margin:5px 0 0}input,select{width:100%;padding:12px 13px;border:1px solid #cbd5e1;border-radius:9px;font:inherit;background:white;color:var(--ink)}input:focus,select:focus{outline:2px solid #bfdbfe;border-color:var(--blue)}.two{display:grid;grid-template-columns:1fr 1fr;gap:13px}.actions{display:flex;gap:10px;margin-top:20px}.btn{border:0;background:var(--blue);color:white;padding:12px 17px;border-radius:9px;cursor:pointer;font:inherit;font-weight:700}.btn:hover{background:#1d4ed8}.btn.secondary{background:#eff6ff;color:#1d4ed8}.btn.secondary:hover{background:#dbeafe}.results{display:none}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.metric{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:17px}.metric .label{font-size:12px;color:var(--muted)}.metric strong{display:block;font-size:clamp(23px,3vw,31px);letter-spacing:-.6px;margin:5px 0}.metric small{font-size:11px;color:var(--muted)}.wide{grid-column:1/-1}.notice{padding:13px 15px;border-radius:10px;background:#eff6ff;color:#1e40af;font-size:13px;margin-top:18px}.warning{background:#fff7ed;color:#9a3412}.error{color:#b91c1c;font-size:13px;min-height:20px;margin-top:10px}.bar{height:12px;background:#e2e8f0;border-radius:20px;overflow:hidden;margin-top:10px}.bar>div{height:100%;background:var(--blue);width:0}.barline{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:6px}.education{margin-top:20px}.education h2{font-size:20px;margin:0 0 12px}details{border-top:1px solid var(--line);padding:15px 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:650}details p{font-size:14px;color:#475569;margin-bottom:4px}.footer{font-size:12px;color:var(--muted);margin-top:30px}.empty{display:flex;min-height:320px;align-items:center;justify-content:center;text-align:center;color:var(--muted);flex-direction:column;gap:10px}.empty .symbol{font-size:36px}.note{font-size:12px;color:var(--muted);margin-top:12px}@media(max-width:800px){.layout{grid-template-columns:1fr}.nav-in{padding:14px 18px}.wrap{padding:24px 16px 55px}}@media(max-width:430px){.two,.metrics{grid-template-columns:1fr}.wide{grid-column:auto}.card{padding:19px}.nav-links{gap:10px}}
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#17233d;background:#f5f7fb}*{box-sizing:border-box}body{margin:0;padding:38px 18px}.wrap{max-width:980px;margin:auto}h1{font-size:2.25rem;margin:0 0 9px}h2{font-size:1.15rem;margin:0 0 16px}p{line-height:1.65}.muted{color:#64748b}.eyebrow{font-size:.78rem;font-weight:750;letter-spacing:.09em;color:#2563eb;text-transform:uppercase}.intro{max-width:760px}.card{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:24px;margin:18px 0;box-shadow:0 3px 14px #17233d08}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.fields{margin:0}.fields h2{margin-bottom:8px}.field{margin:18px 0}.field label{display:block;font-size:.91rem;font-weight:650;margin-bottom:6px}.hint{font-size:.83rem;color:#64748b;margin:5px 0 0}.field input,.field select{display:block;width:100%;padding:12px;border:1px solid #cbd5e1;border-radius:9px;font-size:1rem;background:white;color:#17233d}.field input:focus,.field select:focus{outline:2px solid #93c5fd;border-color:#2563eb}.info{cursor:help;color:#2563eb;border-bottom:1px dotted #2563eb}button{background:#2563eb;color:white;border:0;border-radius:9px;padding:13px 19px;font-size:1rem;font-weight:650;cursor:pointer}button:hover{background:#1d4ed8}.secondary{background:#eef2ff;color:#1d4ed8}.secondary:hover{background:#dbeafe}.actions{display:flex;flex-wrap:wrap;gap:10px}.error{color:#b91c1c;font-weight:600}.kpi{border:1px solid #e2e8f0;border-radius:12px;padding:17px}.kpi span{font-size:.85rem;color:#64748b}.kpi strong{font-size:1.75rem;display:block;margin-top:6px}.explain{background:#eff6ff;border-left:4px solid #2563eb;padding:15px 18px;border-radius:7px}.success{color:#15803d}.warn{color:#b45309}.negative{color:#b91c1c}details{border-top:1px solid #e2e8f0;padding:14px 0}summary{cursor:pointer;font-weight:650}code{background:#f1f5f9;padding:2px 5px;border-radius:4px}footer{font-size:.83rem;color:#64748b;margin:28px 0}#results[hidden]{display:none}@media(max-width:650px){body{padding:22px 12px}.grid{grid-template-columns:1fr}.card{padding:18px}h1{font-size:1.85rem}}
+
+/* Portfolio visual identity */
+:root{--accent:#2563eb;--ink:#17233d;--line:#e2e8f0}
+body{padding:0;background:#f5f7fb}
+.site-header{background:#fff;border-bottom:1px solid var(--line)}
+.site-header-inner{max-width:1100px;margin:auto;min-height:76px;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.site-brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-size:1rem;font-weight:800;letter-spacing:-.025em}
+.site-brand-mark{width:37px;height:37px;border-radius:11px;background:#eff6ff;color:var(--accent);display:grid;place-items:center;font-size:20px}
+.site-nav{display:flex;align-items:center;gap:24px}
+.site-nav a{font-size:.88rem;text-decoration:none;color:#64748b;font-weight:650}
+.site-nav a:hover,.site-nav a[aria-current=page]{color:var(--accent)}
+.site-nav a[aria-current=page]{background:#eff6ff;border-radius:8px;padding:9px 12px}
+.wrap{max-width:980px;padding:30px 18px 18px}
+.breadcrumb{display:flex;align-items:center;gap:9px;font-size:.85rem;color:#94a3b8;margin:0 0 30px}
+.breadcrumb a{color:#64748b;text-decoration:none}
+.breadcrumb a:hover{color:var(--accent)}
+.tool-hero{background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px 34px;margin-bottom:24px;box-shadow:0 6px 24px #17233d06}
+.tool-hero-top{display:flex;align-items:center;gap:16px;margin-bottom:17px}
+.hero-icon{width:58px;height:58px;display:grid;place-items:center;border-radius:16px;background:#eff6ff;font-size:29px}
+.hero-badge{background:#dcfce7;color:#166534;font-size:.72rem;font-weight:750;padding:7px 11px;border-radius:20px;margin-left:auto}
+.tool-hero h1{font-size:2.35rem;letter-spacing:-.045em}
+.tool-hero .intro{margin:10px 0 0}
+.hero-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.hero-chips span{font-size:.75rem;font-weight:650;color:#475569;background:#f1f5f9;border-radius:7px;padding:7px 10px}
+.card{box-shadow:0 3px 16px #17233d06}
+.card h2{letter-spacing:-.015em}
+.fields h2{color:#1e40af}
+button{transition:background .18s ease,transform .18s ease}
+button:active{transform:translateY(1px)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #93c5fd;outline-offset:3px}
+.site-footer{border-top:1px solid var(--line);background:#fff;margin-top:35px}
+.site-footer-inner{max-width:980px;margin:auto;padding:20px 18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.82rem;color:#64748b}
+.site-footer a{color:#2563eb;text-decoration:none;font-weight:650}
+@media(max-width:650px){.site-header-inner{padding:12px 16px}.site-nav{gap:12px}.site-nav a{font-size:.8rem}.site-brand{font-size:.86rem}.site-brand-mark{width:31px;height:31px}.wrap{padding:18px 12px}.breadcrumb{margin-bottom:18px}.tool-hero{padding:23px 19px}.tool-hero h1{font-size:1.9rem}.hero-icon{width:48px;height:48px}.hero-badge{font-size:.65rem}.site-footer-inner{padding:18px 12px}}
+
+
+/* Sample Size Calculator: functional layout, shared Impact Analyzer identity */
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.layout>.card{margin:0;min-width:0}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.two .field{min-width:0}
+.field input,.field select{font-family:inherit}
+.help{font-size:.83rem;color:#64748b;margin:5px 0 0}
+.actions{margin-top:20px}
+.btn{font-family:inherit}
+.results{display:none}
+.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.metric{background:white;border:1px solid #e2e8f0;border-radius:12px;padding:17px;min-width:0}
+.metric .label{font-size:.85rem;color:#64748b}
+.metric strong{display:block;font-size:clamp(1.45rem,3vw,1.9rem);letter-spacing:-.02em;margin:5px 0;overflow-wrap:anywhere}
+.metric small{font-size:.75rem;color:#64748b}
+.wide{grid-column:1/-1}
+.notice{padding:15px 18px;border-left:4px solid #2563eb;border-radius:7px;background:#eff6ff;color:#1e40af;font-size:.9rem;margin-top:18px}
+.warning{background:#fff7ed;color:#9a3412;border-left-color:#f59e0b}
+.error{color:#b91c1c;font-size:.85rem;min-height:20px;margin-top:10px}
+.bar{height:12px;background:#e2e8f0;border-radius:20px;overflow:hidden;margin-top:10px}
+.bar>div{height:100%;background:#2563eb;width:0}
+.barline{display:flex;justify-content:space-between;gap:8px;font-size:.75rem;color:#64748b;margin-top:6px}
+.education{margin-top:20px}
+.education details p{font-size:.9rem;color:#475569}
+.empty{display:flex;min-height:320px;align-items:center;justify-content:center;text-align:center;color:#64748b;flex-direction:column;gap:10px}
+.empty .symbol{font-size:36px}
+.note{font-size:.78rem;color:#64748b;margin-top:12px}
+.tool-disclaimer{font-size:.83rem;color:#64748b;margin:28px 0}
+@media(max-width:800px){.layout{grid-template-columns:1fr}}
+@media(max-width:430px){.two,.metrics{grid-template-columns:1fr}.wide{grid-column:auto}.actions{flex-wrap:wrap}}
 </style>
 </head>
 <body>
-<header class="nav"><div class="nav-in"><a class="brand" href="/">Christian Magliano</a><nav class="nav-links"><a href="/portfolio/">Portfolio</a><a href="/tools/">Tools</a></nav></div></header>
+<header class="site-header"><div class="site-header-inner">
+  <a class="site-brand" href="/" aria-label="Christian Magliano homepage"><span class="site-brand-mark">◈</span><span>Christian Magliano</span></a>
+  <nav class="site-nav" aria-label="Main navigation"><a href="/portfolio/">Portfolio</a><a href="/tools/" aria-current="page">Tools</a></nav>
+</div></header>
 <main class="wrap">
-<div class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / Sample Size Calculator</div>
-<section class="hero"><div class="eyebrow">Experiment design · Statistical power</div><h1>Sample Size Calculator</h1><p>Plan your A/B test before launching it. Estimate how many users you need to detect a meaningful change in conversion rate—and how long collecting them might take.</p><span class="pill">Two-sided Z-test</span><span class="pill">Binary conversion metric</span><span class="pill">Educational tool</span></section>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Tools</a><span>›</span><span aria-current="page">Sample Size Calculator</span></nav>
+<section class="tool-hero">
+  <div class="tool-hero-top"><div class="hero-icon" aria-hidden="true">📐</div><span class="hero-badge">● FREE TOOL</span></div>
+  <div class="eyebrow">Interactive Analytics Tools / Experiment Design</div>
+  <h1>Sample Size Calculator</h1>
+  <p class="muted intro">Plan your A/B test before launching it. Estimate how many users you need to detect a meaningful change in conversion rate—and how long collecting them might take.</p>
+  <div class="hero-chips"><span>A/B Testing</span><span>Statistical Power</span><span>Experiment Design</span></div>
+</section>
 <div class="layout">
-<section class="card"><h2>Experiment assumptions</h2><p class="hint">Enter your expected baseline and the smallest improvement worth detecting.</p>
+<section class="card"><h2>1. Experiment assumptions</h2><p class="hint">Enter your expected baseline and the smallest improvement worth detecting.</p>
 <div class="field"><label for="baseline">Baseline conversion rate (%)</label><input id="baseline" type="number" min="0.01" max="99.99" step="any" placeholder="e.g. 12"><p class="help">The current conversion rate of your Control group.</p></div>
 <div class="field"><label for="mde">Minimum detectable effect (MDE, % relative)</label><input id="mde" type="number" min="0.01" step="any" placeholder="e.g. 10"><p class="help">Smallest relative change you want the test to detect. Example: 12% baseline + 10% relative = 13.2% Treatment CVR.</p></div>
 <div class="two"><div class="field"><label for="alpha">Significance level (α)</label><select id="alpha"><option value="0.1">10% (90% confidence)</option><option value="0.05" selected>5% (95% confidence)</option><option value="0.01">1% (99% confidence)</option></select><p class="help">Controls the false-positive rate under the null.</p></div><div class="field"><label for="power">Statistical power</label><select id="power"><option value="0.8" selected>80%</option><option value="0.9">90%</option><option value="0.95">95%</option></select><p class="help">Probability of detecting the assumed effect.</p></div></div>
 <div class="two"><div class="field"><label for="traffic">Eligible users per day (optional)</label><input id="traffic" type="number" min="1" step="1" placeholder="e.g. 2000"><p class="help">Total daily users across both groups.</p></div><div class="field"><label for="allocation">Treatment allocation</label><select id="allocation"><option value="0.5" selected>50% Treatment / 50% Control</option><option value="0.4">40% Treatment / 60% Control</option><option value="0.3">30% Treatment / 70% Control</option><option value="0.2">20% Treatment / 80% Control</option></select><p class="help">Share of users assigned to Treatment.</p></div></div>
 <div class="actions"><button class="btn" id="calculate">Calculate sample size</button><button class="btn secondary" id="example">Load example</button><button class="btn secondary" id="clear">Clear</button></div><div class="error" id="error" role="alert"></div>
 </section>
-<section class="card"><h2>Required sample</h2><p class="hint">Estimated for an independent, randomized two-group experiment.</p>
+<section class="card"><h2>2. Required sample</h2><p class="hint">Estimated for an independent, randomized two-group experiment.</p>
 <div class="empty" id="empty"><div class="symbol">📊</div><strong>Your results will appear here</strong><span>Enter assumptions and select <b>Calculate sample size</b>, or load a synthetic example.</span></div>
-<div class="results" id="results"><div class="metrics"><div class="metric"><span class="label">Control users</span><strong id="ncontrol">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Treatment users</span><strong id="ntreatment">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Total sample size</span><strong id="ntotal">—</strong><small>Across both groups</small></div><div class="metric"><span class="label">Estimated duration</span><strong id="duration">—</strong><small id="durationhelp">Enter daily traffic to estimate</small></div><div class="metric wide"><span class="label">Expected conversion rates</span><strong id="rates">—</strong><div class="bar"><div id="effectbar"></div></div><div class="barline"><span>Control baseline</span><span>Treatment target</span></div></div></div><div class="notice" id="interpretation"></div><p class="note">Planning estimate using a normal approximation with an unpooled variance under the alternative and pooled variance under the null. Actual achieved power can differ due to rounding, traffic patterns, and test design.</p></div>
+<div class="results" id="results"><div class="metrics"><div class="metric"><span class="label">Control users</span><strong id="ncontrol">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Treatment users</span><strong id="ntreatment">—</strong><small>Required exposed users</small></div><div class="metric"><span class="label">Total sample size</span><strong id="ntotal">—</strong><small>Across both groups</small></div><div class="metric"><span class="label">Estimated duration</span><strong id="duration">—</strong><small id="durationhelp">Enter daily traffic to estimate</small></div><div class="metric wide"><span class="label">Expected conversion rates</span><strong id="rates">—</strong><div class="bar"><div id="effectbar"></div></div><div class="barline"><span>Control baseline</span><span>Treatment target</span></div></div></div><div class="notice" id="interpretation" aria-live="polite"></div><p class="note">Planning estimate using a normal approximation with an unpooled variance under the alternative and pooled variance under the null. Actual achieved power can differ due to rounding, traffic patterns, and test design.</p></div>
 </section>
 </div>
-<section class="card education"><h2>Learn the concepts</h2><p class="hint">Understand the assumptions behind the calculator before using the result.</p>
+<section class="card education"><h2>3. Learn the concepts</h2><p class="hint">Understand the assumptions behind the calculator before using the result.</p>
 <details open><summary>What is sample size—and why does it matter?</summary><p>Sample size is the number of eligible, independently observed users needed in each group. Too few users can make a meaningful effect difficult to detect. More users generally improve sensitivity.</p></details>
 <details><summary>What is the Minimum Detectable Effect (MDE)?</summary><p>The MDE is the smallest change you want to have a reasonable chance of detecting. Here it is a <b>relative percentage</b>, not percentage points. Smaller MDEs require much larger samples.</p></details>
 <details><summary>What do significance and power mean?</summary><p>A 5% significance level sets the nominal Type I error probability under the null hypothesis. An 80% power target means that, if the assumed effect is real and model assumptions hold, the planned test has approximately an 80% chance of rejecting the null.</p></details>
 <details><summary>Why does a 50/50 split usually need fewer total users?</summary><p>For two groups with similar variability, equal allocation is generally the most sample-efficient design. An uneven split typically increases the total sample required.</p></details>
 <details><summary>Does the duration estimate guarantee a valid experiment?</summary><p>No. It assumes stable eligible daily traffic and independent assignment. Run through complete business cycles when relevant, avoid repeatedly peeking and stopping based on significance, and account for exclusions, missing events, clustering, multiple comparisons, and guardrail metrics.</p></details>
 <details><summary>Which statistical method is used?</summary><p>This calculator plans a two-sided two-proportion Z-test using a common normal-approximation sample-size formula. For extremely low conversion rates or rare outcomes, use a dedicated exact or simulation-based power analysis.</p></details>
-</section><div class="footer">Built by Christian Magliano · Educational analytics tool · <a href="/tools/">← Back to Tools</a></div>
+</section><p class="tool-disclaimer">Educational tool · No data is uploaded or stored by this page. Verify experiment assumptions before making decisions.</p>
 </main>
+<div class="site-footer"><div class="site-footer-inner"><span>© 2026 Christian Magliano · Analytics Playground</span><a href="/tools/">← Back to all tools</a></div></div>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);
