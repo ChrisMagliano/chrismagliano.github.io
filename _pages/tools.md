@@ -364,6 +364,40 @@ author_profile: true
 
     </article>
 
+
+    <!-- 6. CLASSIFICATION MODEL EVALUATOR -->
+
+    <article class="tool-card">
+
+      <div class="tool-card-header">
+        <div class="tool-icon">🎯</div>
+        <span class="tool-status">AVAILABLE</span>
+      </div>
+
+      <h3>Classification Model Evaluator</h3>
+
+      <p class="tool-description">
+        Evaluate your binary classification models using
+      real predictions or confusion matrix inputs.
+      Explore performance metrics, ROC and Precision-Recall
+      curves, optimize decision thresholds, and analyze
+      the cost of classification errors.
+      </p>
+
+      <div class="tool-tags">
+        <span class="tool-tag">Machine Learning</span>
+        <span class="tool-tag">Model Evaluation</span>
+        <span class="tool-tag">Binary Classification</span>
+      </div>
+
+      <a class="tool-button"
+         href="{{ '/tools/classification-model-evaluator/' | relative_url }}">
+        Launch Tool ↗
+      </a>
+
+    </article>
+
+
   </div>
   <!-- END TOOLS GRID -->
 
