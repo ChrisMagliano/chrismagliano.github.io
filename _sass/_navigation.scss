@@ -432,3 +432,14 @@
     }
   }
 }
+
+/* Active page indicator in the Minimal Mistakes masthead */
+.masthead .greedy-nav .masthead__menu-item > a.is-active {
+  color: #52adc8;
+  font-weight: 700;
+  box-shadow: inset 0 -3px 0 #52adc8;
+}
+
+.masthead .greedy-nav .masthead__menu-item > a.is-active:hover {
+  color: #398ba5;
+}
