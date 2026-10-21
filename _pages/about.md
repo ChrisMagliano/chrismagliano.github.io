@@ -2,7 +2,7 @@
 permalink: /
 title: "Hi, I'm Christian 👋"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -24,8 +24,66 @@ to improve digital products.
 
 <div class="home-actions">
 <a href="/portfolio/" class="home-button home-button-primary">Explore my projects →</a>
+<a href="/tools/" class="home-button home-button-secondary">Explore interactive tools →</a>
 <a href="/files/CV_Christian_Magliano_english.pdf" class="home-button home-button-secondary">View my CV</a>
 </div>
+
+</section>
+
+
+<section class="home-section home-selected-projects">
+
+<p class="home-section-label">SELECTED PROJECTS</p>
+
+<h2>From questions to insights.</h2>
+
+<p>
+A selection of projects showing how I approach real problems through product analytics,
+statistical reasoning and predictive modeling.
+</p>
+
+<div class="home-project-grid">
+
+<a class="home-project-card" href="/portfolio/onboarding-failure-analysis/">
+<span class="home-project-category">PRODUCT ANALYTICS</span>
+<h3>Why are users failing the onboarding?</h3>
+<p>Investigating onboarding friction, user behaviour and opportunities to improve conversion.</p>
+<span class="home-project-link">Explore case study →</span>
+</a>
+
+<a class="home-project-card" href="/portfolio/campaign_budget_optimizer/">
+<span class="home-project-category">PREDICTIVE MODELING</span>
+<h3>Campaign Budget Optimizer</h3>
+<p>Using response models and constrained optimization to inform marketing budget allocation.</p>
+<span class="home-project-link">Explore case study →</span>
+</a>
+
+<a class="home-project-card" href="/portfolio/finance_volatility/">
+<span class="home-project-category">STATISTICAL SIMULATION</span>
+<h3>The Hidden Cost of Volatility</h3>
+<p>Exploring risk, returns and long-term outcomes through quantitative simulation.</p>
+<span class="home-project-link">Explore case study →</span>
+</a>
+
+</div>
+
+<p><a href="/portfolio/" class="home-text-link">View all projects →</a></p>
+
+</section>
+
+
+<section class="home-section home-tools-feature">
+
+<p class="home-section-label">INTERACTIVE ANALYTICS TOOLS</p>
+
+<h2>Explore the methods. Try them yourself.</h2>
+
+<p>
+I build browser-based tools for experimentation, statistical analysis, simulation
+and predictive modeling. Explore the methods behind the projects using your own data.
+</p>
+
+<a href="/tools/" class="home-button home-button-primary">Explore interactive tools →</a>
 
 </section>
 
@@ -100,7 +158,9 @@ What I enjoy most is going beyond <em>what happened</em> to understand
 
 <p class="home-section-label">MY BACKGROUND</p>
 
-<h2>From Astrophysics to Product Analytics 🔭</h2>
+<h2>Different questions. Same scientific mindset.</h2>
+
+<h3>From Astrophysics to Product Analytics 🔭</h3>
 
 <p>
 Before moving into Product Analytics, I completed a <strong>PhD in Astrophysics
