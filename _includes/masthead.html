@@ -1,19 +1,34 @@
 {% include base_path %}
 
+{% assign current_path = page.url | default: '/' %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/"{% if current_path == '/' %} class="is-active" aria-current="page"{% endif %}>{{ site.title }}</a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+
+            {% assign is_active = false %}
+            {% assign link_path = link.url | split: '?' | first | split: '#' | first %}
+            {% assign link_prefix = link_path | append: '/' | replace: '//', '/' %}
+            {% assign current_prefix = current_path | slice: 0, link_prefix.size %}
+            {% if link_path == current_path or current_prefix == link_prefix %}
+              {% assign is_active = true %}
+            {% endif %}
+
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}"{% if is_active %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
