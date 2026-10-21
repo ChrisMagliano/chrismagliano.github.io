@@ -18,9 +18,7 @@
   margin-bottom: 0.7rem;
 }
 
-.home-highlight {
-  color: #52adc8;
-}
+.home-highlight { color: #52adc8; }
 
 .home-intro {
   max-width: 760px;
@@ -45,18 +43,14 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.home-button:hover {
-  transform: translateY(-2px);
-}
+.home-button:hover { transform: translateY(-2px); }
 
 .home-button-primary {
   background: #52adc8;
   color: #fff !important;
 }
 
-.home-button-primary:hover {
-  box-shadow: 0 6px 18px rgba(82, 173, 200, 0.25);
-}
+.home-button-primary:hover { box-shadow: 0 6px 18px rgba(82, 173, 200, 0.25); }
 
 .home-button-secondary {
   border: 1px solid #ddd;
@@ -85,22 +79,11 @@
   border-radius: 14px;
   background: #fff;
 
-  h3 {
-    margin: 0.7rem 0;
-    font-size: 1.05rem;
-  }
-
-  p {
-    margin-bottom: 0;
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.6;
-  }
+  h3 { margin: 0.7rem 0; font-size: 1.05rem; }
+  p { margin-bottom: 0; color: #666; font-size: 0.9rem; line-height: 1.6; }
 }
 
-.home-focus-icon {
-  font-size: 1.5rem;
-}
+.home-focus-icon { font-size: 1.5rem; }
 
 .home-background-content {
   display: grid;
@@ -109,23 +92,15 @@
   align-items: center;
 }
 
-.home-background-image {
-  width: 100%;
-  border-radius: 14px;
-}
-
-.home-text-link {
-  font-weight: 600;
-}
+.home-background-image { width: 100%; border-radius: 14px; }
+.home-text-link { font-weight: 600; }
 
 .home-tool-groups {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.8rem 2rem;
 
-  p {
-    line-height: 1.6;
-  }
+  p { line-height: 1.6; }
 }
 
 .home-education-item {
@@ -135,17 +110,8 @@
   padding: 1rem 0;
   border-bottom: 1px solid #eee;
 
-  span {
-    color: #777;
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-
-  p {
-    margin: 0.3rem 0 0;
-    color: #666;
-    font-size: 0.9rem;
-  }
+  span { color: #777; font-size: 0.9rem; font-weight: 600; }
+  p { margin: 0.3rem 0 0; color: #666; font-size: 0.9rem; }
 }
 
 .home-cta {
@@ -155,33 +121,103 @@
   background: #f4f6f8;
   text-align: center;
 
-  h2 {
-    margin-top: 0;
+  h2 { margin-top: 0; }
+  p { color: #666; margin-bottom: 1.5rem; }
+}
+
+/* Selected projects: consistent with the existing homepage cards. */
+.home-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.home-project-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.4rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+  background: #fff;
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-3px);
+    border-color: #a5d8e7;
+    box-shadow: 0 10px 24px rgba(35, 60, 75, 0.08);
+  }
+
+  h3 {
+    font-size: 1.08rem;
+    line-height: 1.35;
+    margin: 0.65rem 0 0.55rem;
+    color: #252525;
   }
 
   p {
     color: #666;
-    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin: 0 0 1.1rem;
   }
 }
 
-@media (max-width: 768px) {
-  .home-hero h1 {
-    font-size: 2.1rem;
+.home-project-category {
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #438fa6;
+}
+
+.home-project-link {
+  margin-top: auto;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #438fa6;
+}
+
+/* A compact, distinct invitation to explore the interactive tools. */
+.home-tools-feature {
+  padding: 2rem;
+  background: #f4f8fa;
+  border: 1px solid #e3edf1;
+  border-radius: 16px;
+  margin: 0 0 3rem;
+
+  p:not(.home-section-label) {
+    max-width: 690px;
+    color: #555;
+    line-height: 1.7;
   }
+
+  .home-button { margin-top: 0.3rem; }
+}
+
+.home-background-section h3 {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 768px) {
+  .home-hero h1 { font-size: 2.1rem; }
 
   .home-focus-grid,
   .home-background-content,
-  .home-tool-groups {
-    grid-template-columns: 1fr;
-  }
+  .home-tool-groups,
+  .home-project-grid { grid-template-columns: 1fr; }
 
-  .home-background-image {
-    max-width: 400px;
-  }
+  .home-background-image { max-width: 400px; }
+  .home-education-item { grid-template-columns: 1fr; gap: 0.3rem; }
+  .home-tools-feature { padding: 1.5rem; }
+}
 
-  .home-education-item {
-    grid-template-columns: 1fr;
-    gap: 0.3rem;
-  }
+@media (prefers-reduced-motion: reduce) {
+  .home-project-card { transition: none; }
+  .home-project-card:hover,
+  .home-project-card:focus-visible { transform: none; }
 }
