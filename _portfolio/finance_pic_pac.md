@@ -8,7 +8,7 @@ tags:
   - Finance
   - Markov Chain Monte Carlo
 header:
-  teaser: "/images/portfolio_pic_pac/pic_pac1.jpg"
+  teaser: "/images/portfolio_pic_pac/lumpsum_dca_header.png"
 ---
 
 # 💰 Lump Sum vs Dollar-Cost Averaging
