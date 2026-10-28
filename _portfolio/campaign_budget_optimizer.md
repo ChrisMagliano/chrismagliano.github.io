@@ -10,7 +10,7 @@ tags:
   - Marketing Analytics
   - Streamlit
 header:
-  teaser: "/images/campaign_budget_optimizer/cbo_mock.png"
+  teaser: "/images/campaign_budget_optimizer/cbo_header.png"
 ---
 
 # Table of Contents
