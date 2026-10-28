@@ -7,7 +7,7 @@ tags:
   - Product Analytics
   - Data Analysis
 header:
-  teaser: "/images/traffic_mix.jpg"
+  teaser: "/images/cvr_header.png"
 ---
 
 # 📉 Your Conversion Rate Can Drop Even When Everything Is Improving
