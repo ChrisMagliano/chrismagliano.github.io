@@ -7,7 +7,7 @@ tags:
   - Product Analytics
   - Data Analysis
 header:
-  teaser: "images/product_analytics_portfolio.png"
+  teaser: "images/onboarding_header.png"
 ---
 
 # 🔎 Why are users failing the onboarding?
