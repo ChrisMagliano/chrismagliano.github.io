@@ -8,7 +8,7 @@ tags:
   - Finance
   - Markov Chain Monte Carlo
 header:
-  teaser: "/images/diversification.jpg"
+  teaser: "/images/diversification_header.png"
 ---
 
 # 📊 How Diversification Can Increase Compound Growth
