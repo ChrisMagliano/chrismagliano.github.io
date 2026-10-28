@@ -8,7 +8,7 @@ tags:
   - Finance
   - Markov Chain Monte Carlo
 header:
-  teaser: "/images/portfolio_compound_interest/compound_interest_header.jpg"
+  teaser: "/images/portfolio_compound_interest/compound_interest_header.png"
 ---
 
 # 🎭 Compound Interest and Its Evil Twin
