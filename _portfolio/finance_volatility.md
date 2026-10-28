@@ -8,7 +8,7 @@ tags:
   - Finance
   - Markov Chain Monte Carlo
 header:
-  teaser: "/images/portfolio_finance_volatility/finance_volatility.jpg"
+  teaser: "/images/portfolio_finance_volatility/volatility_header.png"
 ---
 
 # 📉 Same Return, Different Wealth
