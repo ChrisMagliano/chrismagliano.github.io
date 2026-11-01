@@ -60,4 +60,3 @@ author_profile: true
   </section>
 
   <section class="phd-closing"><span class="phd-kicker">THE NEXT CHAPTER</span><h2>The questions changed. The mindset stayed.</h2><p>Throughout my PhD, I learned to build analytical tools, work with imperfect data, test hypotheses, quantify uncertainty, and communicate complex findings. Today I apply that same curiosity and scientific approach to products, users, and business decisions.</p><a href="/portfolio/">See what I'm working on now →</a></section>
-</div>
