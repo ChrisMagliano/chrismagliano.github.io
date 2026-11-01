@@ -228,7 +228,7 @@ REST APIs · API integrations · Data pipelines · Workflow automation</p>
 <span>2022–2024</span>
 <div>
 <strong>PhD in Astrophysics</strong>
-<p>University of Naples Federico II · Preparing for the scientific exploitation of the PLATO mission</p>
+<p>University of Naples Federico II · Preparing for the scientific exploitation of the PLATO mission<br><a href="/phd/">Explore my PhD research →</a></p>
 </div>
 </div>
 
