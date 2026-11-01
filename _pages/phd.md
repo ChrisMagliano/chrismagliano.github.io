@@ -37,7 +37,7 @@ author_profile: true
   </section>
 
   <section class="phd-section" id="engineering">
-    <div class="phd-section-head"><span class="phd-kicker">SPACE ENGINEERING</span><h2>From planetary science to telescope hardware.</h2></div>
+    <div class="phd-section-head"><span class="phd-kicker">SPACE ENGINEERING</span><h2>From planetary science to Space Engineering.</h2></div>
     <p>My PhD also took me into an industrial research environment at <strong>Leonardo S.p.A.</strong>, where I spent two research periods working on experimental tests of PLATO's telescope optical units. The tests investigated optical performance under mechanical, thermal, and electrical stresses, including changes in the <em>Point Spread Function</em> under different environmental conditions.</p>
     <p>I developed <strong>Python tools to automate and analyze experimental test data</strong> and studied the performance of the assembly, integration, and testing processes. Results from this work contributed to a presentation at the <strong>SPIE conference in Japan</strong> on PLATO telescope optical testing in ambient and cryo-vacuum environments.</p>
     <aside class="phd-aside"><strong>At the telescope</strong><p>I also participated in observational activities at the Asiago Observatory, remotely operating the 1.82 m Copernico telescope under expert supervision to observe five dynamically new comets in connection with ESA's Comet Interceptor project.</p></aside>
